@@ -4,45 +4,55 @@ import urllib3
 http = urllib3.PoolManager()
 urllib3.disable_warnings()
 jsonf='pool_clusters.json'
-def main():
-  resp = http.request('GET', 'https://js.adapools.org/groups.json', redirect=True)
+dscrpncyf='descrepancy.json'
+def load_json(url):
+  resp = http.request('GET', url, redirect=True)
   if str(resp.status) == "200":
-    adapools_js=json.loads(resp.data)
+    obj = json.loads(resp.data)
+    return obj
   else:
     print("An error occurred while downloading group definition from ADAPools!")
-    return
-  resp = http.request('GET', 'https://adastat.net/rest/v0/poolscluster.json', redirect=True)
-  if str(resp.status) == "200":
-    adastat_js=json.loads(resp.data)
-  else:
-    print("An error occurred while downloading cluster definition from ADAStat!")
-    return
-  i=1
-  final={}
-  final['Individual Operators']=[]
-  for x in adastat_js:
-    match_found=0
-    for y in adapools_js:
-      if x['pool_id'] == y['pool_id']:
-        x.update(y)
-        if str(x['group']) not in final:
-          final[str(x['group'])]=[]
-        if x['group']!=None:
-          match_found=1
-          final[str(x['group'])].append({"pool_id": str(x['pool_id']), "ticker": str(x['ticker']), "name": str(x['name'])})
-        break
-    if match_found == 0:
-      final[str('Individual Operators')].append({"pool_id": str(x['pool_id']), "ticker": str(x['ticker']), "name": str(x['name'])})
-  resp = http.request('GET', 'https://js.adapools.org/pools.json', redirect=True)
-  if str(resp.status) == "200":
-    pool_list = json.loads(resp.data)
-  else:
-    print("An error occurred while accessing pools list")
-    return
-  for x in pool_list:
-    if pool_list[x]['pool_id_bech32'] not in final:
-      final[str('Individual Operators')].append({"pool_id": pool_list[x]['pool_id_bech32'], "ticker": pool_list[x]['db_ticker'], "name": pool_list[x]['db_name']})
-  with open(jsonf, 'w', encoding='utf-8') as jsonfo:
-      jsonfo.write(json.dumps(final, indent=2, sort_keys=True))
+    exit
 
+def main():
+  adapools_js = load_json('https://js.adapools.org/groups.json')
+  adapools_list = load_json('https://js.adapools.org/pools.json')
+  adastat_js = load_json('https://adastat.net/rest/v0/poolscluster.json')
+  mismatch,groups={},{}
+  mismatch['Individual Operators'],groups['Individual Operators']=[],[]
+  for pool in adapools_js:
+    matched=0
+    for as_pool in adastat_js:
+      if as_pool['pool_id'] == pool['pool_id']:
+        matched=1
+        break
+    if matched == 0 and pool['group'] != None:
+      mismatch[str(pool['pool_id'])]={'adapools': str(pool['group']),'adastat': None}
+    if str(pool['pool_id']) in adapools_list:
+      pool_info={"pool_id": str(pool['pool_id']), "ticker": str(adapools_list[str(pool['pool_id'])]['db_ticker']), "name": str(adapools_list[str(pool['pool_id'])]['db_name'])}
+      if pool['group'] != None:
+        if str(pool['group']) not in groups:
+          groups[str(pool['group'])]=[]
+        groups[str(pool['group'])].append(pool_info)
+      else:
+        groups['Individual Operators'].append(pool_info)
+    else:
+      mismatch[str(pool['pool_id'])]={'adapools': str(pool['group'] + " - not in list"),'adastat': None}
+  for pool in adastat_js:
+    matched=0
+    for ad_pool in adastat_js:
+      if ad_pool['pool_id'] == pool['pool_id']:
+        matched=1
+        break
+    if matched == 0:
+      mismatch[str(pool['cluster_name'])]={'adapools': None,'adastat': str(pool['cluster_name'])}
+      pool_info={"pool_id": str(pool['pool_id']), "ticker": str(adapools_list[str(pool['pool_id'])]['db_ticker']), "name": str(adapools_list[str(pool['pool_id'])]['db_name'])}
+      if str(pool['cluster_name']) not in groups:
+        groups[str(pool['cluster_name'])]=[]
+      groups[str(pool['cluster_name'])].append_info(pool_info)
+  with open(jsonf, 'w', encoding='utf-8') as jsonfo:
+      jsonfo.write(json.dumps(groups, indent=2, sort_keys=True))
+  with open(dscrpncyf, 'w', encoding='utf-8') as dscrpncyfo:
+      dscrpncyfo.write(json.dumps(mismatch, indent=2, sort_keys=True))
 main()
+
