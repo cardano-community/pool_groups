@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      with:
+        token:  ${{ secrets.GIT_CC }}
     - uses: actions/setup-python@v2
       with:
         python-version: 3.9
@@ -25,6 +27,6 @@ jobs:
       run: |
         git add .
         git config --global user.name 'cardano-community'
-        git config --global user.email '59729625+cardano-community@users.noreply.github.com'
+        git config --global user.email '${{ secrets.GIT_EMAIL }}'
         git commit -am "Scheduled update"
         git push
