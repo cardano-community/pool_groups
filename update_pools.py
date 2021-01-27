@@ -37,7 +37,7 @@ def main():
       else:
         groups['Individual Operators'].append(pool_info)
     else:
-      mismatch[str(pool['pool_id'])]={'adapools': str(pool['group'] + " - not in list"),'adastat': None}
+      mismatch[str(pool['pool_id'])]={'adapools': str(str(pool['group']) + " - not in list"),'adastat': None}
   for pool in adastat_js:
     matched=0
     isdiff=0
