@@ -27,8 +27,4 @@ jobs:
         git config --global user.name 'cardano-community'
         git config --global user.email '59729625+cardano-community@users.noreply.github.com'
         git commit -am "Scheduled update"
-    - name: Push to master
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+        git push
