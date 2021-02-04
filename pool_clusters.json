@@ -22,11 +22,6 @@
     },
     {
       "name": "0 fee club",
-      "pool_id": "53228453540d4190af4cae49be60cc6e8219682ecc2bbbced7d8f20b",
-      "ticker": "0FEE6"
-    },
-    {
-      "name": "0 fee club",
       "pool_id": "96b0dac2d1da7a46ef457c75121686cb083f592227cd414e0ec138b8",
       "ticker": "0FEE0"
     },
@@ -39,6 +34,11 @@
       "name": "0 fee club",
       "pool_id": "4ccf05ec7a62460384a951c590e58c7294a9031309d03834e3496f35",
       "ticker": "0FEE5"
+    },
+    {
+      "name": "0 fee club",
+      "pool_id": "53228453540d4190af4cae49be60cc6e8219682ecc2bbbced7d8f20b",
+      "ticker": "0FEE6"
     },
     {
       "name": "0 fee club",
@@ -771,6 +771,11 @@
       "ticker": "BNP"
     },
     {
+      "name": "Binance Staking - 1",
+      "pool_id": "a7df170f18255d8888a34aeeda915b112b44666ea0f3efb2dbe926ee",
+      "ticker": "BNP"
+    },
+    {
       "name": "Binance Staking - 2",
       "pool_id": "5b0f169af28ad3081982499878bec888e848139b27c86ff517c9161c",
       "ticker": "BNP"
@@ -783,11 +788,6 @@
     {
       "name": "Binance Staking - 4",
       "pool_id": "e454652db4bb4a07aac51df90cc4f082cd28526ac990b7ddf7466ed2",
-      "ticker": "BNP"
-    },
-    {
-      "name": "Binance Staking - 1",
-      "pool_id": "a7df170f18255d8888a34aeeda915b112b44666ea0f3efb2dbe926ee",
       "ticker": "BNP"
     },
     {
@@ -1881,14 +1881,14 @@
       "ticker": "ST3AK"
     },
     {
-      "name": "Waldmops",
-      "pool_id": "b3cdd3bbf09af72badca85e515c0206d6d22038e2af843521e10a928",
-      "ticker": "WMOPS"
-    },
-    {
       "name": "GROW TEAM",
       "pool_id": "95954fa839905a201d8d97cc31be8bbd4ac2ad0df1d201accce3a23e",
       "ticker": "GROW"
+    },
+    {
+      "name": "Waldmops",
+      "pool_id": "b3cdd3bbf09af72badca85e515c0206d6d22038e2af843521e10a928",
+      "ticker": "WMOPS"
     },
     {
       "name": "Ad Astra Stake Pool",
@@ -4061,14 +4061,14 @@
       "ticker": "ROOT"
     },
     {
-      "name": "FLOWR Stake Pool",
-      "pool_id": "58475ab22132ee593d295574d64064307b3338d4525eaaba11ce193f",
-      "ticker": "FLOWR"
-    },
-    {
       "name": "StakeKing",
       "pool_id": "b7b7811342e3bb99e950f20577e171e5e24d013e98301159455df000",
       "ticker": "1KNG"
+    },
+    {
+      "name": "FLOWR Stake Pool",
+      "pool_id": "58475ab22132ee593d295574d64064307b3338d4525eaaba11ce193f",
+      "ticker": "FLOWR"
     },
     {
       "name": "Kelowna Staking Pool",
@@ -4131,6 +4131,11 @@
       "ticker": "CHAIN"
     },
     {
+      "name": "Black Pearl",
+      "pool_id": "cc3bf31353e971540a284bb7da30cfaac4b0d4138e03bbdf85013eca",
+      "ticker": "BPRL"
+    },
+    {
       "name": "HADA.VN.COM",
       "pool_id": "18109d01af0c5c4495a64a9de061ad621156729afc699128c0ceee0e",
       "ticker": "HADA"
@@ -4164,11 +4169,6 @@
       "name": "Dynamic Strategies",
       "pool_id": "6ae0fb9fc19ad1b82521d6e4b9f6e9bad4d150529673c95c5b5cf4e4",
       "ticker": "DSIO"
-    },
-    {
-      "name": "Black Pearl",
-      "pool_id": "cc3bf31353e971540a284bb7da30cfaac4b0d4138e03bbdf85013eca",
-      "ticker": "BPRL"
     },
     {
       "name": "Easy Staking Pool",
@@ -4796,6 +4796,11 @@
       "ticker": "RLABS"
     },
     {
+      "name": "ADA.crypto.ro",
+      "pool_id": "256a9b6430f25739a6a5a77c81a46e5afd73626bee664172a6ab3b7a",
+      "ticker": "CRO"
+    },
+    {
       "name": "SCO Pool 1",
       "pool_id": "7031866c59e93ec35463b1aea761e734506fc60b86092402a7e6c2d9",
       "ticker": "SCO1"
@@ -4851,24 +4856,19 @@
       "ticker": "BWOR"
     },
     {
-      "name": "ADA.crypto.ro",
-      "pool_id": "256a9b6430f25739a6a5a77c81a46e5afd73626bee664172a6ab3b7a",
-      "ticker": "CRO"
-    },
-    {
       "name": "Global Staking Pool",
       "pool_id": "d7131928a59b5cd89b6cd2597d54e1c4615c44877a14b79143765d13",
       "ticker": "GLOB"
     },
     {
-      "name": "RELAX POOL",
-      "pool_id": "787231f03fab13a8d5e01ba4125c6c04dea33ea36ad91695f16694db",
-      "ticker": "RELAX"
-    },
-    {
       "name": "Crypto Dredge Stake Pool",
       "pool_id": "796ab264483c464e2df3add039a8cd04e3eed9c79f45507fba35bf02",
       "ticker": "CDA"
+    },
+    {
+      "name": "RELAX POOL",
+      "pool_id": "787231f03fab13a8d5e01ba4125c6c04dea33ea36ad91695f16694db",
+      "ticker": "RELAX"
     },
     {
       "name": "Fine Stake Pool",
@@ -5199,11 +5199,6 @@
       "name": "[NCODE] Nomad Coders",
       "pool_id": "a83b825af33fc4cfacc39aec960bb66ce3dc124ada8ff4e0e07a9022",
       "ticker": "NCODE"
-    },
-    {
-      "name": "KXP",
-      "pool_id": "7915290fffb9af0dc98414ff038fce20972eb85140f310006589d6c7",
-      "ticker": "KXP"
     },
     {
       "name": "BICEP",
@@ -5864,11 +5859,6 @@
       "name": "RELAX POOL",
       "pool_id": "c526b107dbdc468d90dc418bace704c4b81e1d91de005713e234910e",
       "ticker": "RELAX"
-    },
-    {
-      "name": "MOJWPool",
-      "pool_id": "dd47ad6a8fe21ca342e28a163cb74e69b13d519538de3d06ac26aad2",
-      "ticker": "MOJW"
     },
     {
       "name": "JWERPool",
@@ -6737,6 +6727,11 @@
     }
   ],
   "RAZOR": [
+    {
+      "name": "RazorBlock52 Stake Pool",
+      "pool_id": "e5d987eb01bacd87e0a954a4c935faa3a15a77a602dd48fdb615bdd6",
+      "ticker": "SHARP"
+    },
     {
       "name": "RazorBlock52 Stake Pool",
       "pool_id": "bf7b4a1a2f80cba111c23e05280df5050fe2fadf2660e7a28f156429",
