@@ -145,14 +145,14 @@
       "ticker": "1PCT7"
     },
     {
-      "name": "1 Percent Pool #6 (v1)",
-      "pool_id": "e75ff353a1a2e454d3fe59249f87dad63b4270b16caf4b819bae5f69",
-      "ticker": "1PCT6"
-    },
-    {
       "name": "1 Percent Pool #2 (v1)",
       "pool_id": "17a6a1f2fb36d9ef275805db17409af7ab753b9d27bdd41b89510bb9",
       "ticker": "1PCT2"
+    },
+    {
+      "name": "1 Percent Pool #6 (v1)",
+      "pool_id": "e75ff353a1a2e454d3fe59249f87dad63b4270b16caf4b819bae5f69",
+      "ticker": "1PCT6"
     },
     {
       "name": "1 Percent Pool #5 (v1)",
@@ -474,13 +474,13 @@
     },
     {
       "name": "Atomic Wallet",
-      "pool_id": "a3ac6ca0694fc5825f831c8d0d97f202c4f298741ae60874730fafb8",
-      "ticker": "AWP"
+      "pool_id": "8f67312cb7927075292fcc986927c986ccdd630a3bae1b52dd4671a4",
+      "ticker": "AWP3"
     },
     {
       "name": "Atomic Wallet",
-      "pool_id": "8f67312cb7927075292fcc986927c986ccdd630a3bae1b52dd4671a4",
-      "ticker": "AWP3"
+      "pool_id": "a3ac6ca0694fc5825f831c8d0d97f202c4f298741ae60874730fafb8",
+      "ticker": "AWP"
     }
   ],
   "AZUR": [
@@ -576,13 +576,13 @@
       "ticker": "BNP"
     },
     {
-      "name": "Binance Staking - 10",
-      "pool_id": "e69e8670e01e8a2ab0c577019f9937c7192e1b8c31245cb5271db738",
+      "name": "Binance Staking - 13",
+      "pool_id": "11adfe44fee00220af204daa7ccedc7124c03c1d7614e60da4dd2af1",
       "ticker": "BNP"
     },
     {
-      "name": "Binance Staking - 13",
-      "pool_id": "11adfe44fee00220af204daa7ccedc7124c03c1d7614e60da4dd2af1",
+      "name": "Binance Staking - 10",
+      "pool_id": "e69e8670e01e8a2ab0c577019f9937c7192e1b8c31245cb5271db738",
       "ticker": "BNP"
     },
     {
@@ -666,23 +666,13 @@
       "ticker": "BNP"
     },
     {
-      "name": "Binance Staking - 50",
-      "pool_id": "96a46d5a796a30483492c3717f80b7c6ef87e9525af162ffacf74fdb",
-      "ticker": "BNP"
-    },
-    {
       "name": "Binance Staking - 33",
       "pool_id": "b21ddee9370f41c3b2b71da34f8a57943ba59034a777b80aed503c2b",
       "ticker": "BNP"
     },
     {
-      "name": "Binance Staking - 37",
-      "pool_id": "0f581255fdb8e8e88d3676a3cbede33e1f2456171cbe39266b3db679",
-      "ticker": "BNP"
-    },
-    {
-      "name": "Binance Staking - 41",
-      "pool_id": "ffb3fe58689ae0d70d6fb939a842ee78ecfa10eab561274327e78b7b",
+      "name": "Binance Staking - 50",
+      "pool_id": "96a46d5a796a30483492c3717f80b7c6ef87e9525af162ffacf74fdb",
       "ticker": "BNP"
     },
     {
@@ -696,8 +686,23 @@
       "ticker": "BNP"
     },
     {
+      "name": "Binance Staking - 37",
+      "pool_id": "0f581255fdb8e8e88d3676a3cbede33e1f2456171cbe39266b3db679",
+      "ticker": "BNP"
+    },
+    {
+      "name": "Binance Staking - 41",
+      "pool_id": "ffb3fe58689ae0d70d6fb939a842ee78ecfa10eab561274327e78b7b",
+      "ticker": "BNP"
+    },
+    {
       "name": "Binance Staking - 45",
       "pool_id": "279d3af9d898261a19860ebc05eed79104915f05ad9f6960b530c3a2",
+      "ticker": "BNP"
+    },
+    {
+      "name": "Binance Staking - 34",
+      "pool_id": "7a990e7ee931f9d548a977d5cf2194f26f7e2f1158752e0bb94a073f",
       "ticker": "BNP"
     },
     {
@@ -708,11 +713,6 @@
     {
       "name": "Binance Staking - 32",
       "pool_id": "243499b53228f5953bb906c8af0fb996002dd78712e430aa7d116964",
-      "ticker": "BNP"
-    },
-    {
-      "name": "Binance Staking - 34",
-      "pool_id": "7a990e7ee931f9d548a977d5cf2194f26f7e2f1158752e0bb94a073f",
       "ticker": "BNP"
     },
     {
@@ -2075,11 +2075,6 @@
       "ticker": "SMRAI"
     },
     {
-      "name": "BeKind",
-      "pool_id": "d9e2d181dfe21ab2ca7e95847b9a219e691ee1366d22569712390655",
-      "ticker": "BKIND"
-    },
-    {
       "name": "Squid Pool",
       "pool_id": "cb11e3e5013a120ee55e8d99bdb7395366bd3164d3da1737300a2b7e",
       "ticker": "SQUID"
@@ -2138,6 +2133,11 @@
       "name": "Stake Army",
       "pool_id": "08ac812c4721d68695614f3dcde425f1bdb7e298b3da19a9805a54f5",
       "ticker": "AKA"
+    },
+    {
+      "name": "BeKind",
+      "pool_id": "d9e2d181dfe21ab2ca7e95847b9a219e691ee1366d22569712390655",
+      "ticker": "BKIND"
     },
     {
       "name": "DutchPool NLD",
@@ -2445,14 +2445,14 @@
       "ticker": "WOW"
     },
     {
-      "name": "VanDeKeizer",
-      "pool_id": "f8deee4c3ed093969ade03079cd88c634759be0adee88ad0f3f76c36",
-      "ticker": "SVDK"
-    },
-    {
       "name": "AquaPoolADA",
       "pool_id": "f3dea3f6c7047c04d734fa7c23e49c8611818102997f7a1fb5416681",
       "ticker": "AQUA"
+    },
+    {
+      "name": "VanDeKeizer",
+      "pool_id": "f8deee4c3ed093969ade03079cd88c634759be0adee88ad0f3f76c36",
+      "ticker": "SVDK"
     },
     {
       "name": "Toshz Stake Pool",
@@ -4790,14 +4790,14 @@
       "ticker": "SNAKE"
     },
     {
-      "name": "Slate Pool",
-      "pool_id": "be55b11098758b7804f70a8837a66779c821c2268377a40e206265b5",
-      "ticker": "SLATE"
-    },
-    {
       "name": "Major Pool",
       "pool_id": "a37460a9b761e67b18f0262ad18f80263f6b6d143c33a9873965ecd3",
       "ticker": "MAJOR"
+    },
+    {
+      "name": "Slate Pool",
+      "pool_id": "be55b11098758b7804f70a8837a66779c821c2268377a40e206265b5",
+      "ticker": "SLATE"
     },
     {
       "name": "rADAr Stake Pool",
@@ -5305,6 +5305,11 @@
       "ticker": "MADAM"
     },
     {
+      "name": "ELL\u20b3DA",
+      "pool_id": "f765c73fa3700f6fa735310ebc0255265613db23fd7bb14e8d84e795",
+      "ticker": "HELAS"
+    },
+    {
       "name": "47cloud",
       "pool_id": "d550ad0dfe5f112b85922d67a628a858d150f34196089d7c1596bcfe",
       "ticker": "47c"
@@ -5568,11 +5573,6 @@
       "name": "RaceX ADA Stake Pool",
       "pool_id": "dfacb4313176b700e8ce0ba88732a5d7583746ccfaf582bd12095fde",
       "ticker": "RACEX"
-    },
-    {
-      "name": "ELL\u20b3DA",
-      "pool_id": "f765c73fa3700f6fa735310ebc0255265613db23fd7bb14e8d84e795",
-      "ticker": "HELAS"
     },
     {
       "name": "GiantDad",
@@ -7012,16 +7012,6 @@
       "name": "RazorBlock52 Stake Pool",
       "pool_id": "e5d987eb01bacd87e0a954a4c935faa3a15a77a602dd48fdb615bdd6",
       "ticker": "SHARP"
-    },
-    {
-      "name": "RazorBlock52 Stake Pool",
-      "pool_id": "baefbadf60969a5ecc5cd40d34054984c5ae2d0012f86a063784e554",
-      "ticker": "RAZOR"
-    },
-    {
-      "name": "RazorBlock52 Stake Pool",
-      "pool_id": "bf7b4a1a2f80cba111c23e05280df5050fe2fadf2660e7a28f156429",
-      "ticker": "BLADE"
     }
   ],
   "SCAR": [
