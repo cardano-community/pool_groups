@@ -1952,11 +1952,6 @@
       "ticker": "APOP"
     },
     {
-      "name": "Pilot Pool",
-      "pool_id": "c83beb18d532234c72a304ab935982be670c22e771b227a3febc3a82",
-      "ticker": "PILOT"
-    },
-    {
       "name": "Ektropy",
       "pool_id": "71a659c3e71b0ddd0cf9a67bdb3f7fd656934c4a995801ee0ea4c482",
       "ticker": "EKTRP"
@@ -5967,11 +5962,6 @@
       "ticker": "CBACK"
     },
     {
-      "name": "ACID Stake Pool",
-      "pool_id": "af6254651bde1e60fb9160d5f321010de5b2fa794e9b1a1163e592e0",
-      "ticker": "ACID"
-    },
-    {
       "name": "[DPTUS] Adaption.us powered by SPaaS",
       "pool_id": "5dfaa40f99a0c218194e2c5945fe43a42179abe22d78d28a3017feb1",
       "ticker": "DPTUS"
@@ -8212,6 +8202,11 @@
       "ticker": "CRTX"
     },
     {
+      "name": "Dual Stacking",
+      "pool_id": "46a3e0738585587cc5f03915241c49cca13c9607da0a7a034a21e49e",
+      "ticker": "DUAL"
+    },
+    {
       "name": "ADAPANDA",
       "pool_id": "df6be519c6b621d4612989cec80582d3dbb857fc90d5e4bf7dacb280",
       "ticker": "PANDA"
@@ -9277,6 +9272,11 @@
       "ticker": "ANON"
     },
     {
+      "name": "StakeNode.One",
+      "pool_id": "29b4f77575cf0f0bd5507d1773fea1d64a3dee78d215dd57f2acc3d4",
+      "ticker": "SNODE"
+    },
+    {
       "name": "Cypoq Stakepool #1",
       "pool_id": "211b3efbd6548e40552e79daa7a85ad55114b3ac4b01245115f9b6e1",
       "ticker": "CYPOQ"
@@ -9697,6 +9697,11 @@
       "ticker": "LAZ"
     },
     {
+      "name": "ACID Stake Pool",
+      "pool_id": "af6254651bde1e60fb9160d5f321010de5b2fa794e9b1a1163e592e0",
+      "ticker": "ACID"
+    },
+    {
       "name": "Shallow Pool",
       "pool_id": "507816d8077dcc6c4b25ada48c7a862b200823a2d53819ecdeb785b6",
       "ticker": "SHALP"
@@ -9705,11 +9710,6 @@
       "name": "ALPEN Pool for Development",
       "pool_id": "34fa6e42ffafbb9bf63b1c78e99b09b30527f37ac544668dfaab624d",
       "ticker": "ALPEN"
-    },
-    {
-      "name": "Pilot Pool 2",
-      "pool_id": "7d50b9c6ec097e2a7f4ecb2f2914f9ad21e1a7bda884cb143937a73f",
-      "ticker": "PILOT"
     },
     {
       "name": "SKADEA",
@@ -9725,11 +9725,6 @@
       "name": " T-Rex Staking",
       "pool_id": "ae7c8a9b72f7a1e8129cec9cc6ed9996e5865ec9ad4abec011588ef4",
       "ticker": "TREX"
-    },
-    {
-      "name": "Jettpools",
-      "pool_id": "cefc7f988d848f6cb8bc92fbfb3184a5d669566e4d1b6a978e8b082d",
-      "ticker": "JETT1"
     },
     {
       "name": "Back The Blockchain Staking Pool",
@@ -9890,11 +9885,6 @@
       "name": "Singapore Cardano Official Pool #1",
       "pool_id": "f7db3e1778ffc9833edf82fde30aca87817e28d0b8d0341444f54f55",
       "ticker": "SGCO"
-    },
-    {
-      "name": "Jettpools JETT2 Stake",
-      "pool_id": "d0e71ce3f4dff0277ecf58ff2bade3a90ffffaaa4748eb9f0f178efe",
-      "ticker": "JETT2"
     },
     {
       "name": "Enchantress of Numbers",
@@ -10279,6 +10269,18 @@
       "name": "JAZZ4",
       "pool_id": "4ef0c287cc67a951bb0f0eb8d56d1bf69939bd007a2681dbc3055ef6",
       "ticker": "JAZZ4"
+    }
+  ],
+  "JETT": [
+    {
+      "name": "Jettpools",
+      "pool_id": "cefc7f988d848f6cb8bc92fbfb3184a5d669566e4d1b6a978e8b082d",
+      "ticker": "JETT1"
+    },
+    {
+      "name": "Jettpools JETT2 Stake",
+      "pool_id": "d0e71ce3f4dff0277ecf58ff2bade3a90ffffaaa4748eb9f0f178efe",
+      "ticker": "JETT2"
     }
   ],
   "JOY": [
@@ -11038,6 +11040,18 @@
       "ticker": "PAUL"
     }
   ],
+  "PILOT": [
+    {
+      "name": "Pilot Pool",
+      "pool_id": "c83beb18d532234c72a304ab935982be670c22e771b227a3febc3a82",
+      "ticker": "PILOT"
+    },
+    {
+      "name": "Pilot Pool 2",
+      "pool_id": "7d50b9c6ec097e2a7f4ecb2f2914f9ad21e1a7bda884cb143937a73f",
+      "ticker": "PILOT"
+    }
+  ],
   "PLUTUS": [
     {
       "name": " Plutus Staking #1 ",
@@ -11687,19 +11701,12 @@
       "ticker": "TRADA"
     }
   ],
-  "adapilot.com": [
-    {
-      "name": "Pilot Pool 2",
-      "pool_id": "7d50b9c6ec097e2a7f4ecb2f2914f9ad21e1a7bda884cb143937a73f",
-      "ticker": "PILOT"
-    },
-    {
-      "name": "Pilot Pool",
-      "pool_id": "c83beb18d532234c72a304ab935982be670c22e771b227a3febc3a82",
-      "ticker": "PILOT"
-    }
-  ],
   "adapools.org": [
+    {
+      "name": "ADATW Pool",
+      "pool_id": "7ce59da0bac7f64b40fcda60a7ee368d5ac8082d81f2bb75fef9e01e",
+      "ticker": "ADATW"
+    },
     {
       "name": "Trump Fan",
       "pool_id": "bebfeddd60032c8052e46587218dcd6f3e6f0b1ad9be3864508049bc",
@@ -11709,11 +11716,6 @@
       "name": "ROG Pool",
       "pool_id": "59a5636fc0427e6eeb3cf23016fce0e749b2f4a3f0f589d6caa10f05",
       "ticker": "ROG"
-    },
-    {
-      "name": "ADATW Pool",
-      "pool_id": "7ce59da0bac7f64b40fcda60a7ee368d5ac8082d81f2bb75fef9e01e",
-      "ticker": "ADATW"
     },
     {
       "name": "PoolFix",
@@ -11957,18 +11959,6 @@
       "name": "Private-IO1",
       "pool_id": "dec7757e2ba0fcea7fd93a9999bf342d1974338fb91355ac68c13320",
       "ticker": "PIO1"
-    }
-  ],
-  "jettpools.io": [
-    {
-      "name": "Jettpools JETT2 Stake",
-      "pool_id": "d0e71ce3f4dff0277ecf58ff2bade3a90ffffaaa4748eb9f0f178efe",
-      "ticker": "JETT2"
-    },
-    {
-      "name": "Jettpools",
-      "pool_id": "cefc7f988d848f6cb8bc92fbfb3184a5d669566e4d1b6a978e8b082d",
-      "ticker": "JETT1"
     }
   ],
   "lucky-pool.com": [
