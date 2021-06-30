@@ -366,6 +366,13 @@
       "ticker": "BOT"
     }
   ],
+  "ADLY": [
+    {
+      "name": "Adaly Stakepool 1",
+      "pool_id": "bed7baef960d110f25030bec52fbeccdea1800a00e41dd7dbc400b38",
+      "ticker": "ADLY1"
+    }
+  ],
   "ADOSIA": [
     {
       "name": "ADAfrog 2 ",
@@ -4436,6 +4443,11 @@
       "ticker": "TOY"
     },
     {
+      "name": "OceanOfOne",
+      "pool_id": "9457addd136e7820583896b102193780d49b21d69db59aae59c82f3c",
+      "ticker": "7SEAS"
+    },
+    {
       "name": "PoolFix",
       "pool_id": "6aa1b9e4922bad9cbd9606e90cd6aba9ab54f1005750ef5bdea43440",
       "ticker": "FIX"
@@ -8471,6 +8483,11 @@
       "ticker": "METAL"
     },
     {
+      "name": "Acorn pool",
+      "pool_id": "71375058d06033230275fd28428bcf3eec6c47404654706583605f4d",
+      "ticker": "ACORN"
+    },
+    {
       "name": "Digitx Pool",
       "pool_id": "5f7695d1fbbbd92dc6ba697fc860583a4c625e82d26cace7f13c06e6",
       "ticker": "DGITX"
@@ -8879,11 +8896,6 @@
       "name": "MK",
       "pool_id": "dc56076a14686e3fd8c4197c9e9ad5c6e287664ca576b225ba746ad8",
       "ticker": "ECOP"
-    },
-    {
-      "name": "Adaly Stakepool 1",
-      "pool_id": "bed7baef960d110f25030bec52fbeccdea1800a00e41dd7dbc400b38",
-      "ticker": "ADLY1"
     },
     {
       "name": "JIG Pool #01",
@@ -9301,11 +9313,6 @@
       "ticker": "CYPOQ"
     },
     {
-      "name": "ADABoy",
-      "pool_id": "345dc7479346c60a07ad4a6009e4ea49a9ccc09a6e140dc8f1313b30",
-      "ticker": "ADABY"
-    },
-    {
       "name": "POKER",
       "pool_id": "f23ff7a5d780b3b66e3342ebf8cb371add69a10b8c6bfbe9eaf86c12",
       "ticker": "POKER"
@@ -9656,11 +9663,6 @@
       "ticker": "AZOTA"
     },
     {
-      "name": "FIVE SecureStaking.io",
-      "pool_id": "acfdedecd7d754d2d9f4977626ba0e82ba465892c9f98f7f2d2d0e1d",
-      "ticker": "SECUR"
-    },
-    {
       "name": "Lazerdye",
       "pool_id": "c8a112cf336c9d2339a07b8de2d9ec5353852d8acb9128042d2e914f",
       "ticker": "LAZ"
@@ -9684,6 +9686,11 @@
       "name": "ADA4 Soil",
       "pool_id": "13cbe75dec1a6909a22a25cd3620657c6a744663878f6cf1a409cef9",
       "ticker": "SOIL"
+    },
+    {
+      "name": " T-Rex Staking",
+      "pool_id": "ae7c8a9b72f7a1e8129cec9cc6ed9996e5865ec9ad4abec011588ef4",
+      "ticker": "TREX"
     },
     {
       "name": "Back The Blockchain Staking Pool",
@@ -10091,11 +10098,6 @@
       "ticker": "JWVN"
     },
     {
-      "name": "MELD ISPO 2 (50% MELD 50% ADA)",
-      "pool_id": "49211551021fac1c4b1f210b1818be9ed44acce3eca278bf04c8a810",
-      "ticker": "MELD2"
-    },
-    {
       "name": "Obrovac.xyz Pool",
       "pool_id": "09908cf9812bab5b807087621f7256badcfd61512bb57133518606c9",
       "ticker": "OBRP"
@@ -10124,11 +10126,6 @@
       "name": "Earthonomy Carbon Neutral Stake Pool #1",
       "pool_id": "b3f8ca26f01faaecbdde426ccd6fc328d216204ae799ad04397b0d06",
       "ticker": "ECN1"
-    },
-    {
-      "name": "MELD ISPO 1 (100% MELD)",
-      "pool_id": "ed6b2d4bb0ac257bc4182e8671eef06c8d2e4d7c11871ad5f213a52c",
-      "ticker": "MELD1"
     },
     {
       "name": "RAKUDApool",
@@ -10567,6 +10564,18 @@
       "name": "Matrix Pools - MEGA",
       "pool_id": "6932f83b5765659cf9d9da31a6ccd7e839c17a06b596252c3b566d88",
       "ticker": "XMEGA"
+    }
+  ],
+  "MELD": [
+    {
+      "name": "MELD ISPO 2 (50% MELD 50% ADA)",
+      "pool_id": "49211551021fac1c4b1f210b1818be9ed44acce3eca278bf04c8a810",
+      "ticker": "MELD2"
+    },
+    {
+      "name": "MELD ISPO 1 (100% MELD)",
+      "pool_id": "ed6b2d4bb0ac257bc4182e8671eef06c8d2e4d7c11871ad5f213a52c",
+      "ticker": "MELD1"
     }
   ],
   "MS": [
@@ -11244,6 +11253,11 @@
       "name": "THREE SecureStaking.io",
       "pool_id": "34ae2462f0fab1866281947a022d85bddf29f45a8b9699baabbbfcb9",
       "ticker": "SECUR"
+    },
+    {
+      "name": "FIVE SecureStaking.io",
+      "pool_id": "acfdedecd7d754d2d9f4977626ba0e82ba465892c9f98f7f2d2d0e1d",
+      "ticker": "SECUR"
     }
   ],
   "SIPO": [
@@ -11811,13 +11825,6 @@
       "ticker": "USA"
     }
   ],
-  "cardano.securestaking.io": [
-    {
-      "name": "FIVE SecureStaking.io",
-      "pool_id": "acfdedecd7d754d2d9f4977626ba0e82ba465892c9f98f7f2d2d0e1d",
-      "ticker": "SECUR"
-    }
-  ],
   "cardanobrainpower.com": [
     {
       "name": "Cardano Digital Brain Power",
@@ -11973,18 +11980,6 @@
       "name": "Lucky Pool",
       "pool_id": "4194112bdb4702d01263a5614f48790e23351c867bbe67ca840dbb4a",
       "ticker": "LUCKY"
-    }
-  ],
-  "meld.com": [
-    {
-      "name": "MELD ISPO 2 (50% MELD 50% ADA)",
-      "pool_id": "49211551021fac1c4b1f210b1818be9ed44acce3eca278bf04c8a810",
-      "ticker": "MELD2"
-    },
-    {
-      "name": "MELD ISPO 1 (100% MELD)",
-      "pool_id": "ed6b2d4bb0ac257bc4182e8671eef06c8d2e4d7c11871ad5f213a52c",
-      "ticker": "MELD1"
     }
   ],
   "myadapoolnamerocks.com": [
