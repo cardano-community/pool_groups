@@ -5907,14 +5907,14 @@
       "ticker": "JRNY"
     },
     {
-      "name": "DEGAS - The Pool Fighting GHG Emissions",
-      "pool_id": "4159a9cc7339bd2c495ad83239c2f1b97c8d2097eed6b120e08948c9",
-      "ticker": "DEGAS"
-    },
-    {
       "name": "Stakepool Germany",
       "pool_id": "e8cd531f3899b95d18614c8e7bbb6aa48a8c10ef3be026274aebfacb",
       "ticker": "SPG01"
+    },
+    {
+      "name": "DEGAS - The Pool Fighting GHG Emissions",
+      "pool_id": "4159a9cc7339bd2c495ad83239c2f1b97c8d2097eed6b120e08948c9",
+      "ticker": "DEGAS"
     },
     {
       "name": "Patagonia",
@@ -6422,6 +6422,11 @@
       "ticker": "GER"
     },
     {
+      "name": "Prime Stake Pool",
+      "pool_id": "729bc73ff6f7cd20a412470cc585e29dfa049fea230584b7caf9d3cb",
+      "ticker": "PSP"
+    },
+    {
       "name": "MMAStakePool",
       "pool_id": "f1ae552b032c2d87a416f4067eaf4636b3fe5e80230a1f63aa33f6bc",
       "ticker": "MMA"
@@ -6430,11 +6435,6 @@
       "name": "Adano Hub Pool",
       "pool_id": "f01c52fd85cf391313a7c09318d7292edd9f8828d2460dc9f0501da2",
       "ticker": "ADANO"
-    },
-    {
-      "name": "Prime Stake Pool",
-      "pool_id": "729bc73ff6f7cd20a412470cc585e29dfa049fea230584b7caf9d3cb",
-      "ticker": "PSP"
     },
     {
       "name": "Cardano ADA Mini Pool Switzerland",
@@ -8327,11 +8327,6 @@
       "ticker": "CATS1"
     },
     {
-      "name": "Vsetecny pool",
-      "pool_id": "9a8d00d4b51f9a2d0da9a0b656035c525a0ca0fc4243a6bd46ece1b0",
-      "ticker": "VSETC"
-    },
-    {
       "name": "CASUS",
       "pool_id": "e821f84fae1694a0b4f1d79688715d5a771fa2c5361aea0ef1c68681",
       "ticker": "CASUS"
@@ -8845,6 +8840,11 @@
       "name": "TrustIsCardano",
       "pool_id": "b4df42b89ce252f80c235b3896455e5de9557eb855334bdf1b77e122",
       "ticker": "TIC"
+    },
+    {
+      "name": "Eurasia Staking",
+      "pool_id": "98199e3aa0511c5e14da2088ad3e166bb11796c381a2abed0c09025d",
+      "ticker": "EURAS"
     },
     {
       "name": "GreenADAPool",
@@ -11888,11 +11888,6 @@
       "ticker": "WIRA\ud83d\udc8e"
     },
     {
-      "name": "WIRA Pool (G2)",
-      "pool_id": "b5d030e4abece7e239210b1af14eba911af89013ee7a53de77072797",
-      "ticker": "WIRA\ud83c\udf0d"
-    },
-    {
       "name": "WIRA Pool (G3)",
       "pool_id": "d698c67ed52ea02dae75e0b4e4601a6c86495bcf40c3d0bd44312019",
       "ticker": "WIRA\ud83c\udf0f"
@@ -11901,11 +11896,6 @@
       "name": "WIRA Pool (T1)",
       "pool_id": "5642f146ea05d38dc3febfbed0a135c265fe0cac2fc0ef9cd273620b",
       "ticker": "WIRA\ud83c\udfc6"
-    },
-    {
-      "name": "WIRA Pool",
-      "pool_id": "fcedaf183e9430acc484e4e290f40cb19e98e0e07efea2a327a71b94",
-      "ticker": "WIRA"
     },
     {
       "name": "WIRA Pool (F1)",
@@ -12318,16 +12308,6 @@
   ],
   "meld.com": [
     {
-      "name": "MELD ISPO 7 (100% MELD)",
-      "pool_id": "53e9a8bbe55121016b5965abc2fcdbf0afa4594e741e24e4f90d72f4",
-      "ticker": "MELD7"
-    },
-    {
-      "name": "MELD ISPO 8 (100% MELD)",
-      "pool_id": "3b9830f055e256681e284c4a49dfd82466d81c0fbc3dcf1399ff2b9f",
-      "ticker": "MELD8"
-    },
-    {
       "name": "MELD ISPO 6 (100% MELD)",
       "pool_id": "d4c5ab7aa286ca6a249753baf0acb89fa974c30960206e05ecfbd800",
       "ticker": "MELD6"
@@ -12336,6 +12316,16 @@
       "name": "MELD ISPO 9 (100% MELD)",
       "pool_id": "4d4e74fd118c8ac009b8c9fcb7e5e8d6ef297bbdc36aa794282c71ef",
       "ticker": "MELD9"
+    },
+    {
+      "name": "MELD ISPO 7 (100% MELD)",
+      "pool_id": "53e9a8bbe55121016b5965abc2fcdbf0afa4594e741e24e4f90d72f4",
+      "ticker": "MELD7"
+    },
+    {
+      "name": "MELD ISPO 8 (100% MELD)",
+      "pool_id": "3b9830f055e256681e284c4a49dfd82466d81c0fbc3dcf1399ff2b9f",
+      "ticker": "MELD8"
     }
   ],
   "myadapoolnamerocks.com": [
@@ -12473,6 +12463,13 @@
       "name": "SEXY",
       "pool_id": "66e4abd18e4623a2a0acafc9ba78683d56785f4b74d50c7a981c42d9",
       "ticker": "SEXY"
+    }
+  ],
+  "staking.wira.co": [
+    {
+      "name": "WIRA Pool (G1)",
+      "pool_id": "ceb171ac6a0d0986043c266263a88b09ea4c39e1cc342dd9c5f2b811",
+      "ticker": "WIRA\ud83c\udf0e"
     }
   ],
   "stakit.io": [
