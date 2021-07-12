@@ -3440,14 +3440,14 @@
       "ticker": "AXNSA"
     },
     {
-      "name": "VALENCE",
-      "pool_id": "45db53a3789c6d03a447741cd526fbed788380077efc880521ba9dd9",
-      "ticker": "VLNS"
-    },
-    {
       "name": "Cardanonadrac",
       "pool_id": "5c33dc11b79625abe4cba9737814582ff3d3c7a2c1d7eb14600000f7",
       "ticker": "CRC"
+    },
+    {
+      "name": "VALENCE",
+      "pool_id": "45db53a3789c6d03a447741cd526fbed788380077efc880521ba9dd9",
+      "ticker": "VLNS"
     },
     {
       "name": "Waldmops",
@@ -4013,11 +4013,6 @@
       "name": "K9K Staking Pool",
       "pool_id": "6cabf3837d2884000af0eb9b661870f0080233cfb4e9a239a007450c",
       "ticker": "K9K"
-    },
-    {
-      "name": "TRUST Pool",
-      "pool_id": "b42ea10739065e30e388d4781a7f5a446c3a31343c87dcf26750f83d",
-      "ticker": "TRUST"
     },
     {
       "name": "The OHOH7 Club",
@@ -7215,6 +7210,11 @@
       "ticker": "COFEE"
     },
     {
+      "name": "SolarPool",
+      "pool_id": "00f1cc7638e0099f09131633d4485b69b695eaa715abfa4962e2c7aa",
+      "ticker": "SOLAR"
+    },
+    {
       "name": "WaratahPool",
       "pool_id": "6230e43f5f211ab9f2c4f90c971f78f8d40e614ee5d7f009838f3e59",
       "ticker": "WRTAH"
@@ -7268,11 +7268,6 @@
       "name": "UniTEGRITY",
       "pool_id": "04d1d6ff18fcec0435cdafe2c0d11b4371ec06c9cdbda0786286000b",
       "ticker": "UNIT"
-    },
-    {
-      "name": "Cardano ADA Pool",
-      "pool_id": "9da535feeb90d707891c5acb1b200653d32728f0e7834c6114669aff",
-      "ticker": "CARDA"
     },
     {
       "name": "1PercentPool.COM",
@@ -7513,6 +7508,11 @@
       "name": "Bountiful ADA Harvest",
       "pool_id": "d5e8556106b38cda9847d410114c4da0510d1d32de06da4a2f427991",
       "ticker": "BTADA"
+    },
+    {
+      "name": "Open Source Funding",
+      "pool_id": "411349ed4daff31feb97ac8f1abcdc427141127ee4552adc36ab2fc8",
+      "ticker": "OPEN"
     },
     {
       "name": "Ohana Stake Pool",
@@ -8345,6 +8345,11 @@
       "ticker": "AHA"
     },
     {
+      "name": "sustainapool",
+      "pool_id": "c040269e3d31be035b24e778e86c80771b5966d29313b1bf617ec638",
+      "ticker": "STPL"
+    },
+    {
       "name": "",
       "pool_id": "7c1ae56132983ac8c04bec007c669e8969f25de8d2293a7a3cc8ff96",
       "ticker": ""
@@ -8578,6 +8583,11 @@
       "name": "Friendly Neighborhood Staking-Pool",
       "pool_id": "07a67bcb6002c6531874c7c6fdb4cfd32d7caecb885ff8bde89bc6df",
       "ticker": "FNSP"
+    },
+    {
+      "name": "Stakehaus.ca",
+      "pool_id": "8bf855ee961425617d75100a72c2314cf349941dbd9b8df777d1cee1",
+      "ticker": "HAUS"
     },
     {
       "name": "OWL ADA POOL",
@@ -8873,6 +8883,11 @@
       "name": "Coin Minter",
       "pool_id": "e86b651e49f9b04cdb7078e418947ce11a363879b2b1d56bce3edc46",
       "ticker": "MNTR"
+    },
+    {
+      "name": "ElementalPoolsRadon",
+      "pool_id": "f2423991e47a678bfe67b3deafa42cd3e02e7e1c00f220c13cbffd60",
+      "ticker": "EPXRN"
     },
     {
       "name": "king",
@@ -9273,6 +9288,11 @@
       "name": "PoolForLovelace",
       "pool_id": "471f28088341d5dbd417e40defecaf440d499702876a7ec1675a7284",
       "ticker": "PFL"
+    },
+    {
+      "name": "Bitburst",
+      "pool_id": "5fbb59029a8fcfb64d229d367f1d9d608588823dd975c6731a9608ff",
+      "ticker": "BURST"
     },
     {
       "name": "Japanese ADA Stake Pool",
@@ -11445,6 +11465,18 @@
       "ticker": "THC3"
     }
   ],
+  "TIGR": [
+    {
+      "name": "Tigrpool.com",
+      "pool_id": "40445f4ee0466077a113ca730ba233aa06118feb6b04019e02a25864",
+      "ticker": "TIGR1"
+    },
+    {
+      "name": "Tigrpool.com",
+      "pool_id": "9679adda758c30723c89a49cb49348a131efec8b8861b52ffccf8294",
+      "ticker": "TIGR2"
+    }
+  ],
   "TITAN": [
     {
       "name": "TITANstaking",
@@ -11874,13 +11906,13 @@
   "cardanobrainpower.com": [
     {
       "name": "Cardano Digital Brain Power",
-      "pool_id": "90caf0211fec868e9c295857ace58b184d314e564790c18279bef550",
-      "ticker": "BRAIN"
+      "pool_id": "348138a2f05c360a707358983bb2c6f0a4ba4b885c6109debbe4fa6b",
+      "ticker": "0BRN2"
     },
     {
       "name": "Cardano Digital Brain Power",
-      "pool_id": "348138a2f05c360a707358983bb2c6f0a4ba4b885c6109debbe4fa6b",
-      "ticker": "0BRN2"
+      "pool_id": "90caf0211fec868e9c295857ace58b184d314e564790c18279bef550",
+      "ticker": "BRAIN"
     }
   ],
   "cardanomint.com": [
