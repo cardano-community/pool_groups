@@ -6680,6 +6680,11 @@
       "ticker": "GRD"
     },
     {
+      "name": "Iron pool",
+      "pool_id": "f59e3495e638303cfa63750d5da209412a59c880680e7a8393dd5368",
+      "ticker": "IRON"
+    },
+    {
       "name": "CHF SWISS",
       "pool_id": "5a7d13018a8d4995606de677208f3ce57291b53b0cfb1f95ae0115c2",
       "ticker": "CHF"
@@ -7578,11 +7583,6 @@
       "name": "Ohana Stake Pool",
       "pool_id": "f9a026c4d72b3d0bdc63893f2ac2a546629d538846f6fa9135b021a1",
       "ticker": "OHANA"
-    },
-    {
-      "name": "Southern Cross",
-      "pool_id": "adcdb0106a861d1aa45bf9eda29327a1ab61889934f9a8647fd31a89",
-      "ticker": "SCRS"
     },
     {
       "name": "AZ5 Stake Pool",
@@ -11682,11 +11682,6 @@
       "name": "Milpools",
       "pool_id": "de3498ad820d0a44cd411893fb00a0d59ef43ee909316a2e8ebca070",
       "ticker": "USMC"
-    },
-    {
-      "name": "Milpools",
-      "pool_id": "d06d19e148f50ef63b839f97a02648cf9f8c1c9f602cb7e26284ecbc",
-      "ticker": "NAVY"
     }
   ],
   "VINCE": [
@@ -11820,9 +11815,19 @@
       "ticker": "WIRA\ud83c\udf0d"
     },
     {
-      "name": "WIRA Pool (T1)",
-      "pool_id": "5642f146ea05d38dc3febfbed0a135c265fe0cac2fc0ef9cd273620b",
-      "ticker": "WIRA\ud83c\udfc6"
+      "name": "WIRA Pool (G3)",
+      "pool_id": "d698c67ed52ea02dae75e0b4e4601a6c86495bcf40c3d0bd44312019",
+      "ticker": "WIRA\ud83c\udf0f"
+    },
+    {
+      "name": "WIRA Pool (S2)",
+      "pool_id": "85a1b1fdce83908d3fb63bb5eba68ed3eef009680b282468e27e9c81",
+      "ticker": "WIRA\ud83c\udf20"
+    },
+    {
+      "name": "WIRA Pool (F1)",
+      "pool_id": "bee1c394dc9670ccaf70d1d73566e9d83c40311fd1a09f1742ab0bcb",
+      "ticker": "WIRA\ud83d\udd25"
     }
   ],
   "XSP": [
@@ -11954,11 +11959,6 @@
       "ticker": "Trump"
     },
     {
-      "name": "ADATW Pool",
-      "pool_id": "7ce59da0bac7f64b40fcda60a7ee368d5ac8082d81f2bb75fef9e01e",
-      "ticker": "ADATW"
-    },
-    {
       "name": "Kinyan Mesechta Pool",
       "pool_id": "fd17a8a715c510d8d378f1272f052c0c9d7991e90e985d4bae0f07b9",
       "ticker": "KNYN"
@@ -11967,6 +11967,11 @@
       "name": "Amazon pool",
       "pool_id": "aee1cc55e9c498efa91a4942a698caae6d2f0199dffb108ad6ce827d",
       "ticker": "AMZ"
+    },
+    {
+      "name": "ADATW Pool",
+      "pool_id": "7ce59da0bac7f64b40fcda60a7ee368d5ac8082d81f2bb75fef9e01e",
+      "ticker": "ADATW"
     }
   ],
   "adarocket.me": [
@@ -12065,13 +12070,13 @@
   "cardanobrainpower.com": [
     {
       "name": "Cardano Digital Brain Power",
-      "pool_id": "348138a2f05c360a707358983bb2c6f0a4ba4b885c6109debbe4fa6b",
-      "ticker": "0BRN2"
+      "pool_id": "90caf0211fec868e9c295857ace58b184d314e564790c18279bef550",
+      "ticker": "BRAIN"
     },
     {
       "name": "Cardano Digital Brain Power",
-      "pool_id": "90caf0211fec868e9c295857ace58b184d314e564790c18279bef550",
-      "ticker": "BRAIN"
+      "pool_id": "348138a2f05c360a707358983bb2c6f0a4ba4b885c6109debbe4fa6b",
+      "ticker": "0BRN2"
     }
   ],
   "cardanomint.com": [
@@ -12086,11 +12091,6 @@
       "name": "Nova Era Pool",
       "pool_id": "13375a4a5470b564246a3251ea0ccfef046ee5bcaf3ed6de6315abc7",
       "ticker": "ERA"
-    },
-    {
-      "name": "Marie Curie Pool",
-      "pool_id": "6c81475fe8b32b5dfde307325a2cb115de26a466037d0ec76bb499b3",
-      "ticker": "CURIE"
     },
     {
       "name": "ADAstra Mines",
@@ -12111,6 +12111,11 @@
       "name": "Fresco Pool",
       "pool_id": "19cb138eab81d3559e70094df2b6cb1742bf275e920300d5c3972253",
       "ticker": "VENUS"
+    },
+    {
+      "name": "Marie Curie Pool",
+      "pool_id": "6c81475fe8b32b5dfde307325a2cb115de26a466037d0ec76bb499b3",
+      "ticker": "CURIE"
     }
   ],
   "falconstakepool.com": [
@@ -12240,14 +12245,14 @@
       "ticker": "DNND"
     },
     {
-      "name": "A Good Day Pool",
-      "pool_id": "adc382b913711ee8c87fc01c959389d9cd0a0333ed61d352e6f6680f",
-      "ticker": "AGOOD"
-    },
-    {
       "name": "Lucie's pool",
       "pool_id": "f7b90ea9a8fa39cb328faeb5bbaecbe0bf3bdd89ecdaa8ac89a5a8ed",
       "ticker": "LUCIE"
+    },
+    {
+      "name": "A Good Day Pool",
+      "pool_id": "adc382b913711ee8c87fc01c959389d9cd0a0333ed61d352e6f6680f",
+      "ticker": "AGOOD"
     },
     {
       "name": "Binance Staking - 80",
@@ -12363,13 +12368,6 @@
       "name": "SEXY",
       "pool_id": "66e4abd18e4623a2a0acafc9ba78683d56785f4b74d50c7a981c42d9",
       "ticker": "SEXY"
-    }
-  ],
-  "staking.wira.co": [
-    {
-      "name": "WIRA Pool (G3)",
-      "pool_id": "d698c67ed52ea02dae75e0b4e4601a6c86495bcf40c3d0bd44312019",
-      "ticker": "WIRA\ud83c\udf0f"
     }
   ],
   "stakit.io": [
