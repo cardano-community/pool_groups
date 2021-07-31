@@ -395,14 +395,14 @@
       "ticker": "ADV3"
     },
     {
-      "name": "ADAvault Stake Pool 2",
-      "pool_id": "3b3327c0a885ba7c1ebeec8b44158aab79c32148d45b4c701344cd97",
-      "ticker": "ADV2"
-    },
-    {
       "name": "ADAvault",
       "pool_id": "3116c834a09b0060aef7284f63d3275456364e3309b3c19ec328af60",
       "ticker": "ADV"
+    },
+    {
+      "name": "ADAvault Stake Pool 2",
+      "pool_id": "3b3327c0a885ba7c1ebeec8b44158aab79c32148d45b4c701344cd97",
+      "ticker": "ADV2"
     },
     {
       "name": "ADAvault Stake Pool 4",
@@ -1098,6 +1098,13 @@
       "name": "CheapStaking #2 - PublicPrivate",
       "pool_id": "e7234026db910ce0ee214056940de0474b252456c3d70907f831eaf3",
       "ticker": "CHEAP"
+    }
+  ],
+  "CMAN": [
+    {
+      "name": "CryptoMan Stake Pool",
+      "pool_id": "802441a365ac93b54344d716c1a7db865c1c0d33cf804f8d29cdb0f9",
+      "ticker": "CMAN1"
     }
   ],
   "CNODE": [
@@ -2128,6 +2135,11 @@
       "ticker": "OTAKU"
     },
     {
+      "name": "PIADA piada.io",
+      "pool_id": "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65",
+      "ticker": "PIADA"
+    },
+    {
       "name": "Cardano Education Thailand",
       "pool_id": "96aa57f4af0652c800cde0d25288bf6d1e35aefd11770d60e6bf8f0a",
       "ticker": "CETH"
@@ -2151,11 +2163,6 @@
       "name": "SAGE Cardano Staking",
       "pool_id": "bca52a1ea803c93025fa43e3aed7af82c3b2bfb01b530b07b0048c9a",
       "ticker": "SAGE"
-    },
-    {
-      "name": "PIADA piada.io",
-      "pool_id": "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65",
-      "ticker": "PIADA"
     },
     {
       "name": "LetzBake!",
@@ -2643,14 +2650,14 @@
       "ticker": "NANI"
     },
     {
-      "name": "SMART-NODE",
-      "pool_id": "c1bc5c701c149bb7e346b47b8cc631160078b2b50e8ec37b2d0a7891",
-      "ticker": "SMART"
-    },
-    {
       "name": "Aloha Cardano",
       "pool_id": "e459e81629534ba3f4f6c674242778b24d4d7c9a56a56dff52679687",
       "ticker": "ALOHA"
+    },
+    {
+      "name": "SMART-NODE",
+      "pool_id": "c1bc5c701c149bb7e346b47b8cc631160078b2b50e8ec37b2d0a7891",
+      "ticker": "SMART"
     },
     {
       "name": "United Stakes of Cardano",
@@ -4763,14 +4770,14 @@
       "ticker": "MAMAK"
     },
     {
-      "name": "BloxBean Pool",
-      "pool_id": "8ebb7e21acee66c3e5af6c765ea6ad31962e7b9160520aecd6f001a3",
-      "ticker": "BLOXB"
-    },
-    {
       "name": "The ADA House",
       "pool_id": "5201765589793cc9a04d8f378bc85125ec0ef7bf70beb84d01692c82",
       "ticker": "ADAHS"
+    },
+    {
+      "name": "BloxBean Pool",
+      "pool_id": "8ebb7e21acee66c3e5af6c765ea6ad31962e7b9160520aecd6f001a3",
+      "ticker": "BLOXB"
     },
     {
       "name": "8SQRD Cardano Stake Pool",
@@ -7238,11 +7245,6 @@
       "ticker": "RISUP"
     },
     {
-      "name": "Suprastake",
-      "pool_id": "d68004736add691133c8a5d662e3a0633fa0534cf46e15e9f33383e7",
-      "ticker": "SPRS"
-    },
-    {
       "name": "Proto Pool",
       "pool_id": "b00b421fbc620f0a2fdcf3243265d253b2e30c40da2c172dc5ab4640",
       "ticker": "PROTO"
@@ -7251,6 +7253,11 @@
       "name": "GALILEO",
       "pool_id": "d2c391e69ffb010196706660f3f41e9190e4b94314f3d9dab34529e8",
       "ticker": "GLLEO"
+    },
+    {
+      "name": "Suprastake",
+      "pool_id": "d68004736add691133c8a5d662e3a0633fa0534cf46e15e9f33383e7",
+      "ticker": "SPRS"
     },
     {
       "name": "Sencha",
@@ -7513,6 +7520,11 @@
       "ticker": "FBSD"
     },
     {
+      "name": "BearPool ",
+      "pool_id": "d75510f36a80dd436ed69b1c76af0724c1969a2ece377ee322ae2e36",
+      "ticker": "BEAR"
+    },
+    {
       "name": "SCV Pool",
       "pool_id": "a7c31f27cdebd1c96b4a960c47e498a961441b8dc34b191c02acd386",
       "ticker": "SCV01"
@@ -7753,11 +7765,6 @@
       "ticker": "SANTA"
     },
     {
-      "name": "BearPool ",
-      "pool_id": "d75510f36a80dd436ed69b1c76af0724c1969a2ece377ee322ae2e36",
-      "ticker": "BEAR"
-    },
-    {
       "name": "SASA Stake Pool",
       "pool_id": "1ec2c7dde1ce090ee2e75c9fa618c575b8a0b77eaeec5c7266f50aca",
       "ticker": "SASA"
@@ -7873,14 +7880,14 @@
       "ticker": "NOCAR"
     },
     {
-      "name": "GTA Cardano Stake Pool",
-      "pool_id": "10616883fa02056402781fc5cfa4ad20731b6e8a1e1b3eca745adad7",
-      "ticker": "GTA"
-    },
-    {
       "name": "Voltaire_Adapool_Partnership",
       "pool_id": "7c0e6a957cd3b13cea2303348dceee0e115b20e3ac233c3340f70c6f",
       "ticker": "VOLTR"
+    },
+    {
+      "name": "GTA Cardano Stake Pool",
+      "pool_id": "10616883fa02056402781fc5cfa4ad20731b6e8a1e1b3eca745adad7",
+      "ticker": "GTA"
     },
     {
       "name": "KOREA POOL\u327f",
@@ -8308,6 +8315,11 @@
       "ticker": "G4UR"
     },
     {
+      "name": "Value Stake Pool",
+      "pool_id": "b954fafa5b6a161aa56ac38e8b263da7ab462538e97dd2520b5f943b",
+      "ticker": "VALUE"
+    },
+    {
       "name": "HAIRY Staking Pool",
       "pool_id": "43a92030961c6d68bcde62be938a53abd9d97e90101ee2bb7b5a60ab",
       "ticker": "HAIRY"
@@ -8321,11 +8333,6 @@
       "name": "Beach Stake Pool",
       "pool_id": "d385e45001d129b78031c28f4ac4611021d769c5b60dfb928287e6e0",
       "ticker": "BEACH"
-    },
-    {
-      "name": "Value Stake Pool",
-      "pool_id": "b954fafa5b6a161aa56ac38e8b263da7ab462538e97dd2520b5f943b",
-      "ticker": "VALUE"
     },
     {
       "name": "UnityCryptoPool",
@@ -8778,11 +8785,6 @@
       "ticker": "YIN"
     },
     {
-      "name": "Kairos1",
-      "pool_id": "852a7af9a41e02834990932f290243b0a26d332c27bc6e8259a4f883",
-      "ticker": "KAI1"
-    },
-    {
       "name": "uma Stake Pool",
       "pool_id": "c57544afa6f46ab119f61c753e357b9135a109c046f0bf59614a6bae",
       "ticker": "UMA"
@@ -8791,6 +8793,11 @@
       "name": "Cardano-Whiz Stake Pool",
       "pool_id": "73e36684d3eebe3e1eb97012c715938a91356280e69d2ef281274888",
       "ticker": "WHIZ"
+    },
+    {
+      "name": "Kairos1",
+      "pool_id": "852a7af9a41e02834990932f290243b0a26d332c27bc6e8259a4f883",
+      "ticker": "KAI1"
     },
     {
       "name": "BPSCARDANO",
@@ -12227,11 +12234,6 @@
   ],
   "adapools.org": [
     {
-      "name": "ADATW Pool",
-      "pool_id": "7ce59da0bac7f64b40fcda60a7ee368d5ac8082d81f2bb75fef9e01e",
-      "ticker": "ADATW"
-    },
-    {
       "name": "The Chosen Homes Network",
       "pool_id": "d541be7e3d46b18f66fe6718d6e4e5a74227fcbdd0690a68c8494795",
       "ticker": "CHOSN"
@@ -12245,6 +12247,11 @@
       "name": "Cardano Training Pool",
       "pool_id": "4b28cfe7a4b56216c35953ec8e187afc2e7f41b84d7c42aafb7dc8bd",
       "ticker": "CTP"
+    },
+    {
+      "name": "ADATW Pool",
+      "pool_id": "7ce59da0bac7f64b40fcda60a7ee368d5ac8082d81f2bb75fef9e01e",
+      "ticker": "ADATW"
     },
     {
       "name": "Trump Fan",
