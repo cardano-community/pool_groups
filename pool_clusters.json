@@ -1034,14 +1034,14 @@
       "ticker": "CCJ3"
     },
     {
-      "name": "CCJ",
-      "pool_id": "39654d8b4eebd091f6ce64d4be8fc05c5e50187b821b9a334076ce55",
-      "ticker": "CCJ"
-    },
-    {
       "name": "CCJ2",
       "pool_id": "8871f659c6ce6a29afc0c52963cc872898db31235bead5b4a514b746",
       "ticker": "CCJ2"
+    },
+    {
+      "name": "CCJ",
+      "pool_id": "39654d8b4eebd091f6ce64d4be8fc05c5e50187b821b9a334076ce55",
+      "ticker": "CCJ"
     },
     {
       "name": "CCJ4",
@@ -2418,14 +2418,14 @@
       "ticker": "CRFA"
     },
     {
-      "name": "BLADE Pool",
-      "pool_id": "d765dee553a7e041d525b1782a10eb0a5e52e96ed55ed173d8bb82a7",
-      "ticker": "BLADE"
-    },
-    {
       "name": "Staking OutOfBits",
       "pool_id": "cdae4a1a08974113e77ea332cb1da97d9e3fca5cf797f9394739214b",
       "ticker": "SOBIT"
+    },
+    {
+      "name": "BLADE Pool",
+      "pool_id": "d765dee553a7e041d525b1782a10eb0a5e52e96ed55ed173d8bb82a7",
+      "ticker": "BLADE"
     },
     {
       "name": "307Pool",
@@ -3683,11 +3683,6 @@
       "ticker": "CDN"
     },
     {
-      "name": "Stoic Pool",
-      "pool_id": "099d512b6ffedd552ae38a9ae2123c116b1d20e1f01bb42a1f539fba",
-      "ticker": "STOIC"
-    },
-    {
       "name": "Grow Your Stake",
       "pool_id": "59db640a870601fedb539d3f4954007332e76e463d1265c096b69c59",
       "ticker": "GYS"
@@ -3731,6 +3726,11 @@
       "name": "Salt Staking Pool",
       "pool_id": "ea90b56d9c4d04c583ec728c8b415948b310d4653d12bd281aaff9df",
       "ticker": "SALT"
+    },
+    {
+      "name": "Stoic Pool",
+      "pool_id": "099d512b6ffedd552ae38a9ae2123c116b1d20e1f01bb42a1f539fba",
+      "ticker": "STOIC"
     },
     {
       "name": "Adaly Stakepool",
@@ -5041,11 +5041,6 @@
       "name": "Coconut Pool",
       "pool_id": "05bbc9d838b4c9eab301bfd151de99077899c997cf146abf8436edf2",
       "ticker": "COCO"
-    },
-    {
-      "name": "ADAMarkets",
-      "pool_id": "b96437a4b965a23e9bff9035b5d512f665561d5d4b27fc29d751c6e2",
-      "ticker": "AMKT1"
     },
     {
       "name": "cardanohub.net stake pool",
@@ -7108,6 +7103,11 @@
       "ticker": "SHOW"
     },
     {
+      "name": "ADARockPool",
+      "pool_id": "39025777f1d7c42746bc961b03b1690c26db08153d458dc74fcb034b",
+      "ticker": "AROCK"
+    },
+    {
       "name": "CRUISE",
       "pool_id": "6adb374689d1d7aae890ec87712b60562f42ee54e5939d81357e7847",
       "ticker": "CRZ"
@@ -8548,7 +8548,7 @@
       "ticker": "SURGE"
     },
     {
-      "name": "Dodo",
+      "name": "The Dodo Pool",
       "pool_id": "6858fc0ed225ad40157e358cff1d08ccc306b6ab00bdc96301fbedef",
       "ticker": "DODO"
     },
@@ -8621,6 +8621,11 @@
       "name": "CANDY POOL",
       "pool_id": "9e2e33c5387dc64b32ff9df559c5df5d1966f3caf1a590d0a298dc28",
       "ticker": "CANDY"
+    },
+    {
+      "name": "electricc",
+      "pool_id": "7ab4988492b9a5d4ed7221264a117cbaac3e9bb64f4f9e52e7ad78c5",
+      "ticker": "ELCC"
     },
     {
       "name": "pink pool",
@@ -9026,6 +9031,11 @@
       "name": "LatamADA",
       "pool_id": "f8cdd2882726b313f783a4fa0cbd6bbc8d7aa28c768989d90b22325e",
       "ticker": "LAT"
+    },
+    {
+      "name": "Shrimp and Stake",
+      "pool_id": "5694bb13ac6c404f9bfbefc41cbf956df315c44c6648f39dd43e4368",
+      "ticker": "SHRMP"
     },
     {
       "name": "MARIA POOL",
@@ -10666,11 +10676,6 @@
       "name": "Iluka (Private)",
       "pool_id": "23e146390a1b58999264bdd1779eed1b7d50e869bb8c260ccc4cc6c9",
       "ticker": "ILUKA"
-    },
-    {
-      "name": "electricc",
-      "pool_id": "7ab4988492b9a5d4ed7221264a117cbaac3e9bb64f4f9e52e7ad78c5",
-      "ticker": "ELCC"
     },
     {
       "name": "NAPPY Pool",
@@ -12864,11 +12869,6 @@
   ],
   "stakebowl.io": [
     {
-      "name": "StakeBowl1",
-      "pool_id": "715428fcce193098db697fa8d975497676fff092c549062ba9bea08a",
-      "ticker": "STBL1"
-    },
-    {
       "name": "StakeBowl3",
       "pool_id": "3f795319d8e528a5c88641130860b4fbb0979d15289ff9d13efbf4f0",
       "ticker": "STBL3"
@@ -12877,6 +12877,11 @@
       "name": "StakeBowl2",
       "pool_id": "d6921660bfcfdc70b598ace26c8270a5976b6c5ca87fdccca52a5c45",
       "ticker": "STBL2"
+    },
+    {
+      "name": "StakeBowl1",
+      "pool_id": "715428fcce193098db697fa8d975497676fff092c549062ba9bea08a",
+      "ticker": "STBL1"
     }
   ],
   "stakelovelace.io": [
@@ -12966,11 +12971,6 @@
       "name": "Like a Rolling Stone",
       "pool_id": "7065a5ddeaaa85afaa1e17e34f774361e1eed7e0299e1f5779656910",
       "ticker": "ROCK"
-    },
-    {
-      "name": "ADAMarkets",
-      "pool_id": "b96437a4b965a23e9bff9035b5d512f665561d5d4b27fc29d751c6e2",
-      "ticker": "AMKT1"
     }
   ],
   "thecardanofund.com": [
