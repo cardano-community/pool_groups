@@ -5932,6 +5932,11 @@
       "ticker": "PMW"
     },
     {
+      "name": "BrothSoup Pool",
+      "pool_id": "df983a6e50640eab5e840968119614737ed4a9871e87b0b0e2a78813",
+      "ticker": "BROTH"
+    },
+    {
       "name": "BLACK Rocket",
       "pool_id": "59b59f232e80f18ce64e0f74560effbf49a3e95ddf6d079681db8b23",
       "ticker": "BLACK"
@@ -6015,6 +6020,11 @@
       "name": "European ADA Pool",
       "pool_id": "aa1c56d0973268bd5b4758181e96971f51cf1c9c20fdfd95022b4ad3",
       "ticker": "EUADA"
+    },
+    {
+      "name": "Hong Kong Beyondr",
+      "pool_id": "a3cbd717c489c9fd603ddb022650f7b971af986841a10274ab748a9d",
+      "ticker": "HKB"
     },
     {
       "name": "Carl's Stake Pool",
@@ -6597,11 +6607,6 @@
       "ticker": "STACA"
     },
     {
-      "name": "PPDAC LTD",
-      "pool_id": "c3b0794f0729a6d783e4fd5612a38ae275235f0a37485301ae59cf0d",
-      "ticker": "PPDAC"
-    },
-    {
       "name": "AHA",
       "pool_id": "0225819c5f6b82556ac9d336fc6a317271dddb39093e80e18e5550db",
       "ticker": "AHA"
@@ -7147,6 +7152,11 @@
       "ticker": "SOLAR"
     },
     {
+      "name": "beehive",
+      "pool_id": "707cc05abbb19ee7b8c2090fd65d2ba81d8469e6fb5d9dab972cea17",
+      "ticker": "BEEHI"
+    },
+    {
       "name": "Maasai.io Cardano Stake Pool",
       "pool_id": "161ae9d04faa1dedbe7e009c62a0133f4bf8b938666588b86d32797c",
       "ticker": "MASAI"
@@ -7292,11 +7302,6 @@
       "ticker": "VNA"
     },
     {
-      "name": "SPARK",
-      "pool_id": "00f52def8702b95aa04451ba3dcec0f3f0f4205e54e77f781bcb3fa5",
-      "ticker": "SPARK"
-    },
-    {
       "name": "5ch Pool",
       "pool_id": "383dd348581c3c16a981de1178c42f1d3134280f66bed7518b772ffd",
       "ticker": "5CH"
@@ -7317,9 +7322,19 @@
       "ticker": "CRZ"
     },
     {
+      "name": "SPARK",
+      "pool_id": "00f52def8702b95aa04451ba3dcec0f3f0f4205e54e77f781bcb3fa5",
+      "ticker": "SPARK"
+    },
+    {
       "name": "HAIRY Staking Pool",
       "pool_id": "43a92030961c6d68bcde62be938a53abd9d97e90101ee2bb7b5a60ab",
       "ticker": "HAIRY"
+    },
+    {
+      "name": "SolPi - Solar powered Pi",
+      "pool_id": "827900818541013d518ee6b2af343a973c8d836884fb000742307400",
+      "ticker": "SOLPI"
     },
     {
       "name": "Mongkok Bro's",
@@ -9592,6 +9607,11 @@
       "ticker": "YARRR"
     },
     {
+      "name": "MAYA MEXICO",
+      "pool_id": "a4b0555a23bda1d8f125543fc05ef39e5667d7f52996b87cdaf5b861",
+      "ticker": "MAYA"
+    },
+    {
       "name": " 0POOL-1 ",
       "pool_id": "9c4e139cd1f5beb3bf08a82e80c3de3ea0c453bc0a1e6ccb8cc8e771",
       "ticker": "0POOL"
@@ -10235,11 +10255,6 @@
       "name": "Ratio Staking Pool",
       "pool_id": "5dd366d7c63c0f54a9890987a63e0965c6bfb8cd63c7edae5d0311f4",
       "ticker": "RATIO"
-    },
-    {
-      "name": "BOSS Stake Pool",
-      "pool_id": "e785ec77b57f27cf8a67d15903bdbfc76b9c54c82dd18c274e84a1e8",
-      "ticker": "BOSS"
     },
     {
       "name": "Van Gogh Pools",
@@ -12570,14 +12585,14 @@
   ],
   "ada.ibexpool.com": [
     {
-      "name": "IBEX2 ADA Pool",
-      "pool_id": "093281f3d46eaa6422b2b9e257d67059d303805adb166073ab656a3b",
-      "ticker": "IBEX2"
-    },
-    {
       "name": "IBEX ADA Pool",
       "pool_id": "d31f204c4a1701068d3a116b9c50662b60f365178336d6f7825ea547",
       "ticker": "IBEX"
+    },
+    {
+      "name": "IBEX2 ADA Pool",
+      "pool_id": "093281f3d46eaa6422b2b9e257d67059d303805adb166073ab656a3b",
+      "ticker": "IBEX2"
     }
   ],
   "ada.vnpips.com": [
@@ -12694,17 +12709,22 @@
   ],
   "cardino-ada.netlify.app": [
     {
-      "name": "Cargino Stake Pool",
-      "pool_id": "0b613140fd4afd748226c6d88fad6566e7874190716940a8b31f4e8a",
-      "ticker": "GINO"
-    },
-    {
       "name": "Cardino Stake Pool",
       "pool_id": "1b2523e031e0efe6e5fe0edf8c82fd51abf33a1a2feedad5456ef4d9",
       "ticker": "DINO"
+    },
+    {
+      "name": "Cargino Stake Pool",
+      "pool_id": "0b613140fd4afd748226c6d88fad6566e7874190716940a8b31f4e8a",
+      "ticker": "GINO"
     }
   ],
   "cpoolsunited.com": [
+    {
+      "name": "Cardano Pools United",
+      "pool_id": "b45c1860e038baa0642b352ccf447ed5e14430342a11dd75bae52f39",
+      "ticker": "CPU"
+    },
     {
       "name": "Fresco Pool",
       "pool_id": "19cb138eab81d3559e70094df2b6cb1742bf275e920300d5c3972253",
@@ -12714,11 +12734,6 @@
       "name": "ADAstra Mines",
       "pool_id": "3e5fcbaf750c0291cecb72384091724a1c2d35da10a71473e16c926f",
       "ticker": "MINES"
-    },
-    {
-      "name": "Cardano Pools United",
-      "pool_id": "b45c1860e038baa0642b352ccf447ed5e14430342a11dd75bae52f39",
-      "ticker": "CPU"
     },
     {
       "name": "Nova Era Pool",
@@ -12894,14 +12909,14 @@
   ],
   "pools.zw3rk.com": [
     {
-      "name": "hask",
-      "pool_id": "a52a2f1572fcaf1f31532a3a71c5582cc5bbb7c4d07e736a44f914a3",
-      "ticker": "HASK"
-    },
-    {
       "name": "1PCT Haskell CI Support Pool",
       "pool_id": "e2c17915148f698723cb234f3cd89e9325f40b89af9fd6e1f9d1701a",
       "ticker": "ZW3RK"
+    },
+    {
+      "name": "hask",
+      "pool_id": "a52a2f1572fcaf1f31532a3a71c5582cc5bbb7c4d07e736a44f914a3",
+      "ticker": "HASK"
     }
   ],
   "pooltool.io": [
@@ -12968,14 +12983,14 @@
   ],
   "stakelovelace.io": [
     {
-      "name": "SEXY",
-      "pool_id": "66e4abd18e4623a2a0acafc9ba78683d56785f4b74d50c7a981c42d9",
-      "ticker": "SEXY"
-    },
-    {
       "name": "AAA",
       "pool_id": "fcbfb4a3c18f890de7a51f68603b18e654f8b432abdda17c53a0d586",
       "ticker": "AAA"
+    },
+    {
+      "name": "SEXY",
+      "pool_id": "66e4abd18e4623a2a0acafc9ba78683d56785f4b74d50c7a981c42d9",
+      "ticker": "SEXY"
     }
   ],
   "stakepoolservice.com": [
