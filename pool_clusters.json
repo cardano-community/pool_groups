@@ -2362,11 +2362,6 @@
       "ticker": "CEMA1"
     },
     {
-      "name": "ADA Moon Stake Pool",
-      "pool_id": "059b4217a24a8c67a363968ff1db13a17ed96e611362450c115b2415",
-      "ticker": "AMOON"
-    },
-    {
       "name": "Cosmic Asset Stake Pool",
       "pool_id": "c473846af5dfa3d56d2bdb765d8a2835be6dcc5c70be5cc4ff136a45",
       "ticker": "COSMC"
@@ -2385,6 +2380,11 @@
       "name": "Stake Army",
       "pool_id": "08ac812c4721d68695614f3dcde425f1bdb7e298b3da19a9805a54f5",
       "ticker": "AKA"
+    },
+    {
+      "name": "ADA Moon Stake Pool",
+      "pool_id": "059b4217a24a8c67a363968ff1db13a17ed96e611362450c115b2415",
+      "ticker": "AMOON"
     },
     {
       "name": "FIKA Pool",
@@ -6652,6 +6652,11 @@
       "ticker": "STACA"
     },
     {
+      "name": "LEND pool",
+      "pool_id": "664730a4d85918a7d8574df549135228508072916d95cbc0ecd9ac67",
+      "ticker": "LEND"
+    },
+    {
       "name": "AHA",
       "pool_id": "0225819c5f6b82556ac9d336fc6a317271dddb39093e80e18e5550db",
       "ticker": "AHA"
@@ -7555,11 +7560,6 @@
       "name": "CloudStruct Cardano Staking",
       "pool_id": "27b1b4470c84db78ce1ffbfff77bb068abb4e47d43cb6009caaa3523",
       "ticker": "CSCS"
-    },
-    {
-      "name": "LEND pool",
-      "pool_id": "664730a4d85918a7d8574df549135228508072916d95cbc0ecd9ac67",
-      "ticker": "LEND"
     },
     {
       "name": "Oxygen Pool",
@@ -12644,14 +12644,14 @@
   ],
   "cardano.org": [
     {
-      "name": "United States of ADA",
-      "pool_id": "7138a8f6e3983e7be1e4a48cf7915964f6e7d1aa19a6407d00057e68",
-      "ticker": "USA"
-    },
-    {
       "name": "MARIA POOL",
       "pool_id": "3782c245cbf14dc7dabc7e52fc7a2b1e7a2bd9ae8f8fa6a2ef227b85",
       "ticker": "MARIA"
+    },
+    {
+      "name": "United States of ADA",
+      "pool_id": "7138a8f6e3983e7be1e4a48cf7915964f6e7d1aa19a6407d00057e68",
+      "ticker": "USA"
     }
   ],
   "cardano420.com": [
@@ -12694,6 +12694,11 @@
   ],
   "cpoolsunited.com": [
     {
+      "name": "Fresco Pool",
+      "pool_id": "19cb138eab81d3559e70094df2b6cb1742bf275e920300d5c3972253",
+      "ticker": "VENUS"
+    },
+    {
       "name": "ADAstra Mines",
       "pool_id": "3e5fcbaf750c0291cecb72384091724a1c2d35da10a71473e16c926f",
       "ticker": "MINES"
@@ -12717,11 +12722,6 @@
       "name": "Marie Curie Pool",
       "pool_id": "6c81475fe8b32b5dfde307325a2cb115de26a466037d0ec76bb499b3",
       "ticker": "CURIE"
-    },
-    {
-      "name": "Fresco Pool",
-      "pool_id": "19cb138eab81d3559e70094df2b6cb1742bf275e920300d5c3972253",
-      "ticker": "VENUS"
     }
   ],
   "crimsonpool.github.io": [
@@ -12785,14 +12785,14 @@
   ],
   "fimi.vn": [
     {
-      "name": "We are Kirin",
-      "pool_id": "a86b685a2d6817d315f48121ee4bb6099cc4c26b94d9fe1c256c5c62",
-      "ticker": "KIRIN"
-    },
-    {
       "name": "We are ELLY VN",
       "pool_id": "6d043d8910b0050cd4f497834c7c8a515e62252352c802b4f3458443",
       "ticker": "ELLY"
+    },
+    {
+      "name": "We are Kirin",
+      "pool_id": "a86b685a2d6817d315f48121ee4bb6099cc4c26b94d9fe1c256c5c62",
+      "ticker": "KIRIN"
     }
   ],
   "foo.com": [
@@ -12932,14 +12932,14 @@
   ],
   "ss63.jp": [
     {
-      "name": "GG63 ADA pool",
-      "pool_id": "bc83d31fe955f785ea2630e01c9442dec8ec0c4e394888cfb8e3fa61",
-      "ticker": "GG63"
-    },
-    {
       "name": "SS63 ADA pool",
       "pool_id": "69515a7b5592e42ea07b2526d58cd50f3bef9603aceef3fe3b042b13",
       "ticker": "SS63"
+    },
+    {
+      "name": "GG63 ADA pool",
+      "pool_id": "bc83d31fe955f785ea2630e01c9442dec8ec0c4e394888cfb8e3fa61",
+      "ticker": "GG63"
     }
   ],
   "stakebowl.io": [
@@ -13059,14 +13059,14 @@
   ],
   "youtube.com_c_augustobackes": [
     {
-      "name": "Bitc\u00e3o Stake Pool",
-      "pool_id": "51c670011f289048a535f50bd5021f2779ca2fb6ee711998d5eeb6c9",
-      "ticker": "BTCAO"
-    },
-    {
       "name": "FOFA Stake Pool",
       "pool_id": "07c399aad671c987864494b08a8bf075c7dba7d1494a48f727a5a44d",
       "ticker": "FOFA"
+    },
+    {
+      "name": "Bitc\u00e3o Stake Pool",
+      "pool_id": "51c670011f289048a535f50bd5021f2779ca2fb6ee711998d5eeb6c9",
+      "ticker": "BTCAO"
     }
   ],
   "yoyogi-pool.site": [
@@ -13083,14 +13083,14 @@
   ],
   "zpngstakepool.com": [
     {
-      "name": "Zipang Stake Pool 2",
-      "pool_id": "dd777ca1053943ccf29a781014f4472405fb073020a37240bf68cc71",
-      "ticker": "ZPNG2"
-    },
-    {
       "name": "Zipang Stake Pool 1",
       "pool_id": "1c908c07101f9c99aea3febc41f556d50e4060a4d5e2215ba0a18a3f",
       "ticker": "ZPNG1"
+    },
+    {
+      "name": "Zipang Stake Pool 2",
+      "pool_id": "dd777ca1053943ccf29a781014f4472405fb073020a37240bf68cc71",
+      "ticker": "ZPNG2"
     }
   ]
 }
