@@ -10337,11 +10337,6 @@
       "ticker": "GATE"
     },
     {
-      "name": "UAE Stake Pool",
-      "pool_id": "ce85194e6ce144037eda7dec99136a64a3b6209026ae7fa8c624a925",
-      "ticker": "UAE"
-    },
-    {
       "name": "Global Ghana Staking Pool",
       "pool_id": "5cabdbc4c7ff95b2dd95c6e775f18cc7bba77300a10fec5c68f8fa5c",
       "ticker": "GHANA"
@@ -10360,6 +10355,11 @@
       "name": "NES Pool",
       "pool_id": "9c691303a1c00ee59216d9f12aa1f559c6c7c7ebc93f17e2aa1711eb",
       "ticker": "NES"
+    },
+    {
+      "name": "Bored Ape Yacht Club",
+      "pool_id": "fa12fc84aeccc7ac2727d7a335000582a7ea983cd7fa733319d2c4fb",
+      "ticker": "BAYC"
     },
     {
       "name": "ZZZ6",
@@ -10392,7 +10392,7 @@
       "ticker": "GAR"
     },
     {
-      "name": "CryptoPunks Pools",
+      "name": "Not CryptoPunks Pool",
       "pool_id": "8e76920827f7768c6faa80fcc8e1b6afebd8129539397032a1a190e5",
       "ticker": "PUNKS"
     },
@@ -11655,6 +11655,13 @@
       "name": "\ufe0fNordic 0PCT Pool 3",
       "pool_id": "fa58244068bef886049b3e8fbba8aa39f227ce78168efdf7629111c5",
       "ticker": "NORTH"
+    }
+  ],
+  "NOT": [
+    {
+      "name": "Not Coinbase's Pool",
+      "pool_id": "e9d8a338fc643bb3e82308548cda29c52ab2de728751fefca20f9b54",
+      "ticker": "COIN"
     }
   ],
   "NOTE": [
