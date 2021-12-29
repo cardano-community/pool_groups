@@ -1486,6 +1486,16 @@
       "ticker": "EMURF"
     },
     {
+      "name": "Emurgo Private A",
+      "pool_id": "eb7d911eb4c0ca066badadab42d80d5b59a5ce996389523a26edb64a",
+      "ticker": "EMURA"
+    },
+    {
+      "name": "Emurgo Private B",
+      "pool_id": "d854986d64cb440f9554576eee79542ddd86afa49008f9223da2549e",
+      "ticker": "EMURB"
+    },
+    {
       "name": "Emurgo Private C",
       "pool_id": "45822f964089d86a48f9630e0187f26b4dbba9013ac7b1e04c443c82",
       "ticker": "EMURC"
@@ -1499,16 +1509,6 @@
       "name": "Emurgo Private E",
       "pool_id": "1634c08e606f0f68bed8d88ba0ab87980994a5872ce68afdd0064e40",
       "ticker": "EMURE"
-    },
-    {
-      "name": "Emurgo Private A",
-      "pool_id": "eb7d911eb4c0ca066badadab42d80d5b59a5ce996389523a26edb64a",
-      "ticker": "EMURA"
-    },
-    {
-      "name": "Emurgo Private B",
-      "pool_id": "d854986d64cb440f9554576eee79542ddd86afa49008f9223da2549e",
-      "ticker": "EMURB"
     }
   ],
   "ENDVR": [
@@ -2402,14 +2402,14 @@
       "ticker": "WEQNT"
     },
     {
-      "name": "Charity pool",
-      "pool_id": "00333b89543da962cc92e7ffa45848f42a98f7276780670728ce5256",
-      "ticker": "CHRTY"
-    },
-    {
       "name": "Alliance",
       "pool_id": "e01133b97103bb932f7be0f7896ed1ca1d0ee350e4c8058e101b73d6",
       "ticker": "ALLI"
+    },
+    {
+      "name": "Charity pool",
+      "pool_id": "00333b89543da962cc92e7ffa45848f42a98f7276780670728ce5256",
+      "ticker": "CHRTY"
     },
     {
       "name": "307Pool",
@@ -5872,6 +5872,11 @@
       "ticker": "WISE"
     },
     {
+      "name": "Pool Germany (Deutsch + English)",
+      "pool_id": "0e8d16944b4e7f2061ce389ab2e06d5c1900404dba69a039888ab3f8",
+      "ticker": "POOLG"
+    },
+    {
       "name": "The Dodo Pool",
       "pool_id": "6858fc0ed225ad40157e358cff1d08ccc306b6ab00bdc96301fbedef",
       "ticker": "DODO"
@@ -7802,11 +7807,6 @@
       "ticker": "USA"
     },
     {
-      "name": "TesPool ",
-      "pool_id": "8f77e8a0202c6e39a1c19fc51ae1d822f84b048b32ec22c07b18226d",
-      "ticker": "TESP\ud83c\udf40"
-    },
-    {
       "name": "Sark Pool",
       "pool_id": "e9c7b7cad4c4e4dbfc4504e926c02b5068ee84a98955e51cbf778714",
       "ticker": "sark"
@@ -7992,24 +7992,24 @@
       "ticker": "CUCUM"
     },
     {
-      "name": "Cardano AIM: A guild of tool builders.",
-      "pool_id": "b61f05ec1e907ab9b069eaec6c664056c16f56cab59076109c66d2ae",
-      "ticker": "AIM"
-    },
-    {
       "name": "Read Thy Self",
       "pool_id": "57f6917153d55a65b2340d3bba82e2b1b35e1b033653a8893c27d8e1",
       "ticker": "TAROT"
     },
     {
-      "name": "CryptoHasher's Cardano Staking Pool 1",
-      "pool_id": "b192c61f27e17034a091484e5bff17cdf8b1c805733d7e9bcd3423f8",
-      "ticker": "CHAS1"
+      "name": "Cardano AIM: A guild of tool builders.",
+      "pool_id": "b61f05ec1e907ab9b069eaec6c664056c16f56cab59076109c66d2ae",
+      "ticker": "AIM"
     },
     {
       "name": "ADA4 SOIL",
       "pool_id": "48b18f581c5e77a19870e8399e4d2100c66b2e15243c9557e79f2165",
       "ticker": "SOIL"
+    },
+    {
+      "name": "CryptoHasher's Cardano Staking Pool 1",
+      "pool_id": "b192c61f27e17034a091484e5bff17cdf8b1c805733d7e9bcd3423f8",
+      "ticker": "CHAS1"
     },
     {
       "name": "Watch A Video Pool",
@@ -8472,6 +8472,11 @@
       "ticker": "FIDE"
     },
     {
+      "name": "SOLyDAR_1",
+      "pool_id": "9adbf9ce3c2da566017898c4871126f1371def427c6e245fd7c02211",
+      "ticker": "SOL_1"
+    },
+    {
       "name": "Antha Pool",
       "pool_id": "41f3b15c7c181a004e178446c33a379c686d404aa99ad680199d8b83",
       "ticker": "ANTHA"
@@ -8752,6 +8757,11 @@
       "ticker": "TURBO"
     },
     {
+      "name": "B58 Finance - Stake Pool",
+      "pool_id": "b59bf139701b8cdae5c997225f438db7603ef1d9fd9a1f62dc5821eb",
+      "ticker": "B58"
+    },
+    {
       "name": "PETRA stakepool",
       "pool_id": "8b9a73accec94d747dbeba74c3da0b0871936c1cd2ea9b99c6a0acb1",
       "ticker": "PETRA"
@@ -8770,11 +8780,6 @@
       "name": "VerasPool",
       "pool_id": "17525aab031e0a4c40ab7349911a2a584793b985d1dc7aeae641601f",
       "ticker": "VERA"
-    },
-    {
-      "name": "B58 Finance - Stake Pool",
-      "pool_id": "b59bf139701b8cdae5c997225f438db7603ef1d9fd9a1f62dc5821eb",
-      "ticker": "B58"
     },
     {
       "name": "Time to Live",
@@ -8955,11 +8960,6 @@
       "name": "ADA365 POOL",
       "pool_id": "aeb23a15364947b41dd04ba231312a5e7f6d32e51c40db568d4921a1",
       "ticker": "ADAPL"
-    },
-    {
-      "name": "SOLyDAR_1",
-      "pool_id": "9adbf9ce3c2da566017898c4871126f1371def427c6e245fd7c02211",
-      "ticker": "SOL_1"
     },
     {
       "name": "Cardanopolis",
@@ -9855,11 +9855,6 @@
       "name": "Bamboo Pool",
       "pool_id": "b64d4c9e28143cc3d452beae1e23fdefc73a800d312d9874310799e2",
       "ticker": "BAMBO"
-    },
-    {
-      "name": "Europa Independent Pool",
-      "pool_id": "c5560c69f4f5528c100d2522c232ade42419284d2a07bd53ac9eb02f",
-      "ticker": "EIP"
     },
     {
       "name": "NoName",
@@ -11596,11 +11591,6 @@
   "NOUT": [
     {
       "name": "Mr. Nout",
-      "pool_id": "0a0da3c46e71b2a41e5eb3789df44ff512daa19091f1ec71d277759c",
-      "ticker": "NOUT"
-    },
-    {
-      "name": "Mr. Nout",
       "pool_id": "2f139120da8d853f0a9e44410e66c295e4895aadabd949923213a61c",
       "ticker": "NOUT2"
     }
@@ -13026,14 +13016,14 @@
   ],
   "t.me": [
     {
-      "name": "STORMNW",
-      "pool_id": "b24a98ceb53bc68e8ca0dcd078f97aa714186c0d5344fa5e0c607d23",
-      "ticker": "STONW"
-    },
-    {
       "name": "n1k0l1s",
       "pool_id": "f23a606aac5217f3c0e22deebb100c2f8fa4ae15fec306e623d175a5",
       "ticker": "NKLS"
+    },
+    {
+      "name": "STORMNW",
+      "pool_id": "b24a98ceb53bc68e8ca0dcd078f97aa714186c0d5344fa5e0c607d23",
+      "ticker": "STONW"
     },
     {
       "name": "BIDA Pool",
@@ -13046,6 +13036,13 @@
       "name": "clrPool",
       "pool_id": "8aabf4437bd7416267bb11a564de16ab0a05d874b4c82ea867fd927a",
       "ticker": "CLRPL"
+    }
+  ],
+  "thecardanofund.com": [
+    {
+      "name": "  Sophia's ZERO Margin Pool",
+      "pool_id": "ea2da5590f8174fd33c7c9b83fd23b041bcad5ba0678220783a67d6e",
+      "ticker": "SoPHi"
     }
   ],
   "twitter.com_sman8_tickersa8": [
