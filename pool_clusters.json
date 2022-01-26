@@ -2359,14 +2359,14 @@
       "ticker": "MESH"
     },
     {
-      "name": "LEAF pool",
-      "pool_id": "b0c53bbb91bd03c5417c87c7488a83de68f5ea27aefb886c9fc4ff27",
-      "ticker": "LEAF"
-    },
-    {
       "name": "Squid Pool",
       "pool_id": "cb11e3e5013a120ee55e8d99bdb7395366bd3164d3da1737300a2b7e",
       "ticker": "SQUID"
+    },
+    {
+      "name": "LEAF pool",
+      "pool_id": "b0c53bbb91bd03c5417c87c7488a83de68f5ea27aefb886c9fc4ff27",
+      "ticker": "LEAF"
     },
     {
       "name": "PoolData.Live",
@@ -3849,14 +3849,14 @@
       "ticker": "CHOCO"
     },
     {
-      "name": "Kyoto Stake Pool",
-      "pool_id": "144b0b64741e666be425df847ef72a25e9a2d5e8712c15a7097d235f",
-      "ticker": "KYOTO"
-    },
-    {
       "name": "INDIE",
       "pool_id": "b2f23eb98a5189d3eaab04885081495ef815fd08239605c43eeb7264",
       "ticker": "INDIE"
+    },
+    {
+      "name": "Kyoto Stake Pool",
+      "pool_id": "144b0b64741e666be425df847ef72a25e9a2d5e8712c15a7097d235f",
+      "ticker": "KYOTO"
     },
     {
       "name": "SeasideStaking",
@@ -5094,6 +5094,11 @@
       "ticker": "VNP"
     },
     {
+      "name": "CountessOfLovelace",
+      "pool_id": "1d1a0727f1cae44f801091fe2b80d5589f3ffed24c602a8df7cdb2a3",
+      "ticker": "ACOL"
+    },
+    {
       "name": "Toba Mint",
       "pool_id": "e2e2566040addf160449c4fd081bafa8056248f3372b30546963e703",
       "ticker": "TOBA"
@@ -5122,11 +5127,6 @@
       "name": "Nomad Pool",
       "pool_id": "bbebbbf81c42de5b84fbbc82c4feab78f8bd8bcf8b5af7c73a06664a",
       "ticker": "NOMAD"
-    },
-    {
-      "name": "CountessOfLovelace",
-      "pool_id": "1d1a0727f1cae44f801091fe2b80d5589f3ffed24c602a8df7cdb2a3",
-      "ticker": "ACOL"
     },
     {
       "name": "Sparkle",
@@ -5902,6 +5902,11 @@
       "name": "Xystence - ADA against child abuse",
       "pool_id": "72100e82150b95fab37f7d9e155b6c083c1de629fea1b760f894aec6",
       "ticker": "XST"
+    },
+    {
+      "name": "Reaction",
+      "pool_id": "644621c954eda2f6df841f036365ad5af2b30af5c08b8c065f49b97d",
+      "ticker": "XRX"
     },
     {
       "name": "Vetspool",
@@ -7124,11 +7129,6 @@
       "ticker": "EMPWR"
     },
     {
-      "name": "GACHI pool",
-      "pool_id": "08635d4c628b1d427241621855fe2cbb66bce416069b725921a4285a",
-      "ticker": "GACHI"
-    },
-    {
       "name": "2six4",
       "pool_id": "b4b13182eca340d8454021c10c1d298388a7d9cc4bea9f456d8cf991",
       "ticker": "2six4"
@@ -7152,6 +7152,11 @@
       "name": "",
       "pool_id": "00c3598b7df81a8c175d67412bf4a20eb76edd62fe47a5b39c08bec6",
       "ticker": ""
+    },
+    {
+      "name": "GACHI pool",
+      "pool_id": "08635d4c628b1d427241621855fe2cbb66bce416069b725921a4285a",
+      "ticker": "GACHI"
     },
     {
       "name": "US Cardano",
@@ -7709,6 +7714,11 @@
       "ticker": "CHG"
     },
     {
+      "name": "SASA Stake Pool",
+      "pool_id": "1ec2c7dde1ce090ee2e75c9fa618c575b8a0b77eaeec5c7266f50aca",
+      "ticker": "SASA"
+    },
+    {
       "name": "CheekyCrypto",
       "pool_id": "14ab7f5b1a6522028ce68a5c24f3a44a92376f27e52c7d238fe0b39e",
       "ticker": "CHEEK"
@@ -7907,11 +7917,6 @@
       "name": "Watch A Video Pool",
       "pool_id": "63e07c29ffd786939bf65d52acf96354add6bbf56567b1a6e30986fa",
       "ticker": "WVP"
-    },
-    {
-      "name": "SASA Stake Pool",
-      "pool_id": "1ec2c7dde1ce090ee2e75c9fa618c575b8a0b77eaeec5c7266f50aca",
-      "ticker": "SASA"
     },
     {
       "name": "Gamer Staking Pool",
@@ -8219,11 +8224,6 @@
       "ticker": "SOL_1"
     },
     {
-      "name": "CHATL Pool 1",
-      "pool_id": "607acd33e2985c218cea9b01e9666935abb702c594b85219f168c80c",
-      "ticker": "CHTL1"
-    },
-    {
       "name": "LakeCardano",
       "pool_id": "e94c464e6994f92111f356c29a8c4b6b87080faea06897eb60fa2758",
       "ticker": "LAGO"
@@ -8232,6 +8232,11 @@
       "name": "Good4you",
       "pool_id": "6144fa9047c414d64f6c48549df2e9640eef1ea6d3b433f6e53767c4",
       "ticker": "GOOD4"
+    },
+    {
+      "name": "CHATL Pool 1",
+      "pool_id": "607acd33e2985c218cea9b01e9666935abb702c594b85219f168c80c",
+      "ticker": "CHTL1"
     },
     {
       "name": "FOX POOL",
@@ -9244,16 +9249,6 @@
       "ticker": "TIM1"
     },
     {
-      "name": "Poolaris",
-      "pool_id": "fd249c444cacf9951780bc549608b6bc16d557a2d9a5f5f211815f8b",
-      "ticker": "PLRS"
-    },
-    {
-      "name": "The Parallel Revolution",
-      "pool_id": "8a6af89ef4663eb472784b8d8c72fa1bb5aa8145195dec2f5f5a11e2",
-      "ticker": "PLL"
-    },
-    {
       "name": "Convergence Pool",
       "pool_id": "2f9bb503374940213698c211e5d395b965414a9aec1924702bca4364",
       "ticker": "VERGE"
@@ -9319,6 +9314,11 @@
       "ticker": "R2D2"
     },
     {
+      "name": "Poolaris",
+      "pool_id": "fd249c444cacf9951780bc549608b6bc16d557a2d9a5f5f211815f8b",
+      "ticker": "PLRS"
+    },
+    {
       "name": "EazyPeazy",
       "pool_id": "dc3852b69aacfec0fc276e1971f03fa37984fc40b57fb97441c38f3e",
       "ticker": "EZPZ"
@@ -9332,6 +9332,11 @@
       "name": "Tux Pool",
       "pool_id": "2f7f25d5e3a92417e216d8805260473b2339be5c529b645d095ef8da",
       "ticker": "TUX"
+    },
+    {
+      "name": "The Parallel Revolution",
+      "pool_id": "8a6af89ef4663eb472784b8d8c72fa1bb5aa8145195dec2f5f5a11e2",
+      "ticker": "PLL"
     },
     {
       "name": "Development Stake Pool",
@@ -12056,13 +12061,6 @@
       "ticker": "UKADA"
     }
   ],
-  "USMC": [
-    {
-      "name": "Milpools",
-      "pool_id": "de3498ad820d0a44cd411893fb00a0d59ef43ee909316a2e8ebca070",
-      "ticker": "USMC"
-    }
-  ],
   "VINCE": [
     {
       "name": "VINCE pool",
@@ -12652,14 +12650,14 @@
   ],
   "myadapoolnamerocks.com": [
     {
-      "name": "MORH",
-      "pool_id": "87dc693d71a7a9f33c69728d1179a04ab520fe14d682d711acfd9f24",
-      "ticker": "MORH"
-    },
-    {
       "name": "Maple Pool",
       "pool_id": "063951946e3d221231229a73c92446fdb9532d813e3b0d6144f16ece",
       "ticker": "MPOL"
+    },
+    {
+      "name": "MORH",
+      "pool_id": "87dc693d71a7a9f33c69728d1179a04ab520fe14d682d711acfd9f24",
+      "ticker": "MORH"
     },
     {
       "name": "kCoolPool123",
