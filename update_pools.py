@@ -21,7 +21,7 @@
 # - Process each pool in adastat_js
 #   - Add any pools not listed in adapools_js as discrepancy
 
-import traceback, random, json, os, jsbeautifier
+import json, os, jsbeautifier
 import urllib3
 http = urllib3.PoolManager()
 urllib3.disable_warnings()
