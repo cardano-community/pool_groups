@@ -447,6 +447,10 @@
     "pool_id": "3200ed8ab323773d4d1a64333a0d79b93dc8f3a45c37f88141e34317",
     "ticker": "BNP"
   }, {
+    "name": "Binance Staking - 41",
+    "pool_id": "ffb3fe58689ae0d70d6fb939a842ee78ecfa10eab561274327e78b7b",
+    "ticker": "BNP"
+  }, {
     "name": "Binance Staking - 38",
     "pool_id": "639288b5e4bf267ece78e9a4941dd794f50ec54785f84c687b4ab086",
     "ticker": "BNP"
@@ -457,10 +461,6 @@
   }, {
     "name": "Binance Staking - 34",
     "pool_id": "7a990e7ee931f9d548a977d5cf2194f26f7e2f1158752e0bb94a073f",
-    "ticker": "BNP"
-  }, {
-    "name": "Binance Staking - 41",
-    "pool_id": "ffb3fe58689ae0d70d6fb939a842ee78ecfa10eab561274327e78b7b",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 35",
@@ -623,16 +623,16 @@
     "pool_id": "11adfe44fee00220af204daa7ccedc7124c03c1d7614e60da4dd2af1",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 14",
-    "pool_id": "182acedff9cf6a4c44f81d0f6ff03fd21eef63aff7f1ab118bc0a61d",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 8",
     "pool_id": "7858e168a015747df8a4838e0963aca08f17c19516f2118f8a9d7b32",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 9",
     "pool_id": "3b09246a5f22d5223bb9f4da263d3e35870c98c825f9330fe8dc45db",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 14",
+    "pool_id": "182acedff9cf6a4c44f81d0f6ff03fd21eef63aff7f1ab118bc0a61d",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 16",
@@ -858,6 +858,10 @@
     "pool_id": "618ab17ec8ea7239b4ac0c826b667c599489e25524ce74841a29d510",
     "ticker": "CRDNS"
   }, {
+    "name": "CARDANIANS.io #2",
+    "pool_id": "e5b20e8f9661506710a159e561d40ceb54449fdea1d1130b3bdb36bb",
+    "ticker": "CRDN1"
+  }, {
     "name": "CARDANIANS.io #3",
     "pool_id": "397f04eb0ae0497d8c4d691844c8c6b026bc942e3f406f26b8e24f48",
     "ticker": "CRDN2"
@@ -865,10 +869,6 @@
     "name": "CARDANIANS.io #4",
     "pool_id": "b6e038fb50202dfe5ccc61ecae9b8803bdc9cb7fb3ae9348cb97b0ef",
     "ticker": "CRDN3"
-  }, {
-    "name": "CARDANIANS.io #2",
-    "pool_id": "e5b20e8f9661506710a159e561d40ceb54449fdea1d1130b3bdb36bb",
-    "ticker": "CRDN1"
   }, {
     "name": "CARDANIANS.io #1",
     "pool_id": "ed24d8995c6fd81d976baa03de565fea21a02d77d49b047064ba8445",
@@ -912,12 +912,12 @@
     "ticker": "DIGI2"
   }, {
     "name": "Digital Fortress",
-    "pool_id": "08453273401b3ee2f380ec570f8c926d5f3bd3522337d03b566a6b61",
-    "ticker": "DIGI3"
-  }, {
-    "name": "Digital Fortress",
     "pool_id": "1b268f4cba3faa7e36d8a0cc4adca2096fb856119412ee7330f692b5",
     "ticker": "DIGI"
+  }, {
+    "name": "Digital Fortress",
+    "pool_id": "08453273401b3ee2f380ec570f8c926d5f3bd3522337d03b566a6b61",
+    "ticker": "DIGI3"
   }, {
     "name": "Digital Fortress",
     "pool_id": "90a9f94272aa45bb1eb27bb0e2fda43eb4d9bfd31010ab2c9c249896",
@@ -1728,14 +1728,6 @@
     "pool_id": "35f20ce45b66499e9dffb291b8e488e442e2d2ea5dc3ba20a40a6ba4",
     "ticker": "DALI"
   }, {
-    "name": "Not Sotheby's Pool",
-    "pool_id": "fea1da6c3631f137e76c7d893dd57373ff84d43408552bcfa5f055cc",
-    "ticker": "NFT"
-  }, {
-    "name": "Not Coinbase's Pool",
-    "pool_id": "e9d8a338fc643bb3e82308548cda29c52ab2de728751fefca20f9b54",
-    "ticker": "COIN"
-  }, {
     "name": "Not MC Escher's Pool",
     "pool_id": "56f8839adfff7f7f62de80d1c297d4eb1916738900e91af7038bd4fb",
     "ticker": "MCE"
@@ -1759,10 +1751,6 @@
     "name": "The Hal Finney Tribute Pool",
     "pool_id": "22267d5aef5031bc52f4f4ff7264bda96f8682b17e39b36dcae2056c",
     "ticker": "FINN"
-  }, {
-    "name": "Not Elon's Swimming Pool",
-    "pool_id": "d70dfad0df2b1bd64401b7b9f7a104f5e83f22ee5d676e99df86e0ad",
-    "ticker": "MUSK"
   }, {
     "name": "Not MTV's Pool",
     "pool_id": "f687f4625ae3abd2bf4a49bb5e04f669773cd8cb80954d1d2a32eb99",
@@ -1811,10 +1799,6 @@
     "name": "The Loveliest Pool",
     "pool_id": "f53c76b198e44ec385183d239e187b5a265394ad01f3df580740faea",
     "ticker": "IVANA"
-  }, {
-    "name": "Not Vitalik's Pool",
-    "pool_id": "0dedea6dd97bfd6b0d3ddf8e42375266ade6ec6a9c1aceb8efeecdab",
-    "ticker": "ETH"
   }, {
     "name": "Not Hefner's Grotto",
     "pool_id": "ad89fef719f94f9454de79af3cddfb728189de118f52cde6070a884f",
@@ -2459,11 +2443,6 @@
     "name": "Wave-9",
     "pool_id": "8d40e1d5d817183a0ca2613f7d998a6ac3962162adaf3d5176af7cbb",
     "ticker": "WAV9"
-  }],
-  "WIN": [{
-    "name": "Winner",
-    "pool_id": "533dde5bf52e6e92921d400ba7e6cad4b2474c1120994ba3f5ce1976",
-    "ticker": "WIN"
   }],
   "WIRA": [{
     "name": "WIRA Pool (S1)",
