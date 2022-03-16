@@ -29,13 +29,13 @@
     "pool_id": "b59366e330a6db8260ad9aae8446ba8c908931d1b9cb3cca5d1d84aa",
     "ticker": "1PCT9"
   }, {
-    "name": "1 Percent Pool #5 (v1)",
-    "pool_id": "1d8988c2057d6efd6a094e468840a51942ab03b5b69b07a2bca71b53",
-    "ticker": "1PCT5"
-  }, {
     "name": "1 Percent Pool #4 (v1)",
     "pool_id": "64e09628015d1065e4a11f032c90f677ba1f2f583ff0f55a158450b0",
     "ticker": "1PCT4"
+  }, {
+    "name": "1 Percent Pool #5 (v1)",
+    "pool_id": "1d8988c2057d6efd6a094e468840a51942ab03b5b69b07a2bca71b53",
+    "ticker": "1PCT5"
   }, {
     "name": "1 Percent Pool #4 (v2)",
     "pool_id": "f018942907ac50ed7f831f14755ad93698188492d09d229655e6ade1",
@@ -247,10 +247,6 @@
     "pool_id": "a2d42d873250321acca2d7cc7a5465f9060892bdbb645b4dedb28125",
     "ticker": "NUFIG"
   }, {
-    "name": "Nu.Fi &amp; AdaLite H",
-    "pool_id": "266a21992f779be68c1476fab8e9bf1015e7b4c428ee8c3b899f65dd",
-    "ticker": "NUFIH"
-  }, {
     "name": "Nu.Fi &amp; AdaLite D",
     "pool_id": "a374a14d2fa809b5e999a474b5d085b10be2fc95e6e82da045d9e8f6",
     "ticker": "NUFID"
@@ -258,6 +254,10 @@
     "name": "Nu.Fi &amp; AdaLite F",
     "pool_id": "3862e102e1440b150ccafe5d16ac68cd78ce6e46afc4fb0977fcd6bd",
     "ticker": "NUFIF"
+  }, {
+    "name": "Nu.Fi &amp; AdaLite H",
+    "pool_id": "266a21992f779be68c1476fab8e9bf1015e7b4c428ee8c3b899f65dd",
+    "ticker": "NUFIH"
   }],
   "ADAST": [{
     "name": "AdaStrong",
@@ -719,6 +719,10 @@
     "pool_id": "88cc73feada202ed17343e969c373c16cda4a8902d02094ff3dfc438",
     "ticker": "btcs"
   }, {
+    "name": "BitcoinSuisse03",
+    "pool_id": "c8a15d64b34aed5d3bca88915ceb53533a45ee1487c7b2398df24d42",
+    "ticker": "BTCS"
+  }, {
     "name": "BitcoinSuisse02",
     "pool_id": "8e6f0aa0582af4b90e830926059027ee1759240bbd2b7e137d8721f9",
     "ticker": "BTCS"
@@ -764,13 +768,13 @@
     "ticker": "CAPEY"
   }],
   "CCJ": [{
-    "name": "CCJ2",
-    "pool_id": "8871f659c6ce6a29afc0c52963cc872898db31235bead5b4a514b746",
-    "ticker": "CCJ2"
-  }, {
     "name": "CCJ3",
     "pool_id": "4a2aa209e00f2926bd0d8a286592bbdea4d35a593c05d41efe29e642",
     "ticker": "CCJ3"
+  }, {
+    "name": "CCJ2",
+    "pool_id": "8871f659c6ce6a29afc0c52963cc872898db31235bead5b4a514b746",
+    "ticker": "CCJ2"
   }, {
     "name": "CCJ",
     "pool_id": "39654d8b4eebd091f6ce64d4be8fc05c5e50187b821b9a334076ce55",
@@ -1215,6 +1219,10 @@
     "pool_id": "aee1cc55e9c498efa91a4942a698caae6d2f0199dffb108ad6ce827d",
     "ticker": "CUTE"
   }, {
+    "name": "Amazon Pool 1",
+    "pool_id": "db3ef28510cc87c6a2f2b83c50707c40d8024438c8a61f24ac16a33f",
+    "ticker": "AMZ1"
+  }, {
     "name": "Sunshine For Women",
     "pool_id": "608ab3036db99d94049ee0870e84f5145e5667370323cbd61a781c6b",
     "ticker": "BIMI"
@@ -1237,13 +1245,13 @@
     "pool_id": "6ec2284f8e312b5b122d85b97db828ff364d49e3c51c449bfc8889bf",
     "ticker": "GENS2"
   }, {
-    "name": "Genius Yield 1",
-    "pool_id": "c485ab20bd3f105e59f3c50a0d3fbaf615a51f70a1c6d29d00a1fd27",
-    "ticker": "GENS1"
-  }, {
     "name": "Genius Yield 3",
     "pool_id": "126f84b8f88fd0f65de921ef521f2aa637e5e465cea06042c103fe22",
     "ticker": "GENS3"
+  }, {
+    "name": "Genius Yield 1",
+    "pool_id": "c485ab20bd3f105e59f3c50a0d3fbaf615a51f70a1c6d29d00a1fd27",
+    "ticker": "GENS1"
   }, {
     "name": "Genius Yield X",
     "pool_id": "c80d3b1f64feed0697bb97c97867a63ff1c33cb8b472bc33fdfa457e",
@@ -1334,10 +1342,6 @@
   "IOADA": [{
     "name": "IOADA 1",
     "pool_id": "4e747c047c237eb5dc036f715c592d820d33323a88a73d19e6d400c8",
-    "ticker": "IOADA"
-  }, {
-    "name": "IOADA 6",
-    "pool_id": "68cc11a75ea1ba3489ceed5ccdb85223d9d6da18140b91f8618433b3",
     "ticker": "IOADA"
   }, {
     "name": "IOADA 8",
@@ -1666,17 +1670,17 @@
     "pool_id": "20b95f87c93f3be9e5094c8fbdb924f9ab8b5e1c7bfb542d3a8bc7fc",
     "ticker": "LEO3"
   }, {
-    "name": "LEO8 Pool",
-    "pool_id": "4a78ca15af1b42f94106e94d419c2cdf72667389cf2b1b04df8f140e",
-    "ticker": "LEO8"
+    "name": "LEO4 Pool",
+    "pool_id": "e455088c9164ae075f0300bc1a7234c30433556c6b88d4301a06cfe5",
+    "ticker": "LEO4"
   }, {
     "name": "LEO7 Pool",
     "pool_id": "3635fed04554336e1f58a8db3e30d26e229b9c2d5f67f419a4297069",
     "ticker": "LEO7"
   }, {
-    "name": "LEO4 Pool",
-    "pool_id": "e455088c9164ae075f0300bc1a7234c30433556c6b88d4301a06cfe5",
-    "ticker": "LEO4"
+    "name": "LEO8 Pool",
+    "pool_id": "4a78ca15af1b42f94106e94d419c2cdf72667389cf2b1b04df8f140e",
+    "ticker": "LEO8"
   }],
   "LONDN": [{
     "name": "London pool",
@@ -1947,6 +1951,15 @@
     "pool_id": "1c0e6221a71b41290e9cdc1ee2f02e2f1c31d99c6124c01dcc1c6d9b",
     "ticker": "XEON"
   }],
+  "NKR": [{
+    "name": "NKR ADA POOL",
+    "pool_id": "793bab987086c97fd34f4009dfdc06e36c84c9bfc3f35b0dced39d92",
+    "ticker": "NKR"
+  }, {
+    "name": "WWW ADA POOL",
+    "pool_id": "1629f7b5f22b5e5d145e840379341e1a726bcee34b42ac9cf063e9c9",
+    "ticker": "WWW"
+  }],
   "NLD": [{
     "name": "DutchPool NLD",
     "pool_id": "a6d947298c4b1560fec35d5e4f93e46378d653a60526476bf38b1e8b",
@@ -2168,16 +2181,16 @@
     "ticker": "RAY2"
   }, {
     "name": "Ray Network",
+    "pool_id": "22cfa3b8612c146a0737c974dcfcbb8cddd86f3a511cf531ce8d91a1",
+    "ticker": "RAY3"
+  }, {
+    "name": "Ray Network",
     "pool_id": "1c8cd022e993a8366be641c17cb6d9c5d8944e00bfce3189d8b1515a",
     "ticker": "RAY"
   }, {
     "name": "Ray Network",
     "pool_id": "28f85efe5e9d3b3d8a0f4950117e47b7415a92f80d69bfb64cfb4d8b",
     "ticker": "RAY4"
-  }, {
-    "name": "Ray Network",
-    "pool_id": "22cfa3b8612c146a0737c974dcfcbb8cddd86f3a511cf531ce8d91a1",
-    "ticker": "RAY3"
   }, {
     "name": "Ray Network",
     "pool_id": "8088a5b6523f6bd6475475a20524082c07ffed6f89e39d30a1d6ab34",
@@ -2388,6 +2401,15 @@
     "pool_id": "738585e4df0f9fb93dec66a9bfddd770f309d0f029bd2fd570732c8f",
     "ticker": "UKADA"
   }],
+  "UP": [{
+    "name": "UKRAINE POOL 1",
+    "pool_id": "4687c441061ffc4f827c7280cdf5f6e5b51762a46563daaf6e883bd7",
+    "ticker": "UP1"
+  }, {
+    "name": "UKRAINE POOL 2",
+    "pool_id": "a0b9cf234f8bdd04f53cd74ef0a74253b58cf2bde6f8a6ea792590bc",
+    "ticker": "UP2"
+  }],
   "VINCE": [{
     "name": "VINCE pool",
     "pool_id": "f8024d90482a3f839c7ee0c2be31ed3ad4be1564f1970bb0db4078f9",
@@ -2469,6 +2491,10 @@
     "ticker": "WAV12"
   }],
   "WIRA": [{
+    "name": "WIRA Pool (S1)",
+    "pool_id": "7bb4d04389fdc7816d9fcd3aec5c585e61635b31c65fd9ee6c175535",
+    "ticker": "WIRA\ud83c\udf1f"
+  }, {
     "name": "WIRA Pool (G3)",
     "pool_id": "d698c67ed52ea02dae75e0b4e4601a6c86495bcf40c3d0bd44312019",
     "ticker": "WIRA\ud83c\udf0f"
@@ -2485,9 +2511,17 @@
     "pool_id": "5642f146ea05d38dc3febfbed0a135c265fe0cac2fc0ef9cd273620b",
     "ticker": "WIRA\ud83c\udfc6"
   }, {
+    "name": "WIRA Pool (S2)",
+    "pool_id": "85a1b1fdce83908d3fb63bb5eba68ed3eef009680b282468e27e9c81",
+    "ticker": "WIRA\ud83c\udf20"
+  }, {
     "name": "WIRA Pool (F1)",
     "pool_id": "bee1c394dc9670ccaf70d1d73566e9d83c40311fd1a09f1742ab0bcb",
     "ticker": "WIRA\ud83d\udd25"
+  }, {
+    "name": "WIRA Pool",
+    "pool_id": "fcedaf183e9430acc484e4e290f40cb19e98e0e07efea2a327a71b94",
+    "ticker": "WIRA"
   }],
   "WMOPS": [{
     "name": "Don\u2019t underestimate the Force",
