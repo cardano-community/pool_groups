@@ -243,10 +243,6 @@
     "pool_id": "49f23c86547526bbd0c9320d3704542c84472f426b923a3e429392eb",
     "ticker": "NUFIE"
   }, {
-    "name": "Nu.Fi &amp; AdaLite G",
-    "pool_id": "a2d42d873250321acca2d7cc7a5465f9060892bdbb645b4dedb28125",
-    "ticker": "NUFIG"
-  }, {
     "name": "Nu.Fi &amp; AdaLite D",
     "pool_id": "a374a14d2fa809b5e999a474b5d085b10be2fc95e6e82da045d9e8f6",
     "ticker": "NUFID"
@@ -254,6 +250,10 @@
     "name": "Nu.Fi &amp; AdaLite F",
     "pool_id": "3862e102e1440b150ccafe5d16ac68cd78ce6e46afc4fb0977fcd6bd",
     "ticker": "NUFIF"
+  }, {
+    "name": "Nu.Fi &amp; AdaLite G",
+    "pool_id": "a2d42d873250321acca2d7cc7a5465f9060892bdbb645b4dedb28125",
+    "ticker": "NUFIG"
   }, {
     "name": "Nu.Fi &amp; AdaLite H",
     "pool_id": "266a21992f779be68c1476fab8e9bf1015e7b4c428ee8c3b899f65dd",
@@ -375,13 +375,13 @@
     "ticker": "AWP2"
   }],
   "AZUR": [{
-    "name": "AzureADA",
-    "pool_id": "79c4d4fe108f480fee98f307adac12571df2959651f833b595141cd1",
-    "ticker": "AZUR"
-  }, {
     "name": "AzureADA2",
     "pool_id": "dd7330d29709deb4e8dff5b49d50b174c9c884678992cca4a68d96d7",
     "ticker": "AZUR2"
+  }, {
+    "name": "AzureADA",
+    "pool_id": "79c4d4fe108f480fee98f307adac12571df2959651f833b595141cd1",
+    "ticker": "AZUR"
   }, {
     "name": "AzureADA3",
     "pool_id": "bdadf198bdc79d4f37c5dcd9ed0cdf402bdc2299c3ae4c87d688a6fe",
@@ -1342,6 +1342,10 @@
   }, {
     "name": "IOADA 6",
     "pool_id": "68cc11a75ea1ba3489ceed5ccdb85223d9d6da18140b91f8618433b3",
+    "ticker": "IOADA"
+  }, {
+    "name": "IOADA 2",
+    "pool_id": "5ba20a27f1f3423a334563495607259c0641c0b0cb0e5e44611e7e56",
     "ticker": "IOADA"
   }],
   "IOG": [{
@@ -2492,10 +2496,6 @@
     "ticker": "WAV12"
   }],
   "WIRA": [{
-    "name": "WIRA Pool (S1)",
-    "pool_id": "7bb4d04389fdc7816d9fcd3aec5c585e61635b31c65fd9ee6c175535",
-    "ticker": "WIRA\ud83c\udf1f"
-  }, {
     "name": "WIRA Pool (G3)",
     "pool_id": "d698c67ed52ea02dae75e0b4e4601a6c86495bcf40c3d0bd44312019",
     "ticker": "WIRA\ud83c\udf0f"
@@ -2508,10 +2508,6 @@
     "pool_id": "ceb171ac6a0d0986043c266263a88b09ea4c39e1cc342dd9c5f2b811",
     "ticker": "WIRA\ud83c\udf0e"
   }, {
-    "name": "WIRA Pool (C1)",
-    "pool_id": "9f0daee27f33dbcf42054dd0a0de5fe8327f7eaec707f9d07a4bec73",
-    "ticker": "WIRA\ud83d\udc51"
-  }, {
     "name": "WIRA Pool (T1)",
     "pool_id": "5642f146ea05d38dc3febfbed0a135c265fe0cac2fc0ef9cd273620b",
     "ticker": "WIRA\ud83c\udfc6"
@@ -2520,9 +2516,17 @@
     "pool_id": "85a1b1fdce83908d3fb63bb5eba68ed3eef009680b282468e27e9c81",
     "ticker": "WIRA\ud83c\udf20"
   }, {
+    "name": "WIRA Pool (D1)",
+    "pool_id": "fec0c5f77fb6eac6e01124a0a11af032b322157d4c35a14361732d19",
+    "ticker": "WIRA\ud83d\udc8e"
+  }, {
     "name": "WIRA Pool (F1)",
     "pool_id": "bee1c394dc9670ccaf70d1d73566e9d83c40311fd1a09f1742ab0bcb",
     "ticker": "WIRA\ud83d\udd25"
+  }, {
+    "name": "WIRA Pool",
+    "pool_id": "fcedaf183e9430acc484e4e290f40cb19e98e0e07efea2a327a71b94",
+    "ticker": "WIRA"
   }],
   "WMOPS": [{
     "name": "Don\u2019t underestimate the Force",
