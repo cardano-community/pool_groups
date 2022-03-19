@@ -9,10 +9,6 @@
     "ticker": "0PCT1"
   }],
   "1PCT": [{
-    "name": "1 Percent Pool #0 (v1)",
-    "pool_id": "463e481957f266d93e4decbfb73003380ab17223e0e569f71c7a525a",
-    "ticker": "1PCT0"
-  }, {
     "name": "1 Percent Pool #2 (v1)",
     "pool_id": "17a6a1f2fb36d9ef275805db17409af7ab753b9d27bdd41b89510bb9",
     "ticker": "1PCT2"
@@ -20,6 +16,10 @@
     "name": "1 Percent Pool #7 (v1)",
     "pool_id": "71efddeabf5dd8211853a5ed30548391ccb54fa3b55e5828db9afee6",
     "ticker": "1PCT7"
+  }, {
+    "name": "1 Percent Pool #0 (v1)",
+    "pool_id": "463e481957f266d93e4decbfb73003380ab17223e0e569f71c7a525a",
+    "ticker": "1PCT0"
   }, {
     "name": "1 Percent Pool #0 (v2)",
     "pool_id": "41c8a40ab0b78d727655d165f946722728dfb01df2fcc2e148b3c98d",
@@ -379,13 +379,13 @@
     "pool_id": "dd7330d29709deb4e8dff5b49d50b174c9c884678992cca4a68d96d7",
     "ticker": "AZUR2"
   }, {
-    "name": "AzureADA",
-    "pool_id": "79c4d4fe108f480fee98f307adac12571df2959651f833b595141cd1",
-    "ticker": "AZUR"
-  }, {
     "name": "AzureADA3",
     "pool_id": "bdadf198bdc79d4f37c5dcd9ed0cdf402bdc2299c3ae4c87d688a6fe",
     "ticker": "AZUR3"
+  }, {
+    "name": "AzureADA",
+    "pool_id": "79c4d4fe108f480fee98f307adac12571df2959651f833b595141cd1",
+    "ticker": "AZUR"
   }, {
     "name": "AZDFM hosted by AzureADA Services",
     "pool_id": "bce696401137ff3d305e6a8dbb6ac0cd9b41570bda42deb4e83d86f2",
@@ -1336,12 +1336,12 @@
     "ticker": "IAMX1"
   }],
   "IOADA": [{
-    "name": "IOADA 6",
-    "pool_id": "68cc11a75ea1ba3489ceed5ccdb85223d9d6da18140b91f8618433b3",
+    "name": "IOADA 1",
+    "pool_id": "4e747c047c237eb5dc036f715c592d820d33323a88a73d19e6d400c8",
     "ticker": "IOADA"
   }, {
-    "name": "IOADA 8",
-    "pool_id": "4059bcee51333f1ce01970e91ef989453b7cefa3c97e1e3e5b7d1445",
+    "name": "IOADA 6",
+    "pool_id": "68cc11a75ea1ba3489ceed5ccdb85223d9d6da18140b91f8618433b3",
     "ticker": "IOADA"
   }],
   "IOG": [{
@@ -2504,17 +2504,13 @@
     "pool_id": "b5d030e4abece7e239210b1af14eba911af89013ee7a53de77072797",
     "ticker": "WIRA\ud83c\udf0d"
   }, {
-    "name": "WIRA Pool (T1)",
-    "pool_id": "5642f146ea05d38dc3febfbed0a135c265fe0cac2fc0ef9cd273620b",
-    "ticker": "WIRA\ud83c\udfc6"
+    "name": "WIRA Pool (G1)",
+    "pool_id": "ceb171ac6a0d0986043c266263a88b09ea4c39e1cc342dd9c5f2b811",
+    "ticker": "WIRA\ud83c\udf0e"
   }, {
     "name": "WIRA Pool (S2)",
     "pool_id": "85a1b1fdce83908d3fb63bb5eba68ed3eef009680b282468e27e9c81",
     "ticker": "WIRA\ud83c\udf20"
-  }, {
-    "name": "WIRA Pool (D1)",
-    "pool_id": "fec0c5f77fb6eac6e01124a0a11af032b322157d4c35a14361732d19",
-    "ticker": "WIRA\ud83d\udc8e"
   }, {
     "name": "WIRA Pool (F1)",
     "pool_id": "bee1c394dc9670ccaf70d1d73566e9d83c40311fd1a09f1742ab0bcb",
