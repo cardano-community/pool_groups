@@ -23,6 +23,10 @@
   "pool_id": "4ee9e4c2ec6fc68850330dbc75ccd7ebf7951f20e1085d324f36cf44",
   "ticker": "BANDA"
 }, {
+  "name": "ECO Pool",
+  "pool_id": "72de14d78a359617a7dd0b33c5554ed4edbafd768ece87c4bf672ee0",
+  "ticker": "ECO"
+}, {
   "name": "Straight Pool",
   "pool_id": "000006d97fd0415d2dafdbb8b782717a3d3ff32f865792b8df7ddd00",
   "ticker": "STR8"
@@ -30,10 +34,6 @@
   "name": "QueenAda",
   "pool_id": "b40683f4baad755ff60f26dc73c3e371ac4c5e422feef2fc1f5f29bf",
   "ticker": "QUEEN"
-}, {
-  "name": "ECO Pool",
-  "pool_id": "72de14d78a359617a7dd0b33c5554ed4edbafd768ece87c4bf672ee0",
-  "ticker": "ECO"
 }, {
   "name": "Ad Astra Stake Pool",
   "pool_id": "032f086ac6dafeaf4c75e21840f49762ebdab05ff9c25c41a8530e0f",
@@ -139,10 +139,6 @@
   "pool_id": "699c814b5a0f3bf2d35b9b0adcfed9fa0fe891881a9ad3c15e2edf73",
   "ticker": "APOP"
 }, {
-  "name": "PSILOBYTE",
-  "pool_id": "f2fa0dfea7f4caba8cbdd042c4940c783ee57f9516062725b04e19a3",
-  "ticker": "PSB"
-}, {
   "name": "MANTIS 1PERCENT",
   "pool_id": "54f5f2618a3da4bb0b384895d8f3922189acbb8e9637201ebb26bc18",
   "ticker": "MANT"
@@ -150,6 +146,10 @@
   "name": "Oasis Pool ",
   "pool_id": "30f9a4c529f89d60ad1bd1c33c0e13c20b347fec7cac794c557efcee",
   "ticker": "OASIS"
+}, {
+  "name": "PSILOBYTE",
+  "pool_id": "f2fa0dfea7f4caba8cbdd042c4940c783ee57f9516062725b04e19a3",
+  "ticker": "PSB"
 }, {
   "name": "Squid Pool",
   "pool_id": "cb11e3e5013a120ee55e8d99bdb7395366bd3164d3da1737300a2b7e",
@@ -211,13 +211,13 @@
   "pool_id": "93ca5c2f1eb63054f7c768a807408a43e65d7c68fe56e330db20af51",
   "ticker": "PRIDE"
 }, {
-  "name": "Metro Mermaids",
-  "pool_id": "2ce9bfc4e0a732d21ec8739cbfc3b10957b4e3297fd320d556f48ada",
-  "ticker": "TAILS"
-}, {
   "name": "Beaver Pool!",
   "pool_id": "593dfbc66c5b8dfc040851a2f4d87191490d4c2312c65dd4418f7b23",
   "ticker": "BEAVR"
+}, {
+  "name": "Metro Mermaids",
+  "pool_id": "2ce9bfc4e0a732d21ec8739cbfc3b10957b4e3297fd320d556f48ada",
+  "ticker": "TAILS"
 }, {
   "name": "JUNO stake pool",
   "pool_id": "765e6963038b3152067bb8a08707d0306045f0ed5b1f02641b58fff6",
@@ -255,13 +255,13 @@
   "pool_id": "92fcdd76d1d9d13910cbe1930765543984e6f4ef9b7efed3cc6536a1",
   "ticker": "CARDs"
 }, {
-  "name": "kBlocks",
-  "pool_id": "c63dab6d780a74cbae2a27696c9723f55b3092b2bd001256df03827f",
-  "ticker": "BLOCK"
-}, {
   "name": "Lovelacepool",
   "pool_id": "4aea697c45e39e37e5d842ec8cf6c01a714e88db33a1ba0565ab59af",
   "ticker": "1LOVE"
+}, {
+  "name": "kBlocks",
+  "pool_id": "c63dab6d780a74cbae2a27696c9723f55b3092b2bd001256df03827f",
+  "ticker": "BLOCK"
 }, {
   "name": "NASEC pool",
   "pool_id": "aa8b94010cd3c7199be1d619079c184a59e6f1ad930926bc2bd38579",
@@ -651,13 +651,13 @@
   "pool_id": "b352298733374ae760475bb3cd86b4b52fe3dcf7fd61f678e969030e",
   "ticker": "EXPO"
 }, {
-  "name": "KentuckyBourbon",
-  "pool_id": "c91e83649984043842f8d0a5f17763f09e953545cc78b78428acaa83",
-  "ticker": "KYBBN"
-}, {
   "name": "Maluiin",
   "pool_id": "38927599cc3ff6b081501e0ee1dc4f0cb8ba012b3de8b49a785bb05a",
   "ticker": "Malu"
+}, {
+  "name": "KentuckyBourbon",
+  "pool_id": "c91e83649984043842f8d0a5f17763f09e953545cc78b78428acaa83",
+  "ticker": "KYBBN"
 }, {
   "name": "SAGE Cardano Staking",
   "pool_id": "bca52a1ea803c93025fa43e3aed7af82c3b2bfb01b530b07b0048c9a",
@@ -1403,13 +1403,13 @@
   "pool_id": "a1fa8385fa06ebd0b7d47e6d90eb399970dfb41005635ffd5b0bc964",
   "ticker": "ALPHA"
 }, {
-  "name": "RX-78",
-  "pool_id": "3df201c968cab3b4aaf98576d3587ed10a51097605aa05c8656f3ef6",
-  "ticker": "RX78"
-}, {
   "name": "SMILES ON AFRICA",
   "pool_id": "cf635c0a032bc98d453b65512aaf2b0f9b0f62b2b865a6011523aaf7",
   "ticker": "SMILE"
+}, {
+  "name": "RX-78",
+  "pool_id": "3df201c968cab3b4aaf98576d3587ed10a51097605aa05c8656f3ef6",
+  "ticker": "RX78"
 }, {
   "name": "FAITH Stake Pool",
   "pool_id": "383696c7f29a9a49c1da49ed35bebbd6097cea5b58a95da5c7df27ee",
@@ -2103,13 +2103,13 @@
   "pool_id": "59a5636fc0427e6eeb3cf23016fce0e749b2f4a3f0f589d6caa10f05",
   "ticker": "ROG"
 }, {
-  "name": "cardanoX",
-  "pool_id": "52475f2885fb85223e944078c099a4a43e1cbf3253c24b373d5fe851",
-  "ticker": "CARDX"
-}, {
   "name": "A3C Cardano Pool",
   "pool_id": "159bd971439653da2b97d12facae06ff5e6d7410d074edaab425202b",
   "ticker": "A3C"
+}, {
+  "name": "cardanoX",
+  "pool_id": "52475f2885fb85223e944078c099a4a43e1cbf3253c24b373d5fe851",
+  "ticker": "CARDX"
 }, {
   "name": "Cardano Stake Pool by Coin Trade Ledger",
   "pool_id": "8c35ca0a53467e3a71adb8088001345e3817a23d9667beebbb2145ce",
@@ -2203,13 +2203,13 @@
   "pool_id": "1408010df5450238cd9e626c7fb711e25e6fcb072256d8002630024c",
   "ticker": "AKANE"
 }, {
-  "name": "Allincrypto",
-  "pool_id": "37a4728a33f13c83c0967ea7dbe06eb3437bbb4d26d671c5093f3e4b",
-  "ticker": "ALLIN"
-}, {
   "name": "Cardano Pool in Amsterdam",
   "pool_id": "5e1e8add666098850a985512905098e5a65bcaf1cfe8d113daf0baa4",
   "ticker": "AMSC1"
+}, {
+  "name": "Allincrypto",
+  "pool_id": "37a4728a33f13c83c0967ea7dbe06eb3437bbb4d26d671c5093f3e4b",
+  "ticker": "ALLIN"
 }, {
   "name": "Cardano Staking Pool",
   "pool_id": "ab93ac9ffaabacb840a98bd7216e8bb9f87a33f88c315e7dc7f2d20b",
@@ -2251,6 +2251,10 @@
   "pool_id": "b8eaba75f450efef459bf9423ed03fecf9b7297299708d4e03103559",
   "ticker": "NEON"
 }, {
+  "name": "Janus Stake Pool",
+  "pool_id": "b9d331d59f4e185fd65f61721efd172444890499ab987a62a3ea42c6",
+  "ticker": "JANUS"
+}, {
   "name": "Spectrum Pool",
   "pool_id": "079c374160b0ae34a5a20b8e95a5b5c8766239b2984f13d7ab962791",
   "ticker": "SPEC"
@@ -2290,10 +2294,6 @@
   "name": "ELEMENTAL Stake Pool",
   "pool_id": "2f17551ea621427535afc23e233b2d6a40ef44999ced2b6b7b0ea8fc",
   "ticker": "ELEMT"
-}, {
-  "name": "Janus Stake Pool",
-  "pool_id": "b9d331d59f4e185fd65f61721efd172444890499ab987a62a3ea42c6",
-  "ticker": "JANUS"
 }, {
   "name": "ADASquirrel",
   "pool_id": "c9a397b8aa1d963030999d4edfd0f809f290f9899c73dfa1ad3a6d70",
@@ -2343,6 +2343,10 @@
   "pool_id": "5e1c0f2519b2ea005de5c418568a3323d7a2dddb2dc1e6a39d88cd02",
   "ticker": "STUPD"
 }, {
+  "name": "LoveLike",
+  "pool_id": "331711ffbc442853ede9bbf478f6c7ddc62772cd1633df72285878d3",
+  "ticker": "LOVLK"
+}, {
   "name": "Vivid Stake Pool",
   "pool_id": "194430bee1245b2d7e19a33e52635e5328ef24431874a0cb191c0195",
   "ticker": "VIP"
@@ -2350,10 +2354,6 @@
   "name": "Wookie Nation",
   "pool_id": "6ce0221601e7b75e1607902e5a6c9c0743c93b12e50b1c830247e9ab",
   "ticker": "WOOK"
-}, {
-  "name": "LoveLike",
-  "pool_id": "331711ffbc442853ede9bbf478f6c7ddc62772cd1633df72285878d3",
-  "ticker": "LOVLK"
 }, {
   "name": "Money Pool UK",
   "pool_id": "5d1f0fab23727b9251bcae7c89868a493e1fde80ac95515ac6b15746",
@@ -2539,10 +2539,6 @@
   "pool_id": "007824d2d830f7c4e80854e7c2e21ebc94dd5b314b8543ffc3fe5382",
   "ticker": "ANFRA"
 }, {
-  "name": "MARTE Pool",
-  "pool_id": "9062e5b6e80e79a02691e05d41f03d0397ff044cc738424de93f2264",
-  "ticker": "MARTE"
-}, {
   "name": "Here To STAY",
   "pool_id": "aa6dd7ae211c87f6cadd6031a641e224d00f49c5cb736a7a502d5056",
   "ticker": "STAY"
@@ -2595,6 +2591,10 @@
   "pool_id": "61a8252b7fb1a2fde1bda9c6bd0927995701f799e7fac8227c61ab4e",
   "ticker": "LECK"
 }, {
+  "name": "MARTE Pool",
+  "pool_id": "9062e5b6e80e79a02691e05d41f03d0397ff044cc738424de93f2264",
+  "ticker": "MARTE"
+}, {
   "name": "ADABLUE Stake Pool",
   "pool_id": "b9147445047312aa139a331390bba715eebb58f1b66c96e660e48986",
   "ticker": "BLU"
@@ -2611,10 +2611,6 @@
   "pool_id": "9aa5e16dda2a131764018bbb9546a18fc9695a152e0f5dff2046e7b4",
   "ticker": "YORK"
 }, {
-  "name": "MOA Pool",
-  "pool_id": "97a01b8ee302ff28aad1efef39cc310a4c07cf5b767f0292134f5d4d",
-  "ticker": "MOA"
-}, {
   "name": "Hodler Coalition",
   "pool_id": "cf7249855783f4ca98e0d5249da8c0c362dc1de36294f46ccc720fba",
   "ticker": "HODLR"
@@ -2622,6 +2618,10 @@
   "name": "Ada4Science Boson Pool",
   "pool_id": "51694f0d52a25a3ade521472a9c575205651b2c1253410449e1c1de9",
   "ticker": "BOSON"
+}, {
+  "name": "MOA Pool",
+  "pool_id": "97a01b8ee302ff28aad1efef39cc310a4c07cf5b767f0292134f5d4d",
+  "ticker": "MOA"
 }, {
   "name": "Coudre Bros",
   "pool_id": "74d66da57368e12f12bd07f303da7f8cd3c2494af9e32e4dea210c58",
@@ -2739,10 +2739,6 @@
   "pool_id": "dfd6ebd73fca6256db9c13e87fa13c61bc5c51d898a3017791e8ef02",
   "ticker": "PARTY"
 }, {
-  "name": "Swiss Staking",
-  "pool_id": "feaf6e416cd79649df5a7575b240b5740d7735a80a8f688e8b73bf06",
-  "ticker": "CASCH"
-}, {
   "name": "Red Panda",
   "pool_id": "796cf5f959b9d66176a15cfa89a480b4a7b4e74fea76bdd5ac917e2f",
   "ticker": "PNDA"
@@ -2799,10 +2795,6 @@
   "pool_id": "34736425217f45cc1f6e59a88bd253e50b90f47ea206ec7f26afdfc5",
   "ticker": "AGIO"
 }, {
-  "name": "This Is The Way",
-  "pool_id": "ca599df54182962bb2c1420ad2cbdc10e3df7c4c2afac18e810e7035",
-  "ticker": "TITW"
-}, {
   "name": "P3LOL Pool",
   "pool_id": "bb236318e9fe9f7b2e287dd388f9cbd32cb2e3ead404684c720c91b6",
   "ticker": "P3LOL"
@@ -2810,6 +2802,10 @@
   "name": "RarePool",
   "pool_id": "dc31fffacd510b8a6accf2eecf59852ba4c18fcae383be5c37efd721",
   "ticker": "RARE"
+}, {
+  "name": "This Is The Way",
+  "pool_id": "ca599df54182962bb2c1420ad2cbdc10e3df7c4c2afac18e810e7035",
+  "ticker": "TITW"
 }, {
   "name": "Oz Green Australia \u2013 100% Renewable Energy",
   "pool_id": "db8f20cf666a94c756fa3f00ef3e6655589972bdeb0a314f30c55939",
@@ -2891,6 +2887,10 @@
   "pool_id": "38c2ea35c92392314b84f70535632b1b8ac3d3bd99fa7786296b160c",
   "ticker": "FLUID"
 }, {
+  "name": "Swiss Staking",
+  "pool_id": "feaf6e416cd79649df5a7575b240b5740d7735a80a8f688e8b73bf06",
+  "ticker": "CASCH"
+}, {
   "name": "Crypto Cujo",
   "pool_id": "4a24ae75e3155b603efbdd99e81398c37a5d43f7abdd9329de64266e",
   "ticker": "CUJO"
@@ -2947,6 +2947,10 @@
   "pool_id": "6749c8ed350238d3673f2389491a46e8a9a260837c5630d775078aaa",
   "ticker": "ANQA"
 }, {
+  "name": "AdaLoop",
+  "pool_id": "297b5acd8b90df8a1bfd98aa1a61f323b87fead4b8a2b55f2fb83ce6",
+  "ticker": "ALoop"
+}, {
   "name": "crypto.ro",
   "pool_id": "256a9b6430f25739a6a5a77c81a46e5afd73626bee664172a6ab3b7a",
   "ticker": "CRO"
@@ -2970,10 +2974,6 @@
   "name": "STAKE POOL NINJA",
   "pool_id": "e602442ead829084d3eb38a96111937386f4206b04fef0a3aee369f8",
   "ticker": "NINJA"
-}, {
-  "name": "AdaLoop",
-  "pool_id": "297b5acd8b90df8a1bfd98aa1a61f323b87fead4b8a2b55f2fb83ce6",
-  "ticker": "ALoop"
 }, {
   "name": "The Dodo Pool",
   "pool_id": "6858fc0ed225ad40157e358cff1d08ccc306b6ab00bdc96301fbedef",
@@ -3023,13 +3023,13 @@
   "pool_id": "0ce16f30fdae49328160cb3d68e3fd109ca86b580f4f47882307f943",
   "ticker": "LKBH"
 }, {
-  "name": "ADAHEADZ Stake Pool",
-  "pool_id": "dd8b689ca625202688987a42b26b49e1623bba7d1c54f5308f6f9c5e",
-  "ticker": "HEADZ"
-}, {
   "name": "SOLAR Raspberry PI",
   "pool_id": "9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc",
   "ticker": "SOLRP"
+}, {
+  "name": "ADAHEADZ Stake Pool",
+  "pool_id": "dd8b689ca625202688987a42b26b49e1623bba7d1c54f5308f6f9c5e",
+  "ticker": "HEADZ"
 }, {
   "name": "ADASRN",
   "pool_id": "cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0",
@@ -3106,6 +3106,10 @@
   "name": "NetSecology",
   "pool_id": "142567448fb12f8ceb30475711c599c14451bb8df17e163dfc3d755d",
   "ticker": "NETSC"
+}, {
+  "name": "Vrijstaat der Nederlanden",
+  "pool_id": "ab60e74d183c8aae66c557a58cb55f4e3d8a87b5840a8190b3e1477b",
+  "ticker": "VRIJ"
 }, {
   "name": "Cardano in Africa",
   "pool_id": "9e4ecaff3dac5c4c754a96cad961b404b9eab497afe4357160bb21c7",
@@ -3203,13 +3207,13 @@
   "pool_id": "0f2a5e0daf7812510b28b8ed07c56c8084c1b459c3b552f5146b9aff",
   "ticker": "SWING"
 }, {
-  "name": "Fast-G-Pool",
-  "pool_id": "0725ac07ceaafa307ae3c361237d18dcf93da8cc9859b929ff2cc3fe",
-  "ticker": "FGPX"
-}, {
   "name": "TheHolyGrail",
   "pool_id": "a463f246be423fa966aa5f7dff358ad2ae87fa670d487645530a19d9",
   "ticker": "MONTY"
+}, {
+  "name": "Fast-G-Pool",
+  "pool_id": "0725ac07ceaafa307ae3c361237d18dcf93da8cc9859b929ff2cc3fe",
+  "ticker": "FGPX"
 }, {
   "name": "Decentralized Reality",
   "pool_id": "374c1852bb8be71a2728c3b3cdc707d047e3055bde189835eff30a18",
@@ -3487,13 +3491,13 @@
   "pool_id": "4929dea68812b55d3517becfc394bb96ae414e7551e00bb4d15ec1b8",
   "ticker": "UWYO"
 }, {
-  "name": "Julien Aklei",
-  "pool_id": "1f973a6bf2a4bcbcf844945cc04dee238eb1c505d62eed7dd301a5b4",
-  "ticker": "AKLEI"
-}, {
   "name": "MEGA Stake Pool",
   "pool_id": "33e79c08b65fe7db968fa2629b36781ff2113c0a41121a8fc191a60a",
   "ticker": "MEGA"
+}, {
+  "name": "Julien Aklei",
+  "pool_id": "1f973a6bf2a4bcbcf844945cc04dee238eb1c505d62eed7dd301a5b4",
+  "ticker": "AKLEI"
 }, {
   "name": "Illinois Valley Pools of Cardano",
   "pool_id": "5b94c0519c366863a619abff232b61a446d9f4ae7c2cbc00f368d537",
@@ -3703,6 +3707,10 @@
   "pool_id": "2220471638833bba1e69d450b5da722b592888d7a56f5cddf6efe1eb",
   "ticker": "TROLL"
 }, {
+  "name": "AdaVerse",
+  "pool_id": "4be4a454d63ef9aab7b44a31440a1f85eea3ee724bd13ca07b9ff255",
+  "ticker": "ADAV"
+}, {
   "name": "BlockSpaces Stake Pool",
   "pool_id": "ec174b4a4516465805ea4d1d5acc8086295a1cbf523e40d1378223d7",
   "ticker": "BLKSP"
@@ -3803,10 +3811,6 @@
   "pool_id": "60ce4c69b0afae24a006e1562335c2ce8c75272b03430f319bc37acd",
   "ticker": "UNO"
 }, {
-  "name": "AdaVerse",
-  "pool_id": "4be4a454d63ef9aab7b44a31440a1f85eea3ee724bd13ca07b9ff255",
-  "ticker": "ADAV"
-}, {
   "name": "(ISO)  Initial Stake Offering",
   "pool_id": "1b229561688d2d9f2e9d16fb7eea258c2d764eeecb6e5d6743f3e2b4",
   "ticker": "SCAN"
@@ -3843,13 +3847,13 @@
   "pool_id": "772a93f3dd0eff49db3edcb0c9292c9bfa149317328b4f7d25463823",
   "ticker": "H4T1"
 }, {
-  "name": "GENZOD",
-  "pool_id": "7044351ba962e79d626cf9052024edfc94d47968b322ce544bd1fcad",
-  "ticker": "ZOD"
-}, {
   "name": "The FreeBSD Stake Pool",
   "pool_id": "5808e8716e8b968c3043fc9bdc21db652c916ce97ffaddfe891db16c",
   "ticker": "FBSD"
+}, {
+  "name": "GENZOD",
+  "pool_id": "7044351ba962e79d626cf9052024edfc94d47968b322ce544bd1fcad",
+  "ticker": "ZOD"
 }, {
   "name": "CBFR ~ Some French Pool",
   "pool_id": "d6095a71081323dbc614d974f6159c37cd5f4133c8830172f877ca51",
@@ -3910,10 +3914,6 @@
   "name": "DeepEnd",
   "pool_id": "8e8af8edf6ea15ddfd1d5103811dd34f9b4a28082517a6094107c5c0",
   "ticker": "DEEP"
-}, {
-  "name": "TokenPool",
-  "pool_id": "1e5f4eebc56a6726fd36af2f870b3bd62b204f3cd1b36e32e8a56737",
-  "ticker": "TOKEN"
 }, {
   "name": "Stop Monkey SHOCKs",
   "pool_id": "a652c8a4772557c586aaa2b735a50c51c9f833d7835bc74f3b232d62",
@@ -4011,13 +4011,13 @@
   "pool_id": "95058e35e724774838784aafa1a3479de1aa676efa97a30113089ea6",
   "ticker": "ORE"
 }, {
-  "name": "ADA Soar",
-  "pool_id": "82cce332173e59cfabe75eabb0620683907e40ddd96f562817823c72",
-  "ticker": "SOAR"
-}, {
   "name": "1Mate",
   "pool_id": "19ffb80dbc1e627a5c5aafadf50257210d66ff35ef2961cb10065b53",
   "ticker": "1Mate"
+}, {
+  "name": "ADA Soar",
+  "pool_id": "82cce332173e59cfabe75eabb0620683907e40ddd96f562817823c72",
+  "ticker": "SOAR"
 }, {
   "name": "OCTIVIO",
   "pool_id": "2acf18f0920155dec9344f80d2ba32c4c80f1c35bc0cf4cf51ee6499",
@@ -4087,13 +4087,13 @@
   "pool_id": "759e779221f08d0642f6132ee88bd2d8ffd312b908d9a2488aa9abf6",
   "ticker": "TCF1"
 }, {
-  "name": "MauiStakingPool",
-  "pool_id": "d7a2dd6a3bfd42fdac79e58893524bf66d6287b28108cd7162ff6c29",
-  "ticker": "MAUI"
-}, {
   "name": "EGuard.io 0PCT Pool#1",
   "pool_id": "e9caf54e90a08f8466e1b8a47e49ccd393e693131b4d5cd9222e1db7",
   "ticker": "EG1"
+}, {
+  "name": "MauiStakingPool",
+  "pool_id": "d7a2dd6a3bfd42fdac79e58893524bf66d6287b28108cd7162ff6c29",
+  "ticker": "MAUI"
 }, {
   "name": "Mongkok Bro's",
   "pool_id": "96cf541540c4b919b3ab4d12c319c59bca1b662a2aa578ad875194bd",
@@ -4151,10 +4151,6 @@
   "pool_id": "2cefb325aa5ae0f39666f55483c9785126e82ed70aa85a91ee7074da",
   "ticker": "WMSY"
 }, {
-  "name": "The Swedish Staking Pool",
-  "pool_id": "59716910b52b6c5f046986bb321ccd910056f3411cc3f33f53aa713a",
-  "ticker": "SWADA"
-}, {
   "name": "The Mighty Penis",
   "pool_id": "a84d7b46aef878ae8873710bdb9ee3119094dc0bbe0d80e94f53cb9e",
   "ticker": "PENIS"
@@ -4190,6 +4186,10 @@
   "name": "LaurenOCrypto",
   "pool_id": "2dbe88a8d570dd73912d1f75ca281d8fb79666151e8e13764677fec1",
   "ticker": "TEACH"
+}, {
+  "name": "The Grasp",
+  "pool_id": "1e1a028f497cdcc8fb5d4da8d34788ef37fbeeb6379075f33eab7ee4",
+  "ticker": "GALT1"
 }, {
   "name": "Sark Pool",
   "pool_id": "e9c7b7cad4c4e4dbfc4504e926c02b5068ee84a98955e51cbf778714",
@@ -4259,10 +4259,6 @@
   "pool_id": "2b50e2f8ac887a63db0f5152f5de3c81caa4f19ff85b49141bc13a4d",
   "ticker": "RUADA"
 }, {
-  "name": "SPARK",
-  "pool_id": "00f52def8702b95aa04451ba3dcec0f3f0f4205e54e77f781bcb3fa5",
-  "ticker": "SPARK"
-}, {
   "name": "Reyts Stake Pool",
   "pool_id": "b3471fb159f5e8b345018a5c309afd91f06bf99552b8e91eb9980c9d",
   "ticker": "REYTS"
@@ -4314,6 +4310,10 @@
   "name": "DETO Pool",
   "pool_id": "ea3afe1f7e1802d6581df012338ee476480fa23232e30b241ad3d8dc",
   "ticker": "DETO"
+}, {
+  "name": "AIDa Pool",
+  "pool_id": "6881ef28ec87cfdfdebaff98d179dda04cb558d43a3ee9af24df45ec",
+  "ticker": "AIDA"
 }, {
   "name": "Cardano On The Moon",
   "pool_id": "b3e0db9b931d82cd340dbde7175b9f39166bc2cb2e46e2d6fad1b35d",
@@ -4502,10 +4502,6 @@
   "name": "GOADA Stake Pool",
   "pool_id": "a0a4ff7435e58f9435760cb950371671cec3dd094e439745c8f75fe3",
   "ticker": "GOADA"
-}, {
-  "name": "TesPool ",
-  "pool_id": "8f77e8a0202c6e39a1c19fc51ae1d822f84b048b32ec22c07b18226d",
-  "ticker": "TESP\ud83c\udf40"
 }, {
   "name": "Fione",
   "pool_id": "5fd0e6fdb98b29d0459fdf8363fe3e591bb94afcc412f41ea67496e6",
@@ -4719,13 +4715,13 @@
   "pool_id": "7ef984f328f4dc3e33a8b3d339612bc02cb9317a569465c19dae8141",
   "ticker": "RAMBO"
 }, {
-  "name": "Big O Cardano Pool",
-  "pool_id": "a37daa8dd48bb84a3161d3b0df0d6a4161330b3cdcc400267285ad2a",
-  "ticker": "OMAHA"
-}, {
   "name": "EvergreenPool1",
   "pool_id": "649e75e75cc66df5e6b1c1358ecc1e5e6b404b7bdbdb7cb88fb320b2",
   "ticker": "EGRN1"
+}, {
+  "name": "Big O Cardano Pool",
+  "pool_id": "a37daa8dd48bb84a3161d3b0df0d6a4161330b3cdcc400267285ad2a",
+  "ticker": "OMAHA"
 }, {
   "name": "obiPOOL",
   "pool_id": "2b2b2404c6ff959e80e1ca70bead8b84516bac8269e6e60a16b6e3bb",
@@ -4855,6 +4851,10 @@
   "pool_id": "ade06ea849709842cf0d93a6679ad8fae5b691b9e90c9973d0e73997",
   "ticker": "KROM"
 }, {
+  "name": "Benefits Stake Pool",
+  "pool_id": "7b62f8bb812be512ef6c2412ffdc6a36c71da62725190a7bd3dfc1a2",
+  "ticker": "CBCP"
+}, {
   "name": "Bison Steak Pool",
   "pool_id": "a79f362a5947f002a9087837627e8d720aadcab1f5655c7b3d41abeb",
   "ticker": "RANCH"
@@ -4895,6 +4895,10 @@
   "pool_id": "73468a316c8cc777ec1b4f3b406e540c458b8ba4560477c9c9319c33",
   "ticker": "ACP"
 }, {
+  "name": "Ribeye Stake Pool",
+  "pool_id": "0da39172366f403b08e6c6db47afa89b0c4dfb578132aeaf790f31e6",
+  "ticker": "RIB"
+}, {
   "name": "LibertyStakePool",
   "pool_id": "61f06f1c4748395ac4ecc6d0a783e1a8392b40fb18fe3c647aef6a9d",
   "ticker": "LBRTY"
@@ -4906,10 +4910,6 @@
   "name": "metaspan",
   "pool_id": "cb47d5fc20c406149d5e850fd2fa03a88270c60aef3dd6d224ae772a",
   "ticker": "MSPN"
-}, {
-  "name": "Ribeye Stake Pool",
-  "pool_id": "0da39172366f403b08e6c6db47afa89b0c4dfb578132aeaf790f31e6",
-  "ticker": "RIB"
 }, {
   "name": "Good4you",
   "pool_id": "6144fa9047c414d64f6c48549df2e9640eef1ea6d3b433f6e53767c4",
@@ -5323,10 +5323,6 @@
   "pool_id": "9c7a86e87909e4e8a129d1ebb9769a9c34e06e17e938feb3d736106f",
   "ticker": "CANW0"
 }, {
-  "name": "Vortex",
-  "pool_id": "c0be64c94d2615f5a9181dee6202e816022e9eb42487ab2b4aca9808",
-  "ticker": "VTX"
-}, {
   "name": "footystakepool",
   "pool_id": "d29e9b1bfcea57060a9f465455cb838a7eee9dc46844023c4dae3ff3",
   "ticker": "FOOTY"
@@ -5438,10 +5434,6 @@
   "name": "Carbon Pool",
   "pool_id": "7614c728ca3714cecebdc2ef7b3ce65f31b3b5a1e06fb73fb79e0a50",
   "ticker": "CRBN"
-}, {
-  "name": "Gravy Pool",
-  "pool_id": "33fa92357b69dfcc725e5f7a0fdf57acbad6ec297ef721edaa74547d",
-  "ticker": "GRAVY"
 }, {
   "name": "Blockops Zone",
   "pool_id": "4413cf615dc6877ad1b33c75b26e054fc25291f918420c88ef9bb37b",
@@ -5590,6 +5582,10 @@
   "name": "May the ADA be with you",
   "pool_id": "d9987a7c15fb38031c678ff6efb0175cf910488fffdb7830f11a672a",
   "ticker": "R2D2"
+}, {
+  "name": "EazyPeazy",
+  "pool_id": "dc3852b69aacfec0fc276e1971f03fa37984fc40b57fb97441c38f3e",
+  "ticker": "EZPZ"
 }, {
   "name": "AdaPies",
   "pool_id": "fa199852f76ae97d4844f4134f7f48014d1c413473e84db28207ba59",
@@ -5971,10 +5967,6 @@
   "pool_id": "d19db3e7e7b4c7b3673e6f8ae92cbf46eb4c13897d28363e0fdc1f44",
   "ticker": "TAB"
 }, {
-  "name": "staker8",
-  "pool_id": "201b5fcdf4e4bc06bd30d53c4e25dd517b33ff952a7a3c8a6f36ba53",
-  "ticker": "STK8P"
-}, {
   "name": "STANLEY BARREL POOL",
   "pool_id": "6bbf60bbb60c1f4467e87377f536b5efd464c187b16481d9d0cb3e63",
   "ticker": "SBP"
@@ -6030,6 +6022,10 @@
   "name": "",
   "pool_id": "eb4646f0dba87979ebcbe1890f0eec6ff39ce90ea0705e266e70827b",
   "ticker": ""
+}, {
+  "name": "eqPool",
+  "pool_id": "cb393a8607375ed4864a1bf0e284b55a8385e19c86310dd687ccfb2e",
+  "ticker": "EQN"
 }, {
   "name": "",
   "pool_id": "6f5a984e5de0ae8c3054bd87cfbb2c0e4bbb2ba51c0cb5543d7609e1",
@@ -6190,10 +6186,6 @@
   "name": "HGK StakePool",
   "pool_id": "0cbc37bbfc5161da696ae49bb5313f510def4ba6711de70c2beaf80d",
   "ticker": "HGK"
-}, {
-  "name": "",
-  "pool_id": "dcd2cc9a541983e521749b81cc0038fe2129adff245a24b108362cde",
-  "ticker": ""
 }, {
   "name": "HumanityPool",
   "pool_id": "399c37889049086833ba82fbeeff226d6b387693ec32edc8ceca0b04",
