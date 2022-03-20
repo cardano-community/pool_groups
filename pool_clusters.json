@@ -320,10 +320,6 @@
     "name": "Cardano.Amsterdam",
     "pool_id": "e11427a833aff02b782a0fd93b087bfacdb0414b7d5a545cd45bd8ed",
     "ticker": "AMS01"
-  }, {
-    "name": "Cardano.Amsterdam",
-    "pool_id": "40e5daacb89e62565395417ae78392dee9b0ccc00c2e0253f3031f91",
-    "ticker": "AMS02"
   }],
   "ANGEL": [{
     "name": "ANGEL stake pool",
@@ -475,12 +471,12 @@
     "pool_id": "0f581255fdb8e8e88d3676a3cbede33e1f2456171cbe39266b3db679",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 21",
-    "pool_id": "4b5e02dce5f549a0c332d8b02f91c43a506311fe1cd4498ddcf46bd0",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 54",
     "pool_id": "7e00129d906afbba06a6b279fcf6e4295986a1104b7f5c4046c653bc",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 21",
+    "pool_id": "4b5e02dce5f549a0c332d8b02f91c43a506311fe1cd4498ddcf46bd0",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 73",
@@ -1241,13 +1237,13 @@
     "pool_id": "6ec2284f8e312b5b122d85b97db828ff364d49e3c51c449bfc8889bf",
     "ticker": "GENS2"
   }, {
-    "name": "Genius Yield 3",
-    "pool_id": "126f84b8f88fd0f65de921ef521f2aa637e5e465cea06042c103fe22",
-    "ticker": "GENS3"
-  }, {
     "name": "Genius Yield 1",
     "pool_id": "c485ab20bd3f105e59f3c50a0d3fbaf615a51f70a1c6d29d00a1fd27",
     "ticker": "GENS1"
+  }, {
+    "name": "Genius Yield 3",
+    "pool_id": "126f84b8f88fd0f65de921ef521f2aa637e5e465cea06042c103fe22",
+    "ticker": "GENS3"
   }, {
     "name": "Genius Yield X",
     "pool_id": "c80d3b1f64feed0697bb97c97867a63ff1c33cb8b472bc33fdfa457e",
@@ -1336,12 +1332,12 @@
     "ticker": "IAMX1"
   }],
   "IOADA": [{
-    "name": "IOADA 8",
-    "pool_id": "4059bcee51333f1ce01970e91ef989453b7cefa3c97e1e3e5b7d1445",
+    "name": "IOADA 6",
+    "pool_id": "68cc11a75ea1ba3489ceed5ccdb85223d9d6da18140b91f8618433b3",
     "ticker": "IOADA"
   }, {
-    "name": "IOADA 2",
-    "pool_id": "5ba20a27f1f3423a334563495607259c0641c0b0cb0e5e44611e7e56",
+    "name": "IOADA 8",
+    "pool_id": "4059bcee51333f1ce01970e91ef989453b7cefa3c97e1e3e5b7d1445",
     "ticker": "IOADA"
   }],
   "IOG": [{
@@ -2186,16 +2182,16 @@
     "ticker": "RAY3"
   }, {
     "name": "Ray Network",
+    "pool_id": "1c8cd022e993a8366be641c17cb6d9c5d8944e00bfce3189d8b1515a",
+    "ticker": "RAY"
+  }, {
+    "name": "Ray Network",
     "pool_id": "28f85efe5e9d3b3d8a0f4950117e47b7415a92f80d69bfb64cfb4d8b",
     "ticker": "RAY4"
   }, {
     "name": "Ray Network",
     "pool_id": "8088a5b6523f6bd6475475a20524082c07ffed6f89e39d30a1d6ab34",
     "ticker": "RAY5"
-  }, {
-    "name": "Ray Network",
-    "pool_id": "1c8cd022e993a8366be641c17cb6d9c5d8944e00bfce3189d8b1515a",
-    "ticker": "RAY"
   }],
   "SCAR": [{
     "name": "SCARdano",
@@ -2491,6 +2487,23 @@
     "name": "Winner",
     "pool_id": "533dde5bf52e6e92921d400ba7e6cad4b2474c1120994ba3f5ce1976",
     "ticker": "WIN"
+  }],
+  "WIRA": [{
+    "name": "WIRA Pool (S1)",
+    "pool_id": "7bb4d04389fdc7816d9fcd3aec5c585e61635b31c65fd9ee6c175535",
+    "ticker": "WIRA\ud83c\udf1f"
+  }, {
+    "name": "WIRA Pool (G3)",
+    "pool_id": "d698c67ed52ea02dae75e0b4e4601a6c86495bcf40c3d0bd44312019",
+    "ticker": "WIRA\ud83c\udf0f"
+  }, {
+    "name": "WIRA Pool (S2)",
+    "pool_id": "85a1b1fdce83908d3fb63bb5eba68ed3eef009680b282468e27e9c81",
+    "ticker": "WIRA\ud83c\udf20"
+  }, {
+    "name": "WIRA Pool (F1)",
+    "pool_id": "bee1c394dc9670ccaf70d1d73566e9d83c40311fd1a09f1742ab0bcb",
+    "ticker": "WIRA\ud83d\udd25"
   }],
   "WMOPS": [{
     "name": "Don\u2019t underestimate the Force",
