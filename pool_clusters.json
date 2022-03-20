@@ -203,10 +203,6 @@
     "pool_id": "cf69a3eca039d537acd46d5864a54dd8953f0c14be957350905834aa",
     "ticker": "NUFI6"
   }, {
-    "name": "Nu.Fi &amp; AdaLite 5",
-    "pool_id": "936f24e391afc0738c816ae1f1388957b977de3d0e065dc9ba38af8d",
-    "ticker": "NUFI5"
-  }, {
     "name": "Nu.Fi &amp; AdaLite A",
     "pool_id": "e5c947f0a4f6a6dd0946d8971dafaf263c88a1b086527fdf24223c21",
     "ticker": "NUFIA"
@@ -222,6 +218,10 @@
     "name": "Nu.Fi &amp; AdaLite 8",
     "pool_id": "03fbee96b84daa1bf91c44b51d2e1cbdda53fd504c98aeb6fd4a55b6",
     "ticker": "NUFI8"
+  }, {
+    "name": "Nu.Fi &amp; AdaLite 5",
+    "pool_id": "936f24e391afc0738c816ae1f1388957b977de3d0e065dc9ba38af8d",
+    "ticker": "NUFI5"
   }, {
     "name": "Nu.Fi &amp; AdaLite 4",
     "pool_id": "d785ff6a030ae9d521770c00f264a2aa423e928c85fc620b13d46eda",
@@ -379,13 +379,13 @@
     "pool_id": "dd7330d29709deb4e8dff5b49d50b174c9c884678992cca4a68d96d7",
     "ticker": "AZUR2"
   }, {
-    "name": "AzureADA",
-    "pool_id": "79c4d4fe108f480fee98f307adac12571df2959651f833b595141cd1",
-    "ticker": "AZUR"
-  }, {
     "name": "AzureADA3",
     "pool_id": "bdadf198bdc79d4f37c5dcd9ed0cdf402bdc2299c3ae4c87d688a6fe",
     "ticker": "AZUR3"
+  }, {
+    "name": "AzureADA",
+    "pool_id": "79c4d4fe108f480fee98f307adac12571df2959651f833b595141cd1",
+    "ticker": "AZUR"
   }, {
     "name": "AZDFM hosted by AzureADA Services",
     "pool_id": "bce696401137ff3d305e6a8dbb6ac0cd9b41570bda42deb4e83d86f2",
@@ -515,12 +515,12 @@
     "pool_id": "61d2598400211dcda6878511eb6d84719e5c502c7aa63d500f7a57ce",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 57",
-    "pool_id": "a7784228ea544bc94455e76f527aaee53266929f0bb2896893a0444f",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 62",
     "pool_id": "11c660b87cb43e4720b053895b3137b4c08f367dbd030127c9c6de9e",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 57",
+    "pool_id": "a7784228ea544bc94455e76f527aaee53266929f0bb2896893a0444f",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 30",
@@ -1336,16 +1336,12 @@
     "ticker": "IAMX1"
   }],
   "IOADA": [{
-    "name": "IOADA 1",
-    "pool_id": "4e747c047c237eb5dc036f715c592d820d33323a88a73d19e6d400c8",
-    "ticker": "IOADA"
-  }, {
     "name": "IOADA 6",
     "pool_id": "68cc11a75ea1ba3489ceed5ccdb85223d9d6da18140b91f8618433b3",
     "ticker": "IOADA"
   }, {
-    "name": "IOADA 2",
-    "pool_id": "5ba20a27f1f3423a334563495607259c0641c0b0cb0e5e44611e7e56",
+    "name": "IOADA 8",
+    "pool_id": "4059bcee51333f1ce01970e91ef989453b7cefa3c97e1e3e5b7d1445",
     "ticker": "IOADA"
   }],
   "IOG": [{
@@ -2245,12 +2241,12 @@
     "ticker": "SIPO2"
   }],
   "SPIRE": [{
-    "name": "Spire Staking |  Top 50 Operator - Pool B",
-    "pool_id": "248a66f38e131b6c3b6ade0a639622068f537824edeb2e9c5b107e86",
-    "ticker": "SPIRE"
-  }, {
     "name": "Spire Staking |  Top 50 Operator - Pool A",
     "pool_id": "d7513627b3d50819c1c84687bfd15f02f00cd11c37d7935a67540089",
+    "ticker": "SPIRE"
+  }, {
+    "name": "Spire Staking |  Top 50 Operator - Pool B",
+    "pool_id": "248a66f38e131b6c3b6ade0a639622068f537824edeb2e9c5b107e86",
     "ticker": "SPIRE"
   }],
   "SPS": [{
@@ -2496,33 +2492,9 @@
     "ticker": "WAV12"
   }],
   "WIRA": [{
-    "name": "WIRA Pool (S1)",
-    "pool_id": "7bb4d04389fdc7816d9fcd3aec5c585e61635b31c65fd9ee6c175535",
-    "ticker": "WIRA\ud83c\udf1f"
-  }, {
-    "name": "WIRA Pool (G3)",
-    "pool_id": "d698c67ed52ea02dae75e0b4e4601a6c86495bcf40c3d0bd44312019",
-    "ticker": "WIRA\ud83c\udf0f"
-  }, {
-    "name": "WIRA Pool (G2)",
-    "pool_id": "b5d030e4abece7e239210b1af14eba911af89013ee7a53de77072797",
-    "ticker": "WIRA\ud83c\udf0d"
-  }, {
-    "name": "WIRA Pool (G1)",
-    "pool_id": "ceb171ac6a0d0986043c266263a88b09ea4c39e1cc342dd9c5f2b811",
-    "ticker": "WIRA\ud83c\udf0e"
-  }, {
     "name": "WIRA Pool (T1)",
     "pool_id": "5642f146ea05d38dc3febfbed0a135c265fe0cac2fc0ef9cd273620b",
     "ticker": "WIRA\ud83c\udfc6"
-  }, {
-    "name": "WIRA Pool (S2)",
-    "pool_id": "85a1b1fdce83908d3fb63bb5eba68ed3eef009680b282468e27e9c81",
-    "ticker": "WIRA\ud83c\udf20"
-  }, {
-    "name": "WIRA Pool (D1)",
-    "pool_id": "fec0c5f77fb6eac6e01124a0a11af032b322157d4c35a14361732d19",
-    "ticker": "WIRA\ud83d\udc8e"
   }, {
     "name": "WIRA Pool (F1)",
     "pool_id": "bee1c394dc9670ccaf70d1d73566e9d83c40311fd1a09f1742ab0bcb",
