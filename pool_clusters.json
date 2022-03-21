@@ -379,13 +379,13 @@
     "pool_id": "bdadf198bdc79d4f37c5dcd9ed0cdf402bdc2299c3ae4c87d688a6fe",
     "ticker": "AZUR3"
   }, {
-    "name": "AzureADA",
-    "pool_id": "79c4d4fe108f480fee98f307adac12571df2959651f833b595141cd1",
-    "ticker": "AZUR"
-  }, {
     "name": "AZDFM hosted by AzureADA Services",
     "pool_id": "bce696401137ff3d305e6a8dbb6ac0cd9b41570bda42deb4e83d86f2",
     "ticker": "AZDFM"
+  }, {
+    "name": "AzureADA",
+    "pool_id": "79c4d4fe108f480fee98f307adac12571df2959651f833b595141cd1",
+    "ticker": "AZUR"
   }],
   "BCSH": [{
     "name": "Blue Cheese Stakehouse",
@@ -1237,13 +1237,13 @@
     "pool_id": "6ec2284f8e312b5b122d85b97db828ff364d49e3c51c449bfc8889bf",
     "ticker": "GENS2"
   }, {
-    "name": "Genius Yield 1",
-    "pool_id": "c485ab20bd3f105e59f3c50a0d3fbaf615a51f70a1c6d29d00a1fd27",
-    "ticker": "GENS1"
-  }, {
     "name": "Genius Yield 3",
     "pool_id": "126f84b8f88fd0f65de921ef521f2aa637e5e465cea06042c103fe22",
     "ticker": "GENS3"
+  }, {
+    "name": "Genius Yield 1",
+    "pool_id": "c485ab20bd3f105e59f3c50a0d3fbaf615a51f70a1c6d29d00a1fd27",
+    "ticker": "GENS1"
   }, {
     "name": "Genius Yield X",
     "pool_id": "c80d3b1f64feed0697bb97c97867a63ff1c33cb8b472bc33fdfa457e",
@@ -1288,13 +1288,13 @@
     "ticker": "GOAT5"
   }],
   "HODLA": [{
-    "name": "HodlAda",
-    "pool_id": "ed40b0a319f639a70b1e2a4de00f112c4f7b7d4849f0abd25c4336a4",
-    "ticker": "HODLA"
-  }, {
     "name": "Hodl\u20b3da",
     "pool_id": "2f606921baedcad68bbc765b9ab82b2b201d42bd35262517ce5d7d96",
     "ticker": "HODL\u20b3"
+  }, {
+    "name": "HodlAda",
+    "pool_id": "ed40b0a319f639a70b1e2a4de00f112c4f7b7d4849f0abd25c4336a4",
+    "ticker": "HODLA"
   }],
   "HRMS": [{
     "name": "Hermes Stakepool Germany #1",
@@ -1334,10 +1334,6 @@
   "IOADA": [{
     "name": "IOADA 8",
     "pool_id": "4059bcee51333f1ce01970e91ef989453b7cefa3c97e1e3e5b7d1445",
-    "ticker": "IOADA"
-  }, {
-    "name": "IOADA 2",
-    "pool_id": "5ba20a27f1f3423a334563495607259c0641c0b0cb0e5e44611e7e56",
     "ticker": "IOADA"
   }],
   "IOG": [{
@@ -2444,12 +2440,12 @@
     "ticker": "SKY2"
   }, {
     "name": "skylightpool.com",
-    "pool_id": "c1011645958df9e805df499bbd30056c83094b99c8effe500350d8da",
-    "ticker": "SKY4"
-  }, {
-    "name": "skylightpool.com",
     "pool_id": "34eb602eb435e3c6a4feb6d766a44735ca09e963f82098973c85951e",
     "ticker": "SKY3"
+  }, {
+    "name": "skylightpool.com",
+    "pool_id": "c1011645958df9e805df499bbd30056c83094b99c8effe500350d8da",
+    "ticker": "SKY4"
   }, {
     "name": "WAVE-6",
     "pool_id": "aa3afa914dce3ccdf6e282daac537283bcc03d9a56dd8f80936114e8",
@@ -2488,6 +2484,10 @@
     "ticker": "WAV12"
   }],
   "WIRA": [{
+    "name": "WIRA Pool (S1)",
+    "pool_id": "7bb4d04389fdc7816d9fcd3aec5c585e61635b31c65fd9ee6c175535",
+    "ticker": "WIRA\ud83c\udf1f"
+  }, {
     "name": "WIRA Pool (G3)",
     "pool_id": "d698c67ed52ea02dae75e0b4e4601a6c86495bcf40c3d0bd44312019",
     "ticker": "WIRA\ud83c\udf0f"
@@ -2496,9 +2496,9 @@
     "pool_id": "b5d030e4abece7e239210b1af14eba911af89013ee7a53de77072797",
     "ticker": "WIRA\ud83c\udf0d"
   }, {
-    "name": "WIRA Pool (C1)",
-    "pool_id": "9f0daee27f33dbcf42054dd0a0de5fe8327f7eaec707f9d07a4bec73",
-    "ticker": "WIRA\ud83d\udc51"
+    "name": "WIRA Pool (G1)",
+    "pool_id": "ceb171ac6a0d0986043c266263a88b09ea4c39e1cc342dd9c5f2b811",
+    "ticker": "WIRA\ud83c\udf0e"
   }, {
     "name": "WIRA Pool (T1)",
     "pool_id": "5642f146ea05d38dc3febfbed0a135c265fe0cac2fc0ef9cd273620b",
@@ -2507,10 +2507,6 @@
     "name": "WIRA Pool (S2)",
     "pool_id": "85a1b1fdce83908d3fb63bb5eba68ed3eef009680b282468e27e9c81",
     "ticker": "WIRA\ud83c\udf20"
-  }, {
-    "name": "WIRA Pool (F1)",
-    "pool_id": "bee1c394dc9670ccaf70d1d73566e9d83c40311fd1a09f1742ab0bcb",
-    "ticker": "WIRA\ud83d\udd25"
   }],
   "WMOPS": [{
     "name": "Don\u2019t underestimate the Force",
