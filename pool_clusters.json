@@ -362,10 +362,6 @@
     "ticker": "ATLAS"
   }],
   "AVENGERS": [{
-    "name": "Elegant Gold Heisenberg",
-    "pool_id": "061f4c7b5de2c1554690029e2e559272ff4dbcd3aecc02d91aceb5c7",
-    "ticker": "EGH"
-  }, {
     "name": "Grandiose Charcoal Nobel",
     "pool_id": "4594f67c08f0007d1fac243169624b710375cb834bbe81f6b4d79f32",
     "ticker": "GCN"
@@ -373,6 +369,10 @@
     "name": "Wacky Gold Maxwell",
     "pool_id": "365a5a9c59aa3971d96511a5bce24c4598849d0d3c2d61217dc0b488",
     "ticker": "WGM"
+  }, {
+    "name": "Elegant Gold Heisenberg",
+    "pool_id": "061f4c7b5de2c1554690029e2e559272ff4dbcd3aecc02d91aceb5c7",
+    "ticker": "EGH"
   }, {
     "name": "Tall Zaffre Darwin",
     "pool_id": "8c289ee3b1b591a95c18ffce66957d1f07115afdf939c2a9b441fc22",
@@ -911,13 +911,13 @@
     "pool_id": "397f04eb0ae0497d8c4d691844c8c6b026bc942e3f406f26b8e24f48",
     "ticker": "CRDN2"
   }, {
-    "name": "CARDANIANS.io #2",
-    "pool_id": "e5b20e8f9661506710a159e561d40ceb54449fdea1d1130b3bdb36bb",
-    "ticker": "CRDN1"
-  }, {
     "name": "CARDANIANS.io #4",
     "pool_id": "b6e038fb50202dfe5ccc61ecae9b8803bdc9cb7fb3ae9348cb97b0ef",
     "ticker": "CRDN3"
+  }, {
+    "name": "CARDANIANS.io #2",
+    "pool_id": "e5b20e8f9661506710a159e561d40ceb54449fdea1d1130b3bdb36bb",
+    "ticker": "CRDN1"
   }, {
     "name": "CARDANIANS.io #1",
     "pool_id": "ed24d8995c6fd81d976baa03de565fea21a02d77d49b047064ba8445",
@@ -1282,13 +1282,13 @@
     "pool_id": "126f84b8f88fd0f65de921ef521f2aa637e5e465cea06042c103fe22",
     "ticker": "GENS3"
   }, {
-    "name": "Genius Yield X",
-    "pool_id": "c80d3b1f64feed0697bb97c97867a63ff1c33cb8b472bc33fdfa457e",
-    "ticker": "GENSX"
-  }, {
     "name": "Genius Yield 1",
     "pool_id": "c485ab20bd3f105e59f3c50a0d3fbaf615a51f70a1c6d29d00a1fd27",
     "ticker": "GENS1"
+  }, {
+    "name": "Genius Yield X",
+    "pool_id": "c80d3b1f64feed0697bb97c97867a63ff1c33cb8b472bc33fdfa457e",
+    "ticker": "GENSX"
   }, {
     "name": "Genius Yield 4",
     "pool_id": "40efc97d08315ff9be5898f24af5b8b120669b43027662c3499dd785",
@@ -2231,6 +2231,10 @@
     "ticker": "RAY2"
   }, {
     "name": "Ray Network",
+    "pool_id": "1c8cd022e993a8366be641c17cb6d9c5d8944e00bfce3189d8b1515a",
+    "ticker": "RAY"
+  }, {
+    "name": "Ray Network",
     "pool_id": "22cfa3b8612c146a0737c974dcfcbb8cddd86f3a511cf531ce8d91a1",
     "ticker": "RAY3"
   }, {
@@ -2241,10 +2245,6 @@
     "name": "Ray Network",
     "pool_id": "8088a5b6523f6bd6475475a20524082c07ffed6f89e39d30a1d6ab34",
     "ticker": "RAY5"
-  }, {
-    "name": "Ray Network",
-    "pool_id": "1c8cd022e993a8366be641c17cb6d9c5d8944e00bfce3189d8b1515a",
-    "ticker": "RAY"
   }],
   "SCAR": [{
     "name": "SCARdano",
@@ -2541,21 +2541,9 @@
     "ticker": "WAV12"
   }],
   "WIRA": [{
-    "name": "WIRA Pool (S1)",
-    "pool_id": "7bb4d04389fdc7816d9fcd3aec5c585e61635b31c65fd9ee6c175535",
-    "ticker": "WIRA\ud83c\udf1f"
-  }, {
-    "name": "WIRA Pool (G1)",
-    "pool_id": "ceb171ac6a0d0986043c266263a88b09ea4c39e1cc342dd9c5f2b811",
-    "ticker": "WIRA\ud83c\udf0e"
-  }, {
     "name": "WIRA Pool (C1)",
     "pool_id": "9f0daee27f33dbcf42054dd0a0de5fe8327f7eaec707f9d07a4bec73",
     "ticker": "WIRA\ud83d\udc51"
-  }, {
-    "name": "WIRA Pool (S2)",
-    "pool_id": "85a1b1fdce83908d3fb63bb5eba68ed3eef009680b282468e27e9c81",
-    "ticker": "WIRA\ud83c\udf20"
   }],
   "WMOPS": [{
     "name": "Don\u2019t underestimate the Force",
