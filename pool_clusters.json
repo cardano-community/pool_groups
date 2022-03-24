@@ -89,13 +89,13 @@
     "pool_id": "99127328c3fed20710b0b807f32b10ccd731125b30de38b9ff973a01",
     "ticker": "1PCT6"
   }, {
-    "name": "1 Percent Pool #3 (v3)",
-    "pool_id": "6b9da81e0b66fcdfaa67f55f08b28399b70e031f3cb13e6aa8f61b0a",
-    "ticker": "1PCT3"
-  }, {
     "name": "1 Percent Pool #1 (v3)",
     "pool_id": "16d7b39329f79540967e35631dd1f6630a608a5c94e642ee8b2e9e8a",
     "ticker": "1PCT1"
+  }, {
+    "name": "1 Percent Pool #3 (v3)",
+    "pool_id": "6b9da81e0b66fcdfaa67f55f08b28399b70e031f3cb13e6aa8f61b0a",
+    "ticker": "1PCT3"
   }, {
     "name": "1 Percent Pool #4 (v3)",
     "pool_id": "a75f5263ca05569b3baecf0fafbfdaaf07076727c44460e4641b415b",
@@ -1278,13 +1278,13 @@
     "pool_id": "6ec2284f8e312b5b122d85b97db828ff364d49e3c51c449bfc8889bf",
     "ticker": "GENS2"
   }, {
-    "name": "Genius Yield 3",
-    "pool_id": "126f84b8f88fd0f65de921ef521f2aa637e5e465cea06042c103fe22",
-    "ticker": "GENS3"
-  }, {
     "name": "Genius Yield 1",
     "pool_id": "c485ab20bd3f105e59f3c50a0d3fbaf615a51f70a1c6d29d00a1fd27",
     "ticker": "GENS1"
+  }, {
+    "name": "Genius Yield 3",
+    "pool_id": "126f84b8f88fd0f65de921ef521f2aa637e5e465cea06042c103fe22",
+    "ticker": "GENS3"
   }, {
     "name": "Genius Yield X",
     "pool_id": "c80d3b1f64feed0697bb97c97867a63ff1c33cb8b472bc33fdfa457e",
@@ -1375,6 +1375,10 @@
   "IOADA": [{
     "name": "IOADA 1",
     "pool_id": "4e747c047c237eb5dc036f715c592d820d33323a88a73d19e6d400c8",
+    "ticker": "IOADA"
+  }, {
+    "name": "IOADA 6",
+    "pool_id": "68cc11a75ea1ba3489ceed5ccdb85223d9d6da18140b91f8618433b3",
     "ticker": "IOADA"
   }, {
     "name": "IOADA 8",
@@ -2537,17 +2541,37 @@
     "ticker": "WAV12"
   }],
   "WIRA": [{
+    "name": "WIRA Pool (S1)",
+    "pool_id": "7bb4d04389fdc7816d9fcd3aec5c585e61635b31c65fd9ee6c175535",
+    "ticker": "WIRA\ud83c\udf1f"
+  }, {
     "name": "WIRA Pool (G2)",
     "pool_id": "b5d030e4abece7e239210b1af14eba911af89013ee7a53de77072797",
     "ticker": "WIRA\ud83c\udf0d"
+  }, {
+    "name": "WIRA Pool (G1)",
+    "pool_id": "ceb171ac6a0d0986043c266263a88b09ea4c39e1cc342dd9c5f2b811",
+    "ticker": "WIRA\ud83c\udf0e"
   }, {
     "name": "WIRA Pool (T1)",
     "pool_id": "5642f146ea05d38dc3febfbed0a135c265fe0cac2fc0ef9cd273620b",
     "ticker": "WIRA\ud83c\udfc6"
   }, {
-    "name": "WIRA Pool (D1)",
-    "pool_id": "fec0c5f77fb6eac6e01124a0a11af032b322157d4c35a14361732d19",
-    "ticker": "WIRA\ud83d\udc8e"
+    "name": "WIRA Pool (C1)",
+    "pool_id": "9f0daee27f33dbcf42054dd0a0de5fe8327f7eaec707f9d07a4bec73",
+    "ticker": "WIRA\ud83d\udc51"
+  }, {
+    "name": "WIRA Pool (S2)",
+    "pool_id": "85a1b1fdce83908d3fb63bb5eba68ed3eef009680b282468e27e9c81",
+    "ticker": "WIRA\ud83c\udf20"
+  }, {
+    "name": "WIRA Pool (F1)",
+    "pool_id": "bee1c394dc9670ccaf70d1d73566e9d83c40311fd1a09f1742ab0bcb",
+    "ticker": "WIRA\ud83d\udd25"
+  }, {
+    "name": "WIRA Pool",
+    "pool_id": "fcedaf183e9430acc484e4e290f40cb19e98e0e07efea2a327a71b94",
+    "ticker": "WIRA"
   }],
   "WMOPS": [{
     "name": "Don\u2019t underestimate the Force",
