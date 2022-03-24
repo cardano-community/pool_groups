@@ -21,10 +21,6 @@
     "pool_id": "41c8a40ab0b78d727655d165f946722728dfb01df2fcc2e148b3c98d",
     "ticker": "1PCT0"
   }, {
-    "name": "1 Percent Pool #0 (v1)",
-    "pool_id": "463e481957f266d93e4decbfb73003380ab17223e0e569f71c7a525a",
-    "ticker": "1PCT0"
-  }, {
     "name": "1 Percent Pool #9 (v1)",
     "pool_id": "b59366e330a6db8260ad9aae8446ba8c908931d1b9cb3cca5d1d84aa",
     "ticker": "1PCT9"
@@ -32,6 +28,10 @@
     "name": "1 Percent Pool #4 (v1)",
     "pool_id": "64e09628015d1065e4a11f032c90f677ba1f2f583ff0f55a158450b0",
     "ticker": "1PCT4"
+  }, {
+    "name": "1 Percent Pool #0 (v1)",
+    "pool_id": "463e481957f266d93e4decbfb73003380ab17223e0e569f71c7a525a",
+    "ticker": "1PCT0"
   }, {
     "name": "1 Percent Pool #4 (v2)",
     "pool_id": "f018942907ac50ed7f831f14755ad93698188492d09d229655e6ade1",
@@ -41,13 +41,13 @@
     "pool_id": "6b5180a258275c671690c94c704f074190e90ea900ed565b4c29abe8",
     "ticker": "1PCT8"
   }, {
-    "name": "1 Percent Pool #3 (v1)",
-    "pool_id": "56f78c5478524496790461eefd4d9380f71dfb231358736902648dfe",
-    "ticker": "1PCT3"
-  }, {
     "name": "1 Percent Pool #5 (v1)",
     "pool_id": "1d8988c2057d6efd6a094e468840a51942ab03b5b69b07a2bca71b53",
     "ticker": "1PCT5"
+  }, {
+    "name": "1 Percent Pool #3 (v1)",
+    "pool_id": "56f78c5478524496790461eefd4d9380f71dfb231358736902648dfe",
+    "ticker": "1PCT3"
   }, {
     "name": "1 Percent Pool (v1)",
     "pool_id": "87021d7881cff6817040033a3c6b0246d11421c198e69195e60a7000",
@@ -1902,13 +1902,13 @@
     "pool_id": "237795878bfa5352cca325012e073b344ce337a1dd752cd3d5ea4cdc",
     "ticker": "MS2"
   }, {
-    "name": "Moonstake 10",
-    "pool_id": "3c68076a8b81226f6d7da352dda415db00299701624b6cf71d7cc086",
-    "ticker": "MS10"
-  }, {
     "name": "Moonstake 8",
     "pool_id": "b573268bf369e3f3a4e6dd16fdd78ca01eb164c1daa29d611ef885d2",
     "ticker": "MS8"
+  }, {
+    "name": "Moonstake 10",
+    "pool_id": "3c68076a8b81226f6d7da352dda415db00299701624b6cf71d7cc086",
+    "ticker": "MS10"
   }, {
     "name": "Moonstake 9",
     "pool_id": "83ea16a7f183288173077c54a1e2b3cbcd0f2336e1bc85e2cc6397e0",
@@ -2231,10 +2231,6 @@
     "ticker": "RAY2"
   }, {
     "name": "Ray Network",
-    "pool_id": "1c8cd022e993a8366be641c17cb6d9c5d8944e00bfce3189d8b1515a",
-    "ticker": "RAY"
-  }, {
-    "name": "Ray Network",
     "pool_id": "22cfa3b8612c146a0737c974dcfcbb8cddd86f3a511cf531ce8d91a1",
     "ticker": "RAY3"
   }, {
@@ -2245,6 +2241,10 @@
     "name": "Ray Network",
     "pool_id": "8088a5b6523f6bd6475475a20524082c07ffed6f89e39d30a1d6ab34",
     "ticker": "RAY5"
+  }, {
+    "name": "Ray Network",
+    "pool_id": "1c8cd022e993a8366be641c17cb6d9c5d8944e00bfce3189d8b1515a",
+    "ticker": "RAY"
   }],
   "SCAR": [{
     "name": "SCARdano",
@@ -2541,6 +2541,10 @@
     "ticker": "WAV12"
   }],
   "WIRA": [{
+    "name": "WIRA Pool (T1)",
+    "pool_id": "5642f146ea05d38dc3febfbed0a135c265fe0cac2fc0ef9cd273620b",
+    "ticker": "WIRA\ud83c\udfc6"
+  }, {
     "name": "WIRA Pool (C1)",
     "pool_id": "9f0daee27f33dbcf42054dd0a0de5fe8327f7eaec707f9d07a4bec73",
     "ticker": "WIRA\ud83d\udc51"
