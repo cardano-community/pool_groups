@@ -195,10 +195,6 @@
     "pool_id": "481d305a21bbbaa85177413676ba350b1e2d7b7456b8008e72b96386",
     "ticker": "NUFI9"
   }, {
-    "name": "Nu.Fi &amp; AdaLite 6",
-    "pool_id": "cf69a3eca039d537acd46d5864a54dd8953f0c14be957350905834aa",
-    "ticker": "NUFI6"
-  }, {
     "name": "Nu.Fi &amp; AdaLite 5",
     "pool_id": "936f24e391afc0738c816ae1f1388957b977de3d0e065dc9ba38af8d",
     "ticker": "NUFI5"
@@ -222,6 +218,10 @@
     "name": "Nu.Fi &amp; AdaLite B",
     "pool_id": "7d7ac07a2f2a25b7a4db868a40720621c4939cf6aefbb9a11464f1a6",
     "ticker": "NUFIB"
+  }, {
+    "name": "Nu.Fi &amp; AdaLite 6",
+    "pool_id": "cf69a3eca039d537acd46d5864a54dd8953f0c14be957350905834aa",
+    "ticker": "NUFI6"
   }, {
     "name": "Nu.Fi &amp; AdaLite 4",
     "pool_id": "d785ff6a030ae9d521770c00f264a2aa423e928c85fc620b13d46eda",
@@ -1248,10 +1248,6 @@
     "pool_id": "1e174471d30ea762a6bf6ce8b1c615549f3dd066cf48ca6be6e7698b",
     "ticker": "FIMI"
   }, {
-    "name": "We are Kirin",
-    "pool_id": "a86b685a2d6817d315f48121ee4bb6099cc4c26b94d9fe1c256c5c62",
-    "ticker": "KIRIN"
-  }, {
     "name": "Cute Pool",
     "pool_id": "aee1cc55e9c498efa91a4942a698caae6d2f0199dffb108ad6ce827d",
     "ticker": "CUTE"
@@ -1375,10 +1371,6 @@
   "IOADA": [{
     "name": "IOADA 1",
     "pool_id": "4e747c047c237eb5dc036f715c592d820d33323a88a73d19e6d400c8",
-    "ticker": "IOADA"
-  }, {
-    "name": "IOADA 6",
-    "pool_id": "68cc11a75ea1ba3489ceed5ccdb85223d9d6da18140b91f8618433b3",
     "ticker": "IOADA"
   }, {
     "name": "IOADA 8",
@@ -1613,10 +1605,6 @@
     "ticker": "KOBE"
   }],
   "KID": [{
-    "name": "We are ELLY VN",
-    "pool_id": "6d043d8910b0050cd4f497834c7c8a515e62252352c802b4f3458443",
-    "ticker": "ELLY"
-  }, {
     "name": "ADA Uplevel staking pool",
     "pool_id": "b6300321f150f4dc000166d87f744b5e388a711ac70650f7c0b71d8a",
     "ticker": "ADAUP"
@@ -1902,13 +1890,13 @@
     "pool_id": "237795878bfa5352cca325012e073b344ce337a1dd752cd3d5ea4cdc",
     "ticker": "MS2"
   }, {
-    "name": "Moonstake 8",
-    "pool_id": "b573268bf369e3f3a4e6dd16fdd78ca01eb164c1daa29d611ef885d2",
-    "ticker": "MS8"
-  }, {
     "name": "Moonstake 10",
     "pool_id": "3c68076a8b81226f6d7da352dda415db00299701624b6cf71d7cc086",
     "ticker": "MS10"
+  }, {
+    "name": "Moonstake 8",
+    "pool_id": "b573268bf369e3f3a4e6dd16fdd78ca01eb164c1daa29d611ef885d2",
+    "ticker": "MS8"
   }, {
     "name": "Moonstake 9",
     "pool_id": "83ea16a7f183288173077c54a1e2b3cbcd0f2336e1bc85e2cc6397e0",
@@ -2231,12 +2219,12 @@
     "ticker": "RAY2"
   }, {
     "name": "Ray Network",
-    "pool_id": "1c8cd022e993a8366be641c17cb6d9c5d8944e00bfce3189d8b1515a",
-    "ticker": "RAY"
-  }, {
-    "name": "Ray Network",
     "pool_id": "22cfa3b8612c146a0737c974dcfcbb8cddd86f3a511cf531ce8d91a1",
     "ticker": "RAY3"
+  }, {
+    "name": "Ray Network",
+    "pool_id": "1c8cd022e993a8366be641c17cb6d9c5d8944e00bfce3189d8b1515a",
+    "ticker": "RAY"
   }, {
     "name": "Ray Network",
     "pool_id": "28f85efe5e9d3b3d8a0f4950117e47b7415a92f80d69bfb64cfb4d8b",
@@ -2549,9 +2537,25 @@
     "pool_id": "ceb171ac6a0d0986043c266263a88b09ea4c39e1cc342dd9c5f2b811",
     "ticker": "WIRA\ud83c\udf0e"
   }, {
+    "name": "WIRA Pool (T1)",
+    "pool_id": "5642f146ea05d38dc3febfbed0a135c265fe0cac2fc0ef9cd273620b",
+    "ticker": "WIRA\ud83c\udfc6"
+  }, {
+    "name": "WIRA Pool (C1)",
+    "pool_id": "9f0daee27f33dbcf42054dd0a0de5fe8327f7eaec707f9d07a4bec73",
+    "ticker": "WIRA\ud83d\udc51"
+  }, {
+    "name": "WIRA Pool (S2)",
+    "pool_id": "85a1b1fdce83908d3fb63bb5eba68ed3eef009680b282468e27e9c81",
+    "ticker": "WIRA\ud83c\udf20"
+  }, {
     "name": "WIRA Pool (D1)",
     "pool_id": "fec0c5f77fb6eac6e01124a0a11af032b322157d4c35a14361732d19",
     "ticker": "WIRA\ud83d\udc8e"
+  }, {
+    "name": "WIRA Pool",
+    "pool_id": "fcedaf183e9430acc484e4e290f40cb19e98e0e07efea2a327a71b94",
+    "ticker": "WIRA"
   }],
   "WMOPS": [{
     "name": "Don\u2019t underestimate the Force",
