@@ -9,6 +9,10 @@
     "ticker": "0PCT1"
   }],
   "1PCT": [{
+    "name": "1 Percent Pool #0 (v1)",
+    "pool_id": "463e481957f266d93e4decbfb73003380ab17223e0e569f71c7a525a",
+    "ticker": "1PCT0"
+  }, {
     "name": "1 Percent Pool #2 (v1)",
     "pool_id": "17a6a1f2fb36d9ef275805db17409af7ab753b9d27bdd41b89510bb9",
     "ticker": "1PCT2"
@@ -40,10 +44,6 @@
     "name": "1 Percent Pool #5 (v1)",
     "pool_id": "1d8988c2057d6efd6a094e468840a51942ab03b5b69b07a2bca71b53",
     "ticker": "1PCT5"
-  }, {
-    "name": "1 Percent Pool #0 (v1)",
-    "pool_id": "463e481957f266d93e4decbfb73003380ab17223e0e569f71c7a525a",
-    "ticker": "1PCT0"
   }, {
     "name": "1 Percent Pool #3 (v1)",
     "pool_id": "56f78c5478524496790461eefd4d9380f71dfb231358736902648dfe",
@@ -494,16 +494,16 @@
     "ticker": "BCSH2"
   }, {
     "name": "Blue Cheese Stakehouse",
-    "pool_id": "00beef534478b59ba0b2b646348c8d1f81f60bf40a2195c6378dd5db",
-    "ticker": "BCSH5"
-  }, {
-    "name": "Blue Cheese Stakehouse",
     "pool_id": "00beef373356ff27a77bd510f4cd35d309715afb6f52f49d9186a16e",
     "ticker": "BCSH4"
   }, {
     "name": "Blue Cheese Stakehouse",
     "pool_id": "00beef9385526062d41cd7293746048c6a9a13ab8b591920cf40c706",
     "ticker": "BCSH1"
+  }, {
+    "name": "Blue Cheese Stakehouse",
+    "pool_id": "00beef534478b59ba0b2b646348c8d1f81f60bf40a2195c6378dd5db",
+    "ticker": "BCSH5"
   }, {
     "name": "Blue Cheese Stakehouse",
     "pool_id": "00beef68425d90f50c8e2102476a0f42ec850836e9affd601ecf7804",
@@ -1381,10 +1381,6 @@
     "pool_id": "68cc11a75ea1ba3489ceed5ccdb85223d9d6da18140b91f8618433b3",
     "ticker": "IOADA"
   }, {
-    "name": "IOADA 8",
-    "pool_id": "4059bcee51333f1ce01970e91ef989453b7cefa3c97e1e3e5b7d1445",
-    "ticker": "IOADA"
-  }, {
     "name": "IOADA 2",
     "pool_id": "5ba20a27f1f3423a334563495607259c0641c0b0cb0e5e44611e7e56",
     "ticker": "IOADA"
@@ -2015,12 +2011,12 @@
     "pool_id": "fa58244068bef886049b3e8fbba8aa39f227ce78168efdf7629111c5",
     "ticker": "NORTH"
   }, {
-    "name": "#2 Nordic Pool",
-    "pool_id": "f0e505f8f0d7beccffe83c287d0d2ff6a46ec5d38345e8bd35359427",
-    "ticker": "NORTH"
-  }, {
     "name": "#4 Nordic Pool",
     "pool_id": "b6a310df0c12af2bcab4cb1ceef2aea7b52080f1ee114b9eae5465de",
+    "ticker": "NORTH"
+  }, {
+    "name": "#2 Nordic Pool",
+    "pool_id": "f0e505f8f0d7beccffe83c287d0d2ff6a46ec5d38345e8bd35359427",
     "ticker": "NORTH"
   }, {
     "name": "#5 Nordic Pool",
@@ -2264,12 +2260,12 @@
     "pool_id": "a10865dae2d543ee9f13e98bff70ea81565bb6e4343b15b765f78174",
     "ticker": "SECUR"
   }, {
-    "name": "THREE SecureStaking.io",
-    "pool_id": "34ae2462f0fab1866281947a022d85bddf29f45a8b9699baabbbfcb9",
-    "ticker": "SECUR"
-  }, {
     "name": "FOUR SecureStaking.io",
     "pool_id": "881b67128439e781d00190ee7ba1692d5af13aaee5d1914911bb3e42",
+    "ticker": "SECUR"
+  }, {
+    "name": "THREE SecureStaking.io",
+    "pool_id": "34ae2462f0fab1866281947a022d85bddf29f45a8b9699baabbbfcb9",
     "ticker": "SECUR"
   }, {
     "name": "FIVE SecureStaking.io",
@@ -2541,17 +2537,17 @@
     "ticker": "WAV12"
   }],
   "WIRA": [{
-    "name": "WIRA Pool (T1)",
-    "pool_id": "5642f146ea05d38dc3febfbed0a135c265fe0cac2fc0ef9cd273620b",
-    "ticker": "WIRA\ud83c\udfc6"
+    "name": "WIRA Pool (G1)",
+    "pool_id": "ceb171ac6a0d0986043c266263a88b09ea4c39e1cc342dd9c5f2b811",
+    "ticker": "WIRA\ud83c\udf0e"
   }, {
-    "name": "WIRA Pool (S2)",
-    "pool_id": "85a1b1fdce83908d3fb63bb5eba68ed3eef009680b282468e27e9c81",
-    "ticker": "WIRA\ud83c\udf20"
+    "name": "WIRA Pool (S1)",
+    "pool_id": "7bb4d04389fdc7816d9fcd3aec5c585e61635b31c65fd9ee6c175535",
+    "ticker": "WIRA\ud83c\udf1f"
   }, {
-    "name": "WIRA Pool (F1)",
-    "pool_id": "bee1c394dc9670ccaf70d1d73566e9d83c40311fd1a09f1742ab0bcb",
-    "ticker": "WIRA\ud83d\udd25"
+    "name": "WIRA Pool (G3)",
+    "pool_id": "d698c67ed52ea02dae75e0b4e4601a6c86495bcf40c3d0bd44312019",
+    "ticker": "WIRA\ud83c\udf0f"
   }],
   "WMOPS": [{
     "name": "Don\u2019t underestimate the Force",
