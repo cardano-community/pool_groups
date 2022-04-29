@@ -93,13 +93,13 @@
     "pool_id": "16d7b39329f79540967e35631dd1f6630a608a5c94e642ee8b2e9e8a",
     "ticker": "1PCT1"
   }, {
-    "name": "1 Percent Pool #6 (v3)",
-    "pool_id": "99127328c3fed20710b0b807f32b10ccd731125b30de38b9ff973a01",
-    "ticker": "1PCT6"
-  }, {
     "name": "1 Percent Pool #4 (v3)",
     "pool_id": "a75f5263ca05569b3baecf0fafbfdaaf07076727c44460e4641b415b",
     "ticker": "1PCT4"
+  }, {
+    "name": "1 Percent Pool #6 (v3)",
+    "pool_id": "99127328c3fed20710b0b807f32b10ccd731125b30de38b9ff973a01",
+    "ticker": "1PCT6"
   }, {
     "name": "1 Percent Pool #8 (v2)",
     "pool_id": "cd5721fe2ccf9b803bbe787266c3493fff67acc67951b88ebbaf9599",
@@ -1382,8 +1382,16 @@
     "ticker": "IAMX"
   }],
   "IOADA": [{
+    "name": "IOADA 1",
+    "pool_id": "4e747c047c237eb5dc036f715c592d820d33323a88a73d19e6d400c8",
+    "ticker": "IOADA"
+  }, {
     "name": "IOADA 8",
     "pool_id": "4059bcee51333f1ce01970e91ef989453b7cefa3c97e1e3e5b7d1445",
+    "ticker": "IOADA"
+  }, {
+    "name": "IOADA 2",
+    "pool_id": "5ba20a27f1f3423a334563495607259c0641c0b0cb0e5e44611e7e56",
     "ticker": "IOADA"
   }],
   "IOG": [{
@@ -2533,25 +2541,13 @@
     "ticker": "WAV12"
   }],
   "WIRA": [{
-    "name": "WIRA Pool (G1)",
-    "pool_id": "ceb171ac6a0d0986043c266263a88b09ea4c39e1cc342dd9c5f2b811",
-    "ticker": "WIRA\ud83c\udf0e"
-  }, {
-    "name": "WIRA Pool (G2)",
-    "pool_id": "b5d030e4abece7e239210b1af14eba911af89013ee7a53de77072797",
-    "ticker": "WIRA\ud83c\udf0d"
-  }, {
-    "name": "WIRA Pool (S2)",
-    "pool_id": "85a1b1fdce83908d3fb63bb5eba68ed3eef009680b282468e27e9c81",
-    "ticker": "WIRA\ud83c\udf20"
+    "name": "WIRA Pool (S1)",
+    "pool_id": "7bb4d04389fdc7816d9fcd3aec5c585e61635b31c65fd9ee6c175535",
+    "ticker": "WIRA\ud83c\udf1f"
   }, {
     "name": "WIRA Pool (F1)",
     "pool_id": "bee1c394dc9670ccaf70d1d73566e9d83c40311fd1a09f1742ab0bcb",
     "ticker": "WIRA\ud83d\udd25"
-  }, {
-    "name": "WIRA Pool",
-    "pool_id": "fcedaf183e9430acc484e4e290f40cb19e98e0e07efea2a327a71b94",
-    "ticker": "WIRA"
   }],
   "WMOPS": [{
     "name": "Don\u2019t underestimate the Force",
