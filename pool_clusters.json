@@ -1287,13 +1287,13 @@
     "pool_id": "6ec2284f8e312b5b122d85b97db828ff364d49e3c51c449bfc8889bf",
     "ticker": "GENS2"
   }, {
-    "name": "Genius Yield X",
-    "pool_id": "c80d3b1f64feed0697bb97c97867a63ff1c33cb8b472bc33fdfa457e",
-    "ticker": "GENSX"
-  }, {
     "name": "Genius Yield 3",
     "pool_id": "126f84b8f88fd0f65de921ef521f2aa637e5e465cea06042c103fe22",
     "ticker": "GENS3"
+  }, {
+    "name": "Genius Yield X",
+    "pool_id": "c80d3b1f64feed0697bb97c97867a63ff1c33cb8b472bc33fdfa457e",
+    "ticker": "GENSX"
   }, {
     "name": "Genius Yield 1",
     "pool_id": "c485ab20bd3f105e59f3c50a0d3fbaf615a51f70a1c6d29d00a1fd27",
@@ -1501,10 +1501,6 @@
   }, {
     "name": "Input Output Global (IOHK) - Private",
     "pool_id": "b61cab024af033e9ae022a6ec2308c0a7c11e3eec5240ae1cf011b7f",
-    "ticker": "IOGP"
-  }, {
-    "name": "Input Output Global (IOHK) - Private",
-    "pool_id": "214c95e2b803e0cc31e89357c84d9ff8d14650737b55541c75df9738",
     "ticker": "IOGP"
   }, {
     "name": "Input Output Global (IOHK) - Private",
@@ -2227,16 +2223,16 @@
     "ticker": "RAY2"
   }, {
     "name": "Ray Network",
-    "pool_id": "22cfa3b8612c146a0737c974dcfcbb8cddd86f3a511cf531ce8d91a1",
-    "ticker": "RAY3"
-  }, {
-    "name": "Ray Network",
     "pool_id": "8088a5b6523f6bd6475475a20524082c07ffed6f89e39d30a1d6ab34",
     "ticker": "RAY5"
   }, {
     "name": "Ray Network",
     "pool_id": "28f85efe5e9d3b3d8a0f4950117e47b7415a92f80d69bfb64cfb4d8b",
     "ticker": "RAY4"
+  }, {
+    "name": "Ray Network",
+    "pool_id": "22cfa3b8612c146a0737c974dcfcbb8cddd86f3a511cf531ce8d91a1",
+    "ticker": "RAY3"
   }, {
     "name": "anetaBTC - LISO Pool 3",
     "pool_id": "19e397043c50cd043700c7c54ab3ce86cb4595b912d637ae7abdb3f9",
@@ -2528,9 +2524,13 @@
     "ticker": "WAV12"
   }],
   "WIRA": [{
-    "name": "WIRA Pool (C1)",
-    "pool_id": "9f0daee27f33dbcf42054dd0a0de5fe8327f7eaec707f9d07a4bec73",
-    "ticker": "WIRA\ud83d\udc51"
+    "name": "WIRA Pool (S1)",
+    "pool_id": "7bb4d04389fdc7816d9fcd3aec5c585e61635b31c65fd9ee6c175535",
+    "ticker": "WIRA\ud83c\udf1f"
+  }, {
+    "name": "WIRA Pool (D1)",
+    "pool_id": "fec0c5f77fb6eac6e01124a0a11af032b322157d4c35a14361732d19",
+    "ticker": "WIRA\ud83d\udc8e"
   }, {
     "name": "WIRA Pool",
     "pool_id": "fcedaf183e9430acc484e4e290f40cb19e98e0e07efea2a327a71b94",
