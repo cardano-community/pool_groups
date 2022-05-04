@@ -234,10 +234,6 @@
     "pool_id": "49f23c86547526bbd0c9320d3704542c84472f426b923a3e429392eb",
     "ticker": "NUFIE"
   }, {
-    "name": "Nu.Fi &amp; AdaLite D",
-    "pool_id": "a374a14d2fa809b5e999a474b5d085b10be2fc95e6e82da045d9e8f6",
-    "ticker": "NUFID"
-  }, {
     "name": "Nu.Fi &amp; AdaLite F",
     "pool_id": "3862e102e1440b150ccafe5d16ac68cd78ce6e46afc4fb0977fcd6bd",
     "ticker": "NUFIF"
@@ -245,6 +241,10 @@
     "name": "Nu.Fi &amp; AdaLite G",
     "pool_id": "a2d42d873250321acca2d7cc7a5465f9060892bdbb645b4dedb28125",
     "ticker": "NUFIG"
+  }, {
+    "name": "Nu.Fi &amp; AdaLite D",
+    "pool_id": "a374a14d2fa809b5e999a474b5d085b10be2fc95e6e82da045d9e8f6",
+    "ticker": "NUFID"
   }, {
     "name": "Nu.Fi &amp; AdaLite H",
     "pool_id": "266a21992f779be68c1476fab8e9bf1015e7b4c428ee8c3b899f65dd",
@@ -1894,13 +1894,13 @@
     "pool_id": "b573268bf369e3f3a4e6dd16fdd78ca01eb164c1daa29d611ef885d2",
     "ticker": "MS8"
   }, {
-    "name": "Moonstake 10",
-    "pool_id": "3c68076a8b81226f6d7da352dda415db00299701624b6cf71d7cc086",
-    "ticker": "MS10"
-  }, {
     "name": "Moonstake 2",
     "pool_id": "237795878bfa5352cca325012e073b344ce337a1dd752cd3d5ea4cdc",
     "ticker": "MS2"
+  }, {
+    "name": "Moonstake 10",
+    "pool_id": "3c68076a8b81226f6d7da352dda415db00299701624b6cf71d7cc086",
+    "ticker": "MS10"
   }, {
     "name": "Moonstake 9",
     "pool_id": "83ea16a7f183288173077c54a1e2b3cbcd0f2336e1bc85e2cc6397e0",
@@ -2519,9 +2519,17 @@
     "ticker": "WAV12"
   }],
   "WIRA": [{
-    "name": "WIRA Pool (D1)",
-    "pool_id": "fec0c5f77fb6eac6e01124a0a11af032b322157d4c35a14361732d19",
-    "ticker": "WIRA\ud83d\udc8e"
+    "name": "WIRA Pool (G3)",
+    "pool_id": "d698c67ed52ea02dae75e0b4e4601a6c86495bcf40c3d0bd44312019",
+    "ticker": "WIRA\ud83c\udf0f"
+  }, {
+    "name": "WIRA Pool (G1)",
+    "pool_id": "ceb171ac6a0d0986043c266263a88b09ea4c39e1cc342dd9c5f2b811",
+    "ticker": "WIRA\ud83c\udf0e"
+  }, {
+    "name": "WIRA Pool (T1)",
+    "pool_id": "5642f146ea05d38dc3febfbed0a135c265fe0cac2fc0ef9cd273620b",
+    "ticker": "WIRA\ud83c\udfc6"
   }],
   "WMOPS": [{
     "name": "Don\u2019t underestimate the Force",
