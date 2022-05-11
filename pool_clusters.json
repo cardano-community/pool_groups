@@ -1,13 +1,4 @@
 {
-  "0PCT": [{
-    "name": "0 Percent Pool",
-    "pool_id": "f0e708ba4407cb2414d6138b739d2fb416dd1621deb8371b6ccc8088",
-    "ticker": "0PCT"
-  }, {
-    "name": "0 Percent Pool",
-    "pool_id": "5606dd286691c8323217da1d630bbee6e3cbf48173659cfca7fcec9a",
-    "ticker": "0PCT1"
-  }],
   "1PCT": [{
     "name": "1 Percent Pool #0 (v1)",
     "pool_id": "463e481957f266d93e4decbfb73003380ab17223e0e569f71c7a525a",
@@ -105,13 +96,13 @@
     "pool_id": "757bbac0aeaa2cb38deaad2dbd298b9cd85bdc1a968f930aea093a63",
     "ticker": "1PCT2"
   }, {
-    "name": "1 Percent Pool #5 (v3)",
-    "pool_id": "a19199571e9c14f2502bf37146034491fd08521f5253cc6ef497b5a9",
-    "ticker": "1PCT5"
-  }, {
     "name": "1 Percent Pool (v2)",
     "pool_id": "03646a1b39e69473a57bbeda37e35be8adcefb6ff608dd8fc726d371",
     "ticker": "1PCT"
+  }, {
+    "name": "1 Percent Pool #5 (v3)",
+    "pool_id": "a19199571e9c14f2502bf37146034491fd08521f5253cc6ef497b5a9",
+    "ticker": "1PCT5"
   }, {
     "name": "1 Percent Pool #5 (v2)",
     "pool_id": "e9132dcc6ca311a5a5bcc30909c74f1e7404bb8c50ef8a86fa95a311",
@@ -736,16 +727,16 @@
     "pool_id": "d4970177385f7c3c90f51af3dbc4a865221778b48f23e4dc60dd4a67",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 50",
-    "pool_id": "96a46d5a796a30483492c3717f80b7c6ef87e9525af162ffacf74fdb",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 52",
     "pool_id": "662796197f741c9b9f0d9830530d01300ee5c63f549784ff2ac81c17",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 68",
     "pool_id": "204f49517b4b9df91efb81b030a9b33738f4f0f43819fd2c39cb438b",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 50",
+    "pool_id": "96a46d5a796a30483492c3717f80b7c6ef87e9525af162ffacf74fdb",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 30",
@@ -1223,13 +1214,13 @@
     "pool_id": "eb7d911eb4c0ca066badadab42d80d5b59a5ce996389523a26edb64a",
     "ticker": "EMURA"
   }, {
-    "name": "Emurgo Private C",
-    "pool_id": "45822f964089d86a48f9630e0187f26b4dbba9013ac7b1e04c443c82",
-    "ticker": "EMURC"
-  }, {
     "name": "Emurgo Private D",
     "pool_id": "a1a13e86037a489911c0983887b675b859e7f499b88e91d8a01a05d8",
     "ticker": "EMURD"
+  }, {
+    "name": "Emurgo Private C",
+    "pool_id": "45822f964089d86a48f9630e0187f26b4dbba9013ac7b1e04c443c82",
+    "ticker": "EMURC"
   }, {
     "name": "Emurgo Private E",
     "pool_id": "1634c08e606f0f68bed8d88ba0ab87980994a5872ce68afdd0064e40",
@@ -1320,16 +1311,16 @@
     "ticker": "EVE2"
   }, {
     "name": "Everstake",
-    "pool_id": "446109cdad3e7dfc6e0bb4be5ecf25df02fcc2ec8f6df46a3ca2c537",
-    "ticker": "VRSTK"
-  }, {
-    "name": "Everstake",
     "pool_id": "2382bac66b58a4df1cf1775285529bbbefb9102ecea991e1da0aa064",
     "ticker": "EVE4"
   }, {
     "name": "Everstake",
     "pool_id": "120ccc012f6b2ef1669acb15d2499cc9a226b6374184d1e322b1aa5f",
     "ticker": "RSTK"
+  }, {
+    "name": "Everstake",
+    "pool_id": "446109cdad3e7dfc6e0bb4be5ecf25df02fcc2ec8f6df46a3ca2c537",
+    "ticker": "VRSTK"
   }, {
     "name": "Everstake",
     "pool_id": "36e0db9278d5b481dad2f2f84c42d20c324b046aaff97ff45fa4e134",
@@ -2411,12 +2402,16 @@
   }],
   "RAY": [{
     "name": "Ray Network",
+    "pool_id": "9ad2692a4865c5999f27d65baf170be5ba38b25489c8e21007193edd",
+    "ticker": "RAY2"
+  }, {
+    "name": "Ray Network",
     "pool_id": "22cfa3b8612c146a0737c974dcfcbb8cddd86f3a511cf531ce8d91a1",
     "ticker": "RAY3"
   }, {
     "name": "Ray Network",
-    "pool_id": "9ad2692a4865c5999f27d65baf170be5ba38b25489c8e21007193edd",
-    "ticker": "RAY2"
+    "pool_id": "1c8cd022e993a8366be641c17cb6d9c5d8944e00bfce3189d8b1515a",
+    "ticker": "RAY"
   }, {
     "name": "Ray Network",
     "pool_id": "8088a5b6523f6bd6475475a20524082c07ffed6f89e39d30a1d6ab34",
@@ -2425,10 +2420,6 @@
     "name": "Ray Network",
     "pool_id": "28f85efe5e9d3b3d8a0f4950117e47b7415a92f80d69bfb64cfb4d8b",
     "ticker": "RAY4"
-  }, {
-    "name": "Ray Network",
-    "pool_id": "1c8cd022e993a8366be641c17cb6d9c5d8944e00bfce3189d8b1515a",
-    "ticker": "RAY"
   }, {
     "name": "anetaBTC - LISO Pool 3",
     "pool_id": "19e397043c50cd043700c7c54ab3ce86cb4595b912d637ae7abdb3f9",
