@@ -24,10 +24,6 @@
     "pool_id": "f018942907ac50ed7f831f14755ad93698188492d09d229655e6ade1",
     "ticker": "1PCT4"
   }, {
-    "name": "1 Percent Pool #9 (v1)",
-    "pool_id": "b59366e330a6db8260ad9aae8446ba8c908931d1b9cb3cca5d1d84aa",
-    "ticker": "1PCT9"
-  }, {
     "name": "1 Percent Pool #8 (v1)",
     "pool_id": "6b5180a258275c671690c94c704f074190e90ea900ed565b4c29abe8",
     "ticker": "1PCT8"
@@ -36,17 +32,21 @@
     "pool_id": "87021d7881cff6817040033a3c6b0246d11421c198e69195e60a7000",
     "ticker": "1PCT"
   }, {
-    "name": "1 Percent Pool #5 (v1)",
-    "pool_id": "1d8988c2057d6efd6a094e468840a51942ab03b5b69b07a2bca71b53",
-    "ticker": "1PCT5"
-  }, {
     "name": "1 Percent Pool #3 (v1)",
     "pool_id": "56f78c5478524496790461eefd4d9380f71dfb231358736902648dfe",
     "ticker": "1PCT3"
   }, {
+    "name": "1 Percent Pool #5 (v1)",
+    "pool_id": "1d8988c2057d6efd6a094e468840a51942ab03b5b69b07a2bca71b53",
+    "ticker": "1PCT5"
+  }, {
     "name": "1 Percent Pool #1 (v1)",
     "pool_id": "844540411ea37a35689620b02570eec2a0e403c1207c92c1b7a4dfa0",
     "ticker": "1PCT1"
+  }, {
+    "name": "1 Percent Pool #9 (v1)",
+    "pool_id": "b59366e330a6db8260ad9aae8446ba8c908931d1b9cb3cca5d1d84aa",
+    "ticker": "1PCT9"
   }, {
     "name": "1 Percent Pool #6 (v1)",
     "pool_id": "e75ff353a1a2e454d3fe59249f87dad63b4270b16caf4b819bae5f69",
@@ -616,12 +616,12 @@
     "pool_id": "a7784228ea544bc94455e76f527aaee53266929f0bb2896893a0444f",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 65",
-    "pool_id": "61d2598400211dcda6878511eb6d84719e5c502c7aa63d500f7a57ce",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 62",
     "pool_id": "11c660b87cb43e4720b053895b3137b4c08f367dbd030127c9c6de9e",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 65",
+    "pool_id": "61d2598400211dcda6878511eb6d84719e5c502c7aa63d500f7a57ce",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 42",
@@ -1200,12 +1200,12 @@
     "ticker": "EVE2"
   }, {
     "name": "Everstake",
-    "pool_id": "2382bac66b58a4df1cf1775285529bbbefb9102ecea991e1da0aa064",
-    "ticker": "EVE4"
-  }, {
-    "name": "Everstake",
     "pool_id": "446109cdad3e7dfc6e0bb4be5ecf25df02fcc2ec8f6df46a3ca2c537",
     "ticker": "VRSTK"
+  }, {
+    "name": "Everstake",
+    "pool_id": "2382bac66b58a4df1cf1775285529bbbefb9102ecea991e1da0aa064",
+    "ticker": "EVE4"
   }, {
     "name": "Everstake",
     "pool_id": "120ccc012f6b2ef1669acb15d2499cc9a226b6374184d1e322b1aa5f",
@@ -1274,19 +1274,19 @@
     "ticker": "FUN"
   }],
   "GENS": [{
-    "name": "Genius Yield 2",
+    "name": "Genius X 2",
     "pool_id": "6ec2284f8e312b5b122d85b97db828ff364d49e3c51c449bfc8889bf",
     "ticker": "GENS2"
   }, {
-    "name": "Genius Yield 3",
-    "pool_id": "126f84b8f88fd0f65de921ef521f2aa637e5e465cea06042c103fe22",
-    "ticker": "GENS3"
-  }, {
-    "name": "Genius Yield X",
+    "name": "Genius X",
     "pool_id": "c80d3b1f64feed0697bb97c97867a63ff1c33cb8b472bc33fdfa457e",
     "ticker": "GENSX"
   }, {
-    "name": "Genius Yield 1",
+    "name": "Genius X 3",
+    "pool_id": "126f84b8f88fd0f65de921ef521f2aa637e5e465cea06042c103fe22",
+    "ticker": "GENS3"
+  }, {
+    "name": "Genius X 1",
     "pool_id": "c485ab20bd3f105e59f3c50a0d3fbaf615a51f70a1c6d29d00a1fd27",
     "ticker": "GENS1"
   }, {
@@ -2466,13 +2466,13 @@
     "pool_id": "675304517e38e66880714b3c4816f47866c302edafceb96945fd056f",
     "ticker": "SKY2"
   }, {
-    "name": "Wave-7",
-    "pool_id": "e14a650c7a58d229bbb663cb42fffb36d68c2a6cecf0fd7b9c47e399",
-    "ticker": "WAV7"
-  }, {
     "name": "skylightpool.com",
     "pool_id": "4511bcca3896bcb6d43b66fb89fe079f00f44bed505c9ca232704dc9",
     "ticker": "SKY"
+  }, {
+    "name": "Wave-7",
+    "pool_id": "e14a650c7a58d229bbb663cb42fffb36d68c2a6cecf0fd7b9c47e399",
+    "ticker": "WAV7"
   }, {
     "name": "skylightpool.com",
     "pool_id": "c1011645958df9e805df499bbd30056c83094b99c8effe500350d8da",
@@ -2519,9 +2519,9 @@
     "ticker": "WAV12"
   }],
   "WIRA": [{
-    "name": "WIRA Pool (C1)",
-    "pool_id": "9f0daee27f33dbcf42054dd0a0de5fe8327f7eaec707f9d07a4bec73",
-    "ticker": "WIRA\ud83d\udc51"
+    "name": "WIRA Pool (G2)",
+    "pool_id": "b5d030e4abece7e239210b1af14eba911af89013ee7a53de77072797",
+    "ticker": "WIRA\ud83c\udf0d"
   }, {
     "name": "WIRA Pool",
     "pool_id": "fcedaf183e9430acc484e4e290f40cb19e98e0e07efea2a327a71b94",
