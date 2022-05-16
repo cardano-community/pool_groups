@@ -491,13 +491,13 @@
   "pool_id": "0e3f803915a37af7b6a121409192363e9de658524276c20c26f511ee",
   "ticker": "OZZY"
 }, {
-  "name": "KEI",
-  "pool_id": "e8167261090f590718d0f6fd338c55eac1fecc38da7d14028f1ec67e",
-  "ticker": "KEI"
-}, {
   "name": "Moksh Stake Pool",
   "pool_id": "6539a70bb6e61540444133eab3a24288d1cd3ddc3598adde93475513",
   "ticker": "MOKSH"
+}, {
+  "name": "KEI",
+  "pool_id": "e8167261090f590718d0f6fd338c55eac1fecc38da7d14028f1ec67e",
+  "ticker": "KEI"
 }, {
   "name": "ADA's Digital GrandParent",
   "pool_id": "4044aa415dec3609dcab41faa19b643719b9521ef16eb35945a64bd9",
@@ -1327,10 +1327,6 @@
   "pool_id": "f1ae552b032c2d87a416f4067eaf4636b3fe5e80230a1f63aa33f6bc",
   "ticker": "SEA"
 }, {
-  "name": "Otaku Pool",
-  "pool_id": "77ff160eacd3e99e84b70c9216f698965004da4b3dc628dac60cd290",
-  "ticker": "OTAKU"
-}, {
   "name": "AIDpool 1",
   "pool_id": "0e7a4cec5fb6f0e9eab8ad29b31e066f44b03cdc616ed37c2fb62061",
   "ticker": "AID1"
@@ -1374,6 +1370,10 @@
   "name": "Unique",
   "pool_id": "2397e90130d990f207f6e576b6b97bafb430f942d26702eef9627dcf",
   "ticker": "UNIQ"
+}, {
+  "name": "Otaku Pool",
+  "pool_id": "77ff160eacd3e99e84b70c9216f698965004da4b3dc628dac60cd290",
+  "ticker": "OTAKU"
 }, {
   "name": "Theta Staking Pool",
   "pool_id": "90f35b86d1bb85f15f559a612b5f3a406af7ea04530f65807950177f",
@@ -2151,6 +2151,10 @@
   "pool_id": "ce9f192835046ba71ed302d5d3e0ba99d65fd3950346cadad4781814",
   "ticker": "HOLA"
 }, {
+  "name": "Relay Stake Pool",
+  "pool_id": "6c1c1fc2b1e3e1ac056f6dd4dd4c3b78e66bd01896ca6e98a4d2431e",
+  "ticker": "RELAY"
+}, {
   "name": "MUEN-StakePool",
   "pool_id": "a08fe0a8ba2477ec80e17738704357532ad561733448d53001fe966b",
   "ticker": "MUEN"
@@ -2287,10 +2291,6 @@
   "pool_id": "f9db7272010a3ef3fcf1eeeab378fbccbb08fc9985feec2676b4cc11",
   "ticker": "OLYMP"
 }, {
-  "name": "Cardanodo",
-  "pool_id": "20c00ebe39ed12dbd2f3e84a5b57b85c972d1039cf79c70d893b6227",
-  "ticker": "NODO"
-}, {
   "name": "Coudre Bros",
   "pool_id": "74d66da57368e12f12bd07f303da7f8cd3c2494af9e32e4dea210c58",
   "ticker": "CBROS"
@@ -2306,6 +2306,10 @@
   "name": "Level Up!",
   "pool_id": "91e34a10c60a797011bdafc723e0b86a2fdecd11731c8c9e403cfe6e",
   "ticker": "LvLUp"
+}, {
+  "name": "Cardanodo",
+  "pool_id": "20c00ebe39ed12dbd2f3e84a5b57b85c972d1039cf79c70d893b6227",
+  "ticker": "NODO"
 }, {
   "name": "EnigmA",
   "pool_id": "3805681d8d4bc9c7f298c24fdeca3406849e2db84a0708718d96d0b2",
@@ -2351,10 +2355,6 @@
   "pool_id": "cf7249855783f4ca98e0d5249da8c0c362dc1de36294f46ccc720fba",
   "ticker": "HODLR"
 }, {
-  "name": "OrangeAndBlue",
-  "pool_id": "e9a4c0eb587df26cb4052b0ffbf7051b302e4c7340fb7f0b3990c776",
-  "ticker": "OANDB"
-}, {
   "name": "\ud835\uded1 + \u20b3 = \u221e",
   "pool_id": "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65",
   "ticker": "PIADA"
@@ -2362,6 +2362,10 @@
   "name": "Alamo Stakepool",
   "pool_id": "cace07533247e80000ecaa1a98657e3a2580dee73e30a37644b211de",
   "ticker": "ALAM0"
+}, {
+  "name": "OrangeAndBlue",
+  "pool_id": "e9a4c0eb587df26cb4052b0ffbf7051b302e4c7340fb7f0b3990c776",
+  "ticker": "OANDB"
 }, {
   "name": "Allincrypto",
   "pool_id": "37a4728a33f13c83c0967ea7dbe06eb3437bbb4d26d671c5093f3e4b",
@@ -2390,10 +2394,6 @@
   "name": "CANDY POOL",
   "pool_id": "9e2e33c5387dc64b32ff9df559c5df5d1966f3caf1a590d0a298dc28",
   "ticker": "CANDY"
-}, {
-  "name": "Froge Pool",
-  "pool_id": "889a3be6dadd665af903b8f6ff79425bcbf1ed4c1592987faaa67c40",
-  "ticker": "FPOOL"
 }, {
   "name": "ANFRA, The antifragile Pool",
   "pool_id": "007824d2d830f7c4e80854e7c2e21ebc94dd5b314b8543ffc3fe5382",
@@ -2747,10 +2747,6 @@
   "pool_id": "4f3410f074e7363091a1cc1c21b128ae423d1cce897bd19478e534bb",
   "ticker": "PIXEL"
 }, {
-  "name": "Norb Pool",
-  "pool_id": "71b00c23502112d4c634e325f28c9ade2a4ba4ec251677d306ae6b7b",
-  "ticker": "NORB"
-}, {
   "name": "Spanish Stake Pool",
   "pool_id": "20a299827005c01b614b902756d9d03ce633f696c428f478ef9ddeeb",
   "ticker": "ADAES"
@@ -2782,6 +2778,10 @@
   "name": "SnowPunkz",
   "pool_id": "6beb0ed994e6d58390618ff659e278e051ff27c273fe2513828c8628",
   "ticker": "SNOWP"
+}, {
+  "name": "Norb Pool",
+  "pool_id": "71b00c23502112d4c634e325f28c9ade2a4ba4ec251677d306ae6b7b",
+  "ticker": "NORB"
 }, {
   "name": "The Pirate Stacking Pool",
   "pool_id": "20c980d532235fdfe9e671d5a9365c8d05d10369992911bfd94f31c6",
@@ -2850,6 +2850,10 @@
   "name": "ANQA",
   "pool_id": "6749c8ed350238d3673f2389491a46e8a9a260837c5630d775078aaa",
   "ticker": "ANQA"
+}, {
+  "name": "Froge Pool",
+  "pool_id": "889a3be6dadd665af903b8f6ff79425bcbf1ed4c1592987faaa67c40",
+  "ticker": "FPOOL"
 }, {
   "name": "Frontier Pool",
   "pool_id": "ad9a5fae28836eca9e4575588c712e7accd608b1519d72b7a1b058ac",
@@ -3035,6 +3039,10 @@
   "pool_id": "45d3bedbd9e557a4fb213cad00ae87d7cea38a9534cc977a2a21bf34",
   "ticker": "NOBLE"
 }, {
+  "name": "Spice Pool",
+  "pool_id": "55f517ab5c01bd161e2292dc74bfcb98141da3521e5bb07c92694ab9",
+  "ticker": "SPICE"
+}, {
   "name": "DPADA",
   "pool_id": "4ec969524032c26e3d47a29e5e8e3e5f5d45074701fd3da34c0e2d77",
   "ticker": "DPADA"
@@ -3118,6 +3126,10 @@
   "name": "Rose Pool Staking",
   "pool_id": "fffda60991eafa48674f7137a76e11ddc2464e94c73a4319629072b4",
   "ticker": "ROSE"
+}, {
+  "name": "decentral.iced",
+  "pool_id": "e1ae99532bbe499351d123769bb5d49a20a4607f067b0919d7a1ece7",
+  "ticker": "deci"
 }, {
   "name": "TKCoin.org Stake Pool",
   "pool_id": "9850877b3c73df643d6b9d21aa47b6e86f319460e0ca4044eb769bcb",
@@ -3742,10 +3754,6 @@
   "name": "BEME Pool",
   "pool_id": "13fd426e816f0b8de402ec2012f851d617667188f070690bfc232820",
   "ticker": "BEME"
-}, {
-  "name": "Milpools",
-  "pool_id": "de3498ad820d0a44cd411893fb00a0d59ef43ee909316a2e8ebca070",
-  "ticker": "USMC"
 }, {
   "name": "Carbonara",
   "pool_id": "8b8417759d9a4361d475945e1f8ff8d367a09d4afd96a509bffec9e0",
@@ -5086,6 +5094,10 @@
   "name": "ANSOPool",
   "pool_id": "51a6135f11063eb4358395bb30cd991a36bf4e5b2e25528fb50610f7",
   "ticker": "ANSO"
+}, {
+  "name": "ADA for Cats",
+  "pool_id": "22d30699e29379b381c3b6b8366b9a4199f9b6232c64709f16953ce1",
+  "ticker": "CATS1"
 }, {
   "name": "Kestrel Pool",
   "pool_id": "856e676567c8a484c8d9b6726c8844e2857445eab8726d27478dd907",
