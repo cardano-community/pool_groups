@@ -16,13 +16,13 @@
     "pool_id": "64e09628015d1065e4a11f032c90f677ba1f2f583ff0f55a158450b0",
     "ticker": "1PCT4"
   }, {
-    "name": "1 Percent Pool #1 (v1)",
-    "pool_id": "844540411ea37a35689620b02570eec2a0e403c1207c92c1b7a4dfa0",
-    "ticker": "1PCT1"
-  }, {
     "name": "1 Percent Pool #0 (v1)",
     "pool_id": "463e481957f266d93e4decbfb73003380ab17223e0e569f71c7a525a",
     "ticker": "1PCT0"
+  }, {
+    "name": "1 Percent Pool #1 (v1)",
+    "pool_id": "844540411ea37a35689620b02570eec2a0e403c1207c92c1b7a4dfa0",
+    "ticker": "1PCT1"
   }, {
     "name": "1 Percent Pool #4 (v2)",
     "pool_id": "f018942907ac50ed7f831f14755ad93698188492d09d229655e6ade1",
@@ -338,6 +338,10 @@
     "name": "Arcadia's TESLA Pool",
     "pool_id": "472314c0412e6cf715366ad460cc3560a6c6314cbd9787b481e9d23a",
     "ticker": "TESLA"
+  }, {
+    "name": "Arcadia's ADAMS Pool",
+    "pool_id": "452cf4da07afbac289bd221f4bae723b8cfedfd2dcdce07d7a88e4d1",
+    "ticker": "ADAMS"
   }],
   "ATADA": [{
     "name": "ATADA-2 Stakepool in Austria",
@@ -628,12 +632,12 @@
     "pool_id": "d4970177385f7c3c90f51af3dbc4a865221778b48f23e4dc60dd4a67",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 52",
-    "pool_id": "662796197f741c9b9f0d9830530d01300ee5c63f549784ff2ac81c17",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 50",
     "pool_id": "96a46d5a796a30483492c3717f80b7c6ef87e9525af162ffacf74fdb",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 52",
+    "pool_id": "662796197f741c9b9f0d9830530d01300ee5c63f549784ff2ac81c17",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 68",
@@ -676,16 +680,16 @@
     "pool_id": "caf8502f66536e95138fbf23c14abde1d13090d4aef52b9287f682e8",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 59",
-    "pool_id": "72583cf41012446cd1ca839c10049ecd65d31664b11e63d286041d61",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 46",
     "pool_id": "9b9890b811d67ba9e69810581e4fc119ca0c2354adb7cd6ff564b0a3",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 48",
     "pool_id": "2352f8c7d0b9f0bf5b342c135d5b25c910491deec1440bd9d27799a6",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 59",
+    "pool_id": "72583cf41012446cd1ca839c10049ecd65d31664b11e63d286041d61",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 61",
@@ -1191,12 +1195,12 @@
     "ticker": "EVE4"
   }, {
     "name": "Everstake",
-    "pool_id": "446109cdad3e7dfc6e0bb4be5ecf25df02fcc2ec8f6df46a3ca2c537",
-    "ticker": "VRSTK"
-  }, {
-    "name": "Everstake",
     "pool_id": "120ccc012f6b2ef1669acb15d2499cc9a226b6374184d1e322b1aa5f",
     "ticker": "RSTK"
+  }, {
+    "name": "Everstake",
+    "pool_id": "446109cdad3e7dfc6e0bb4be5ecf25df02fcc2ec8f6df46a3ca2c537",
+    "ticker": "VRSTK"
   }, {
     "name": "Everstake",
     "pool_id": "36e0db9278d5b481dad2f2f84c42d20c324b046aaff97ff45fa4e134",
@@ -1733,13 +1737,13 @@
     "pool_id": "229049e2c50b6b99d062dbc7cc81aa06fd071cbd06ed89ada72958c5",
     "ticker": "ANMAL"
   }, {
-    "name": "DRMAL - Retiring Maladex's Pool.",
-    "pool_id": "5accb407fb2299e59614d237131af021b3a3d8267b391e2d707c42ab",
-    "ticker": "DRMAL"
-  }, {
     "name": "MAL2 - Retiring Maladex's Pool.",
     "pool_id": "15343989c5a8cc6dd36eb10c96b9399512dbbede7d3480434eb8ceb2",
     "ticker": "MAL2"
+  }, {
+    "name": "DRMAL - Retiring Maladex's Pool.",
+    "pool_id": "5accb407fb2299e59614d237131af021b3a3d8267b391e2d707c42ab",
+    "ticker": "DRMAL"
   }],
   "MANGO": [{
     "name": "MANGO FARM",
@@ -1857,13 +1861,13 @@
     "pool_id": "30432a0b85b6f80b3e9cd356d8b76b9793f5530c91050c1688da4922",
     "ticker": "MS3"
   }, {
-    "name": "Moonstake 5",
-    "pool_id": "2fc479904f9482d1b573977a3af26bb5577545014521eee513f54ef1",
-    "ticker": "MS5"
-  }, {
     "name": "Moonstake 4",
     "pool_id": "707725a41873178814530f39fb14a4b2842d05377e2b62a546fe2014",
     "ticker": "MS4"
+  }, {
+    "name": "Moonstake 5",
+    "pool_id": "2fc479904f9482d1b573977a3af26bb5577545014521eee513f54ef1",
+    "ticker": "MS5"
   }, {
     "name": "Moonstake 6",
     "pool_id": "48794370608c8d41cf4ad665833da210ad4fed6c6fd40b48bfad9ca8",
@@ -2480,13 +2484,13 @@
     "pool_id": "7bb4d04389fdc7816d9fcd3aec5c585e61635b31c65fd9ee6c175535",
     "ticker": "WIRA\ud83c\udf1f"
   }, {
-    "name": "WIRA Pool (S2)",
-    "pool_id": "85a1b1fdce83908d3fb63bb5eba68ed3eef009680b282468e27e9c81",
-    "ticker": "WIRA\ud83c\udf20"
+    "name": "WIRA Pool (G3)",
+    "pool_id": "d698c67ed52ea02dae75e0b4e4601a6c86495bcf40c3d0bd44312019",
+    "ticker": "WIRA\ud83c\udf0f"
   }, {
-    "name": "WIRA Pool (F1)",
-    "pool_id": "bee1c394dc9670ccaf70d1d73566e9d83c40311fd1a09f1742ab0bcb",
-    "ticker": "WIRA\ud83d\udd25"
+    "name": "WIRA Pool (G2)",
+    "pool_id": "b5d030e4abece7e239210b1af14eba911af89013ee7a53de77072797",
+    "ticker": "WIRA\ud83c\udf0d"
   }],
   "WMOPS": [{
     "name": "Don\u2019t underestimate the Force",
