@@ -132,11 +132,11 @@
   }],
   "ACL": [{
     "name": "A CardanoLand pool ACL",
-    "pool_id": "0c2e0c5a062389a3fd6fafddae26344d490866d7a34cad981b20f96b",
+    "pool_id": "bdd750e173f3d606c1af13b8661da7c0b5fa43121741c593cceec822",
     "ticker": "ACL"
   }, {
     "name": "A CardanoLand pool ACL",
-    "pool_id": "bdd750e173f3d606c1af13b8661da7c0b5fa43121741c593cceec822",
+    "pool_id": "0c2e0c5a062389a3fd6fafddae26344d490866d7a34cad981b20f96b",
     "ticker": "ACL"
   }, {
     "name": "A CardanoLand pool ACL",
@@ -178,13 +178,13 @@
     "pool_id": "c779f67a0f3a1f2985626e345013015f71cf245dbcc8ac8457f42e56",
     "ticker": "NUFI1"
   }, {
-    "name": "Nu.Fi &amp; AdaLite 7",
-    "pool_id": "d5e0f919debe82e4447cf0f0089188ae212f7efbc065a3d819daa17a",
-    "ticker": "NUFI7"
-  }, {
     "name": "Nu.Fi &amp; AdaLite 5",
     "pool_id": "936f24e391afc0738c816ae1f1388957b977de3d0e065dc9ba38af8d",
     "ticker": "NUFI5"
+  }, {
+    "name": "Nu.Fi &amp; AdaLite 7",
+    "pool_id": "d5e0f919debe82e4447cf0f0089188ae212f7efbc065a3d819daa17a",
+    "ticker": "NUFI7"
   }, {
     "name": "Nu.Fi &amp; AdaLite",
     "pool_id": "04c60c78417132a195cbb74975346462410f72612952a7c4ade7e438",
@@ -580,12 +580,12 @@
     "pool_id": "9418abb33c7cf50778598371bc1f09fe5460d1dedf740faea665f4ac",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 56",
-    "pool_id": "a250eb51869c6b94cbc507d22e76ed0f35d31ccabdb1725cfbcddb75",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 54",
     "pool_id": "7e00129d906afbba06a6b279fcf6e4295986a1104b7f5c4046c653bc",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 56",
+    "pool_id": "a250eb51869c6b94cbc507d22e76ed0f35d31ccabdb1725cfbcddb75",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 49",
@@ -656,6 +656,10 @@
     "pool_id": "936316c217c6f217640ed8d132cb0ff8133eef73e74e4c28002b9eb3",
     "ticker": "BNP"
   }, {
+    "name": "Binance Staking - 70",
+    "pool_id": "caf8502f66536e95138fbf23c14abde1d13090d4aef52b9287f682e8",
+    "ticker": "BNP"
+  }, {
     "name": "Binance Staking - 33",
     "pool_id": "b21ddee9370f41c3b2b71da34f8a57943ba59034a777b80aed503c2b",
     "ticker": "BNP"
@@ -674,10 +678,6 @@
   }, {
     "name": "Binance Staking - 67",
     "pool_id": "533a710c19bdddc144ab19900d37a81488088259981a5d4885031ce3",
-    "ticker": "BNP"
-  }, {
-    "name": "Binance Staking - 70",
-    "pool_id": "caf8502f66536e95138fbf23c14abde1d13090d4aef52b9287f682e8",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 46",
@@ -902,13 +902,13 @@
     "pool_id": "e5b20e8f9661506710a159e561d40ceb54449fdea1d1130b3bdb36bb",
     "ticker": "CRDN1"
   }, {
-    "name": "CARDANIANS.io",
-    "pool_id": "618ab17ec8ea7239b4ac0c826b667c599489e25524ce74841a29d510",
-    "ticker": "CRDNS"
-  }, {
     "name": "CARDANIANS.io #4",
     "pool_id": "b6e038fb50202dfe5ccc61ecae9b8803bdc9cb7fb3ae9348cb97b0ef",
     "ticker": "CRDN3"
+  }, {
+    "name": "CARDANIANS.io",
+    "pool_id": "618ab17ec8ea7239b4ac0c826b667c599489e25524ce74841a29d510",
+    "ticker": "CRDNS"
   }, {
     "name": "CARDANIANS.io #1",
     "pool_id": "ed24d8995c6fd81d976baa03de565fea21a02d77d49b047064ba8445",
@@ -1737,13 +1737,13 @@
     "pool_id": "229049e2c50b6b99d062dbc7cc81aa06fd071cbd06ed89ada72958c5",
     "ticker": "ANMAL"
   }, {
-    "name": "MAL2 - Retiring Maladex's Pool.",
-    "pool_id": "15343989c5a8cc6dd36eb10c96b9399512dbbede7d3480434eb8ceb2",
-    "ticker": "MAL2"
-  }, {
     "name": "DRMAL - Retiring Maladex's Pool.",
     "pool_id": "5accb407fb2299e59614d237131af021b3a3d8267b391e2d707c42ab",
     "ticker": "DRMAL"
+  }, {
+    "name": "MAL2 - Retiring Maladex's Pool.",
+    "pool_id": "15343989c5a8cc6dd36eb10c96b9399512dbbede7d3480434eb8ceb2",
+    "ticker": "MAL2"
   }],
   "MANGO": [{
     "name": "MANGO FARM",
@@ -2184,20 +2184,20 @@
   }],
   "RAY": [{
     "name": "Ray Network",
-    "pool_id": "1c8cd022e993a8366be641c17cb6d9c5d8944e00bfce3189d8b1515a",
-    "ticker": "RAY"
-  }, {
-    "name": "Ray Network",
     "pool_id": "9ad2692a4865c5999f27d65baf170be5ba38b25489c8e21007193edd",
     "ticker": "RAY2"
+  }, {
+    "name": "Ray Network",
+    "pool_id": "8088a5b6523f6bd6475475a20524082c07ffed6f89e39d30a1d6ab34",
+    "ticker": "RAY5"
   }, {
     "name": "Ray Network",
     "pool_id": "22cfa3b8612c146a0737c974dcfcbb8cddd86f3a511cf531ce8d91a1",
     "ticker": "RAY3"
   }, {
     "name": "Ray Network",
-    "pool_id": "8088a5b6523f6bd6475475a20524082c07ffed6f89e39d30a1d6ab34",
-    "ticker": "RAY5"
+    "pool_id": "1c8cd022e993a8366be641c17cb6d9c5d8944e00bfce3189d8b1515a",
+    "ticker": "RAY"
   }, {
     "name": "Ray Network",
     "pool_id": "28f85efe5e9d3b3d8a0f4950117e47b7415a92f80d69bfb64cfb4d8b",
@@ -2422,13 +2422,13 @@
     "pool_id": "675304517e38e66880714b3c4816f47866c302edafceb96945fd056f",
     "ticker": "SKY2"
   }, {
-    "name": "skylightpool.com",
-    "pool_id": "4511bcca3896bcb6d43b66fb89fe079f00f44bed505c9ca232704dc9",
-    "ticker": "SKY"
-  }, {
     "name": "Wave-7",
     "pool_id": "e14a650c7a58d229bbb663cb42fffb36d68c2a6cecf0fd7b9c47e399",
     "ticker": "WAV7"
+  }, {
+    "name": "skylightpool.com",
+    "pool_id": "4511bcca3896bcb6d43b66fb89fe079f00f44bed505c9ca232704dc9",
+    "ticker": "SKY"
   }, {
     "name": "skylightpool.com",
     "pool_id": "34eb602eb435e3c6a4feb6d766a44735ca09e963f82098973c85951e",
@@ -2473,11 +2473,6 @@
     "name": "WAVE-12",
     "pool_id": "f4a10d6f82ca3a874ff2e556fd9a163fa99e686fe387eda7bb4a8d86",
     "ticker": "WAV12"
-  }],
-  "WIN": [{
-    "name": "Star Pool",
-    "pool_id": "bcbf6dac1ce76696339b4ba1c8968868f6b8eacdebcda739c1156c0c",
-    "ticker": "STARS"
   }],
   "WIRA": [{
     "name": "WIRA Pool (S1)",
