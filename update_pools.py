@@ -61,12 +61,9 @@ def open_json(jsonfile):
   return obj
 
 def main():
-  #adapools_js = load_json('https://js.adapools.org/groups.json')
-  #adapools_list = load_json('https://js.adapools.org/pools.json')
-  #adastat_js = load_json('https://adastat.net/rest/v0/poolscluster.json')
-  adapools_js = open_json('jsons/groups.json')
-  adapools_list = open_json('jsons/pools.json')
-  adastat_js = open_json('jsons/poolscluster.json')
+  adapools_js = load_json('https://js.adapools.org/groups.json')
+  adapools_list = load_json('https://js.adapools.org/pools.json')
+  adastat_js = load_json('https://adastat.net/rest/v0/poolscluster.json')
   manual_js = open_json(addendumf)
   mismatch,groups={},{}
   spo={}
