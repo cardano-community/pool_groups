@@ -10,16 +10,19 @@
 #
 # High-Level Flow:
 # - Download all pool information to adapools_list
-# - ADAPools and ADAStat provide their pool group information over API, download pool group information for each to adapools_js and adastat_js respectively
+# - ADAPools and ADAStat provide their pool group information over API, download pool group information for each to adapools_js and adastat_js respectively.
+#   Any manual additions to the list is in addendum.json, load it to manual_js.
 #   - adapools_js : Those not recognised as part of a group have adapools_js[<index for pool>].group = null
 #   - adastat_js : Those not recognised as part of a group are not in the list
+#   - manual_js : Those reported manually as cluster, SPaaS participant, ..
 # - Process each pool in adapools_js
 #   - If the pool is also present in adastat_js (which is list of pools who are also groups):
 #     - Add pool to group , preferring naming convention from adapools list
 #   - If adastat and adapools dont match, add it as discrepancy
-#   - If they agree on pool being single pool operator, add it to spof 
+#   - If they agree on pool being single pool operator, add it to spo 
 # - Process each pool in adastat_js
 #   - Add any pools not listed in adapools_js as discrepancy
+# - Process addendum.json
 
 import json, os, jsbeautifier
 import urllib3
@@ -27,6 +30,7 @@ http = urllib3.PoolManager()
 urllib3.disable_warnings()
 jsonf='pool_clusters.json'
 spof='singlepooloperators.json'
+addendumf='addendum.json'
 dscrpncyf='descrepancy.json'
 
 def load_json(url):
@@ -57,47 +61,45 @@ def open_json(jsonfile):
   return obj
 
 def main():
-  adapools_js = load_json('https://js.adapools.org/groups.json')
-  adapools_list = load_json('https://js.adapools.org/pools.json')
-  adastat_js = load_json('https://adastat.net/rest/v0/poolscluster.json')
+  #adapools_js = load_json('https://js.adapools.org/groups.json')
+  #adapools_list = load_json('https://js.adapools.org/pools.json')
+  #adastat_js = load_json('https://adastat.net/rest/v0/poolscluster.json')
+  adapools_js = open_json('jsons/groups.json')
+  adapools_list = open_json('jsons/pools.json')
+  adastat_js = open_json('jsons/poolscluster.json')
+  manual_js = open_json(addendumf)
   mismatch,groups={},{}
-  spo=[]
-  for ap_pool in adapools_js:
+  spo={}
+  for ap_pool in adapools_js: # Process ADAPools definitions
     # If pool is present in adapools metadata list, process in groups
     if str(ap_pool['pool_id']) in adapools_list:
       matched=0
-      pool_info={"pool_id": str(ap_pool['pool_id']), "ticker": str(adapools_list[str(ap_pool['pool_id'])]['db_ticker']), "name": str(adapools_list[str(ap_pool['pool_id'])]['db_name'])}
-      for as_pool in adastat_js:
-        if str(as_pool['pool_id']) == str(ap_pool['pool_id']):
-          if ap_pool['group'] != None:
-            # Both ADAStat and ADAPools treat pool as part of cluster
-            if str(ap_pool['group']) not in groups:
-              groups[str(ap_pool['group'])]=[]
-            groups[str(ap_pool['group'])].append(pool_info)
-          else:
-            # ADAPools consider pool single pool op, but ADAStat does not
-            mismatch[str(ap_pool['pool_id'])]={'adapools': None, 'adastat': as_pool['cluster_name']}
-          matched=1
-          break
-      # If pool from ADAPools was not found in ADAStat, add group details to mismatch
-      if matched == 0:
-        if ap_pool['group'] != None:
-          mismatch[str(ap_pool['pool_id'])]={'adapools': str(ap_pool['group']),'adastat': None}
-        else:
-          # If ADAPools thinks it's individual op and ADAStat does not have the pool info either in groups, they agree it is "Individual Operator"
-          if ap_pool['group'] == None:
-            spo.append(pool_info)
-  for pool in adastat_js:
+      if ap_pool['group'] == None: #ADAPools thinks this pool is single operator pool
+        spo[str(ap_pool['pool_id'])]={"ticker": str(adapools_list[str(ap_pool['pool_id'])]['db_ticker']), "name": str(adapools_list[str(ap_pool['pool_id'])]['db_name'])}
+      else: # Pool is part of cluster as peer ADAPools
+        if str(ap_pool['group']) not in groups:
+          groups[str(ap_pool['group'])]=[]
+        groups[str(ap_pool['group'])].append({"pool_id": str(ap_pool['pool_id']), "ticker": str(adapools_list[str(ap_pool['pool_id'])]['db_ticker']), "name": str(adapools_list[str(ap_pool['pool_id'])]['db_name'])})
+
+  for pool in adastat_js: # Process ADAStat definitions
     matched=0
-    # If adastat pool is in adapools
-    for ap_pool in adapools_js:
-      if ap_pool['pool_id'] == pool['pool_id']:
-        # If match is found, it would have already been handled in first loop
+    for singlepoolid in spo:
+      if pool['pool_id'] == singlepoolid: # ADAStat thinks mentioned entry is part of cluster
         matched=1
         break
-    if matched == 0:
+    if matched == 1:
+      del spo[singlepoolid]
       mismatch[str(pool['pool_id'])]={'adapools': None,'adastat': str(pool['cluster_name'])}
 
+  for poolgrp in manual_js: # Process addendum
+    for pool in manual_js[poolgrp]:
+      matched=0
+      for singlepoolid in spo:
+        if pool == singlepoolid: # Match found for manual addendum to override single pool operator definition
+          matched=1
+      if matched == 1:
+        del spo[singlepoolid]
+        mismatch[str(pool)]={'addendum': str("Part of '" + str(poolgrp) + "', reason: " + str(manual_js[poolgrp]['comment'])) }
   save_json(groups, jsonf)
   save_json(spo,spof)
   save_json(mismatch,dscrpncyf)
