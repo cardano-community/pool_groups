@@ -606,12 +606,12 @@
     "pool_id": "9418abb33c7cf50778598371bc1f09fe5460d1dedf740faea665f4ac",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 54",
-    "pool_id": "7e00129d906afbba06a6b279fcf6e4295986a1104b7f5c4046c653bc",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 56",
     "pool_id": "a250eb51869c6b94cbc507d22e76ed0f35d31ccabdb1725cfbcddb75",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 54",
+    "pool_id": "7e00129d906afbba06a6b279fcf6e4295986a1104b7f5c4046c653bc",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 49",
@@ -883,12 +883,12 @@
   }],
   "CNODE": [{
     "name": "Cardanode: 0.00% Fee &amp; 100% Rewards Guaranteed",
-    "pool_id": "0775f0139af22e1ebf2c3278598816946e750029b70eace3c5135c3e",
-    "ticker": "CNODE"
-  }, {
-    "name": "Cardanode: 0.00% Fee &amp; 100% Rewards Guaranteed",
     "pool_id": "971212db48d9390662faa0fa725950f3b9ac1a898227f5fcf1096399",
     "ticker": "FUND"
+  }, {
+    "name": "Cardanode: 0.00% Fee &amp; 100% Rewards Guaranteed",
+    "pool_id": "0775f0139af22e1ebf2c3278598816946e750029b70eace3c5135c3e",
+    "ticker": "CNODE"
   }, {
     "name": "Cardanode: 0.00% Fee and 100% Rewards Guaranteed",
     "pool_id": "fdb0d8ba88d434c8dd3ab3974a3401efc7b016e54c7387c63398aec4",
@@ -2797,13 +2797,21 @@
     "ticker": ""
   }],
   "WIRA": [{
+    "name": "WIRA Pool (G1)",
+    "pool_id": "ceb171ac6a0d0986043c266263a88b09ea4c39e1cc342dd9c5f2b811",
+    "ticker": "WIRA\ud83c\udf0e"
+  }, {
     "name": "WIRA Pool (S2)",
     "pool_id": "85a1b1fdce83908d3fb63bb5eba68ed3eef009680b282468e27e9c81",
     "ticker": "WIRA\ud83c\udf20"
   }, {
-    "name": "WIRA Pool (D1)",
-    "pool_id": "fec0c5f77fb6eac6e01124a0a11af032b322157d4c35a14361732d19",
-    "ticker": "WIRA\ud83d\udc8e"
+    "name": "WIRA Pool (C1)",
+    "pool_id": "9f0daee27f33dbcf42054dd0a0de5fe8327f7eaec707f9d07a4bec73",
+    "ticker": "WIRA\ud83d\udc51"
+  }, {
+    "name": "WIRA Pool (F1)",
+    "pool_id": "bee1c394dc9670ccaf70d1d73566e9d83c40311fd1a09f1742ab0bcb",
+    "ticker": "WIRA\ud83d\udd25"
   }],
   "WMOPS": [{
     "name": "Don\u2019t underestimate the Force",
