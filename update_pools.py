@@ -24,7 +24,7 @@
 #   - Add any pools not listed in adapools_js as discrepancy
 # - Process addendum.json
 
-import json, os, jsbeautifier
+import json, os, jsbeautifier, traceback
 import urllib3
 http = urllib3.PoolManager()
 urllib3.disable_warnings()
@@ -56,49 +56,42 @@ def open_json(jsonfile):
   """Open JSON file argument and return it as object."""
   if not os.path.isfile(jsonfile):
     save_json({},jsonfile)
-  with open(jsonfile, 'r') as f:
+  with open(jsonfile, 'r', encoding='utf-8') as f:
     obj = json.load(f)
   return obj
 
 def main():
-  adapools_js = load_json('https://js.adapools.org/groups.json')
-  adapools_list = load_json('https://js.adapools.org/pools.json')
-  adastat_js = load_json('https://adastat.net/rest/v0/poolscluster.json')
-  manual_js = open_json(addendumf)
-  mismatch,groups={},{}
-  spo={}
-  for ap_pool in adapools_js: # Process ADAPools definitions
-    # If pool is present in adapools metadata list, process in groups
-    if str(ap_pool['pool_id']) in adapools_list:
-      matched=0
-      if ap_pool['group'] == None: #ADAPools thinks this pool is single operator pool
-        spo[str(ap_pool['pool_id'])]={"ticker": str(adapools_list[str(ap_pool['pool_id'])]['db_ticker']), "name": str(adapools_list[str(ap_pool['pool_id'])]['db_name'])}
-      else: # Pool is part of cluster as peer ADAPools
-        if str(ap_pool['group']) not in groups:
-          groups[str(ap_pool['group'])]=[]
-        groups[str(ap_pool['group'])].append({"pool_id": str(ap_pool['pool_id']), "ticker": str(adapools_list[str(ap_pool['pool_id'])]['db_ticker']), "name": str(adapools_list[str(ap_pool['pool_id'])]['db_name'])})
-
-  for pool in adastat_js: # Process ADAStat definitions
-    matched=0
-    for singlepoolid in spo:
-      if pool['pool_id'] == singlepoolid: # ADAStat thinks mentioned entry is part of cluster
-        matched=1
-        break
-    if matched == 1:
-      del spo[singlepoolid]
-      mismatch[str(pool['pool_id'])]={'adapools': None,'adastat': str(pool['cluster_name'])}
-
-  for poolgrp in manual_js: # Process addendum
-    for pool in manual_js[poolgrp]:
-      matched=0
-      for singlepoolid in spo:
-        if pool == singlepoolid: # Match found for manual addendum to override single pool operator definition
-          matched=1
-      if matched == 1:
-        del spo[singlepoolid]
-        mismatch[str(pool)]={'addendum': str("Part of '" + str(poolgrp) + "', reason: " + str(manual_js[poolgrp]['comment'])) }
-  save_json(groups, jsonf)
-  save_json(spo,spof)
-  save_json(mismatch,dscrpncyf)
-
+  try:
+    adapools_js = load_json('https://js.adapools.org/groups.json')
+    adapools_list = load_json('https://js.adapools.org/pools.json')
+    adastat_js = load_json('https://adastat.net/rest/v0/poolscluster.json')
+    manual_js = open_json(addendumf)
+    mismatch,groups={},{}
+    spo={}
+    for ap_pool in adapools_js: # Process ADAPools definitions
+      # If pool is present in adapools metadata list, process in groups
+      if str(ap_pool['pool_id']) in adapools_list:
+        matched=0
+        if ap_pool['group'] == None: #ADAPools thinks this pool is single operator pool
+          spo[str(ap_pool['pool_id'])]={"ticker": str(adapools_list[str(ap_pool['pool_id'])]['db_ticker']), "name": str(adapools_list[str(ap_pool['pool_id'])]['db_name'])}
+        else: # Pool is part of cluster as peer ADAPools
+          if str(ap_pool['group']) not in groups:
+            groups[str(ap_pool['group'])]=[]
+          groups[str(ap_pool['group'])].append({"pool_id": str(ap_pool['pool_id']), "ticker": str(adapools_list[str(ap_pool['pool_id'])]['db_ticker']), "name": str(adapools_list[str(ap_pool['pool_id'])]['db_name'])})
+    for singlepoolid in list(spo):
+      for pool in adastat_js: # Process ADAStat definitions
+        if pool['pool_id'] == singlepoolid: # ADAStat thinks mentioned entry is part of cluster
+          del spo[singlepoolid]
+          mismatch[str(pool['pool_id'])]={'adapools': None,'adastat': str(pool['cluster_name'])}
+      for poolgrp in manual_js: # Process addendum
+        for pool in manual_js[poolgrp]['pools']:
+          if pool == singlepoolid: # Match found for manual addendum to override single pool operator definition
+            if singlepoolid in spo:
+              del spo[singlepoolid]
+            mismatch[str(pool)]={'addendum': str("Part of '" + str(poolgrp) + "', reason: " + str(manual_js[poolgrp]['comment'])) }
+    save_json(groups, jsonf)
+    save_json(spo,spof)
+    save_json(mismatch,dscrpncyf)
+  except Exception as e:
+    print ("Exception: " + str(e) + str(traceback.print_exc()))
 main()
