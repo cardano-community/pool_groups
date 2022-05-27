@@ -626,12 +626,12 @@
     "pool_id": "9418abb33c7cf50778598371bc1f09fe5460d1dedf740faea665f4ac",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 54",
-    "pool_id": "7e00129d906afbba06a6b279fcf6e4295986a1104b7f5c4046c653bc",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 56",
     "pool_id": "a250eb51869c6b94cbc507d22e76ed0f35d31ccabdb1725cfbcddb75",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 54",
+    "pool_id": "7e00129d906afbba06a6b279fcf6e4295986a1104b7f5c4046c653bc",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 49",
@@ -678,16 +678,16 @@
     "pool_id": "d4970177385f7c3c90f51af3dbc4a865221778b48f23e4dc60dd4a67",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 50",
-    "pool_id": "96a46d5a796a30483492c3717f80b7c6ef87e9525af162ffacf74fdb",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 52",
     "pool_id": "662796197f741c9b9f0d9830530d01300ee5c63f549784ff2ac81c17",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 68",
     "pool_id": "204f49517b4b9df91efb81b030a9b33738f4f0f43819fd2c39cb438b",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 50",
+    "pool_id": "96a46d5a796a30483492c3717f80b7c6ef87e9525af162ffacf74fdb",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 30",
@@ -1272,12 +1272,12 @@
     "ticker": "EVE2"
   }, {
     "name": "Everstake",
-    "pool_id": "2382bac66b58a4df1cf1775285529bbbefb9102ecea991e1da0aa064",
-    "ticker": "EVE4"
-  }, {
-    "name": "Everstake",
     "pool_id": "446109cdad3e7dfc6e0bb4be5ecf25df02fcc2ec8f6df46a3ca2c537",
     "ticker": "VRSTK"
+  }, {
+    "name": "Everstake",
+    "pool_id": "2382bac66b58a4df1cf1775285529bbbefb9102ecea991e1da0aa064",
+    "ticker": "EVE4"
   }, {
     "name": "Everstake",
     "pool_id": "120ccc012f6b2ef1669acb15d2499cc9a226b6374184d1e322b1aa5f",
@@ -1918,13 +1918,13 @@
     "pool_id": "c65a6561ab578bd07d88bc8b0461e84302a22ec8055ed31e835e89c9",
     "ticker": "JEDI"
   }, {
-    "name": "Not Bored Ape Yacht Club's Pool",
-    "pool_id": "fa12fc84aeccc7ac2727d7a335000582a7ea983cd7fa733319d2c4fb",
-    "ticker": "BAYC"
-  }, {
     "name": "Not CryptoPunks Pool",
     "pool_id": "8e76920827f7768c6faa80fcc8e1b6afebd8129539397032a1a190e5",
     "ticker": "PUNKS"
+  }, {
+    "name": "Not Bored Ape Yacht Club's Pool",
+    "pool_id": "fa12fc84aeccc7ac2727d7a335000582a7ea983cd7fa733319d2c4fb",
+    "ticker": "BAYC"
   }, {
     "name": "Not Van Gogh's Pool",
     "pool_id": "1b9bf256c280fbaaa578a8809c570cad2bce820d7947d7638ac2e81f",
@@ -2140,11 +2140,11 @@
     "ticker": ""
   }, {
     "name": "",
-    "pool_id": "8a8e0fa9953e6a02c73bf9c7471c08c20e4067cccb4afff6201cb6ef",
+    "pool_id": "f619a10b7ccea6167c5f169634e834b57739c2db892185f2efa9f1eb",
     "ticker": ""
   }, {
     "name": "",
-    "pool_id": "f619a10b7ccea6167c5f169634e834b57739c2db892185f2efa9f1eb",
+    "pool_id": "8a8e0fa9953e6a02c73bf9c7471c08c20e4067cccb4afff6201cb6ef",
     "ticker": ""
   }, {
     "name": "",
@@ -2707,6 +2707,11 @@
     "pool_id": "738585e4df0f9fb93dec66a9bfddd770f309d0f029bd2fd570732c8f",
     "ticker": "UKADA"
   }],
+  "UP": [{
+    "name": "UKRAINE POOL 1",
+    "pool_id": "4687c441061ffc4f827c7280cdf5f6e5b51762a46563daaf6e883bd7",
+    "ticker": "UP1"
+  }],
   "VINCE": [{
     "name": "VINCE pool",
     "pool_id": "f8024d90482a3f839c7ee0c2be31ed3ad4be1564f1970bb0db4078f9",
@@ -2851,13 +2856,9 @@
     "ticker": ""
   }],
   "WIRA": [{
-    "name": "WIRA Pool (S1)",
-    "pool_id": "7bb4d04389fdc7816d9fcd3aec5c585e61635b31c65fd9ee6c175535",
-    "ticker": "WIRA\ud83c\udf1f"
-  }, {
-    "name": "WIRA Pool (S2)",
-    "pool_id": "85a1b1fdce83908d3fb63bb5eba68ed3eef009680b282468e27e9c81",
-    "ticker": "WIRA\ud83c\udf20"
+    "name": "WIRA Pool (T1)",
+    "pool_id": "5642f146ea05d38dc3febfbed0a135c265fe0cac2fc0ef9cd273620b",
+    "ticker": "WIRA\ud83c\udfc6"
   }],
   "WMOPS": [{
     "name": "Don\u2019t underestimate the Force",
