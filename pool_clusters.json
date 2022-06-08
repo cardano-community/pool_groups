@@ -57,10 +57,6 @@
     "pool_id": "43e608ee299b1aaad2d54f5986717379598cbc90ba291a27476a8dda",
     "ticker": "1PCT3"
   }, {
-    "name": "1 Percent Pool #0 (v1)",
-    "pool_id": "463e481957f266d93e4decbfb73003380ab17223e0e569f71c7a525a",
-    "ticker": "1PCT0"
-  }, {
     "name": "1 Percent Pool #6 (v2)",
     "pool_id": "3ef28c9dcc109acb9f0636a789808cee3f5f9b96754b4c1fc6d88e0c",
     "ticker": "1PCT6"
@@ -68,6 +64,10 @@
     "name": "1 Percent Pool #9 (v2)",
     "pool_id": "27fdacbd3703ed8491520415b5eaff29b241cf30cdc01786b03975f7",
     "ticker": "1PCT9"
+  }, {
+    "name": "1 Percent Pool #0 (v1)",
+    "pool_id": "463e481957f266d93e4decbfb73003380ab17223e0e569f71c7a525a",
+    "ticker": "1PCT0"
   }, {
     "name": "1 Percent Pool #6 (v3)",
     "pool_id": "99127328c3fed20710b0b807f32b10ccd731125b30de38b9ff973a01",
@@ -618,12 +618,12 @@
     "pool_id": "625ae8c8aaaead6ceebf262f380245cb61b4a3e96199b27eb9b01ad9",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 71",
-    "pool_id": "3d82913d4c8da690aab6af622651f7a659da40af87dcb4b3b98ce830",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 73",
     "pool_id": "e0ac9f1b68d0621a4e6723f369a50e81f27916acb7cd42bc03eaac93",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 71",
+    "pool_id": "3d82913d4c8da690aab6af622651f7a659da40af87dcb4b3b98ce830",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 49",
@@ -686,16 +686,16 @@
     "pool_id": "cb9a5414581696cf9176787e99472790355a7de61d67a5643da95a86",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 52",
-    "pool_id": "662796197f741c9b9f0d9830530d01300ee5c63f549784ff2ac81c17",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 57",
     "pool_id": "a7784228ea544bc94455e76f527aaee53266929f0bb2896893a0444f",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 58",
     "pool_id": "3caaa49b3f45a914736c393c97c4bb8611ab7d5f66ecb4e214e93606",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 52",
+    "pool_id": "662796197f741c9b9f0d9830530d01300ee5c63f549784ff2ac81c17",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 70",
@@ -1857,6 +1857,10 @@
     "name": "StakeLove",
     "pool_id": "95c4956f7a137f7fe9c72f2e831e6038744b6307d00143b2447e6443",
     "ticker": "LOVE"
+  }, {
+    "name": "StakeLove Japan",
+    "pool_id": "6226fce477c40a148f695fcd2de150dbd7566ee30137d7deda8071a4",
+    "ticker": "LOVE"
   }],
   "MAL": [{
     "name": "Maladex - Research Driven Cardano DEX",
@@ -2830,6 +2834,11 @@
     "name": "",
     "pool_id": "168b1fb18159fc3b126f9690924742fcfae2ecad94e13d76a8244ea5",
     "ticker": ""
+  }],
+  "WIRA": [{
+    "name": "WIRA Pool (D1)",
+    "pool_id": "fec0c5f77fb6eac6e01124a0a11af032b322157d4c35a14361732d19",
+    "ticker": "WIRA\ud83d\udc8e"
   }],
   "WMOPS": [{
     "name": "Don\u2019t underestimate the Force",
