@@ -21,13 +21,13 @@
     "pool_id": "64e09628015d1065e4a11f032c90f677ba1f2f583ff0f55a158450b0",
     "ticker": "1PCT4"
   }, {
-    "name": "1 Percent Pool #1 (v1)",
-    "pool_id": "844540411ea37a35689620b02570eec2a0e403c1207c92c1b7a4dfa0",
-    "ticker": "1PCT1"
-  }, {
     "name": "1 Percent Pool #4 (v2)",
     "pool_id": "f018942907ac50ed7f831f14755ad93698188492d09d229655e6ade1",
     "ticker": "1PCT4"
+  }, {
+    "name": "1 Percent Pool #1 (v1)",
+    "pool_id": "844540411ea37a35689620b02570eec2a0e403c1207c92c1b7a4dfa0",
+    "ticker": "1PCT1"
   }, {
     "name": "1 Percent Pool (v1)",
     "pool_id": "87021d7881cff6817040033a3c6b0246d11421c198e69195e60a7000",
@@ -618,12 +618,12 @@
     "pool_id": "625ae8c8aaaead6ceebf262f380245cb61b4a3e96199b27eb9b01ad9",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 71",
-    "pool_id": "3d82913d4c8da690aab6af622651f7a659da40af87dcb4b3b98ce830",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 73",
     "pool_id": "e0ac9f1b68d0621a4e6723f369a50e81f27916acb7cd42bc03eaac93",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 71",
+    "pool_id": "3d82913d4c8da690aab6af622651f7a659da40af87dcb4b3b98ce830",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 49",
@@ -674,12 +674,12 @@
     "pool_id": "cb9a5414581696cf9176787e99472790355a7de61d67a5643da95a86",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 68",
-    "pool_id": "204f49517b4b9df91efb81b030a9b33738f4f0f43819fd2c39cb438b",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 50",
     "pool_id": "96a46d5a796a30483492c3717f80b7c6ef87e9525af162ffacf74fdb",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 68",
+    "pool_id": "204f49517b4b9df91efb81b030a9b33738f4f0f43819fd2c39cb438b",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 33",
@@ -945,6 +945,10 @@
     "pool_id": "e5b20e8f9661506710a159e561d40ceb54449fdea1d1130b3bdb36bb",
     "ticker": "CRDN1"
   }, {
+    "name": "CARDANIANS.io",
+    "pool_id": "618ab17ec8ea7239b4ac0c826b667c599489e25524ce74841a29d510",
+    "ticker": "CRDNS"
+  }, {
     "name": "CARDANIANS.io #3",
     "pool_id": "397f04eb0ae0497d8c4d691844c8c6b026bc942e3f406f26b8e24f48",
     "ticker": "CRDN2"
@@ -952,10 +956,6 @@
     "name": "CARDANIANS.io #4",
     "pool_id": "b6e038fb50202dfe5ccc61ecae9b8803bdc9cb7fb3ae9348cb97b0ef",
     "ticker": "CRDN3"
-  }, {
-    "name": "CARDANIANS.io",
-    "pool_id": "618ab17ec8ea7239b4ac0c826b667c599489e25524ce74841a29d510",
-    "ticker": "CRDNS"
   }, {
     "name": "CARDANIANS.io #1",
     "pool_id": "ed24d8995c6fd81d976baa03de565fea21a02d77d49b047064ba8445",
@@ -1355,13 +1355,13 @@
     "pool_id": "c485ab20bd3f105e59f3c50a0d3fbaf615a51f70a1c6d29d00a1fd27",
     "ticker": "GENS1"
   }, {
-    "name": "Genius X 2",
-    "pool_id": "6ec2284f8e312b5b122d85b97db828ff364d49e3c51c449bfc8889bf",
-    "ticker": "GENS2"
-  }, {
     "name": "Genius X",
     "pool_id": "c80d3b1f64feed0697bb97c97867a63ff1c33cb8b472bc33fdfa457e",
     "ticker": "GENSX"
+  }, {
+    "name": "Genius X 2",
+    "pool_id": "6ec2284f8e312b5b122d85b97db828ff364d49e3c51c449bfc8889bf",
+    "ticker": "GENS2"
   }, {
     "name": "Genius X 3",
     "pool_id": "126f84b8f88fd0f65de921ef521f2aa637e5e465cea06042c103fe22",
@@ -2841,6 +2841,14 @@
     "ticker": ""
   }],
   "WIRA": [{
+    "name": "WIRA Pool (S2)",
+    "pool_id": "85a1b1fdce83908d3fb63bb5eba68ed3eef009680b282468e27e9c81",
+    "ticker": "WIRA\ud83c\udf20"
+  }, {
+    "name": "WIRA Pool (D1)",
+    "pool_id": "fec0c5f77fb6eac6e01124a0a11af032b322157d4c35a14361732d19",
+    "ticker": "WIRA\ud83d\udc8e"
+  }, {
     "name": "WIRA Pool",
     "pool_id": "fcedaf183e9430acc484e4e290f40cb19e98e0e07efea2a327a71b94",
     "ticker": "WIRA"
