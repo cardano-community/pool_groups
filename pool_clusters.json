@@ -85,13 +85,13 @@
     "pool_id": "6b9da81e0b66fcdfaa67f55f08b28399b70e031f3cb13e6aa8f61b0a",
     "ticker": "1PCT3"
   }, {
-    "name": "1 Percent Pool #6 (v3)",
-    "pool_id": "99127328c3fed20710b0b807f32b10ccd731125b30de38b9ff973a01",
-    "ticker": "1PCT6"
-  }, {
     "name": "1 Percent Pool #0 (v1)",
     "pool_id": "463e481957f266d93e4decbfb73003380ab17223e0e569f71c7a525a",
     "ticker": "1PCT0"
+  }, {
+    "name": "1 Percent Pool #6 (v3)",
+    "pool_id": "99127328c3fed20710b0b807f32b10ccd731125b30de38b9ff973a01",
+    "ticker": "1PCT6"
   }, {
     "name": "1 Percent Pool #4 (v3)",
     "pool_id": "a75f5263ca05569b3baecf0fafbfdaaf07076727c44460e4641b415b",
@@ -614,12 +614,12 @@
     "pool_id": "625ae8c8aaaead6ceebf262f380245cb61b4a3e96199b27eb9b01ad9",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 71",
-    "pool_id": "3d82913d4c8da690aab6af622651f7a659da40af87dcb4b3b98ce830",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 73",
     "pool_id": "e0ac9f1b68d0621a4e6723f369a50e81f27916acb7cd42bc03eaac93",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 71",
+    "pool_id": "3d82913d4c8da690aab6af622651f7a659da40af87dcb4b3b98ce830",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 49",
@@ -650,10 +650,6 @@
     "pool_id": "82906c841da0f4010b2fa1a2c3726b5571b02eea6abfb48d7c6a4184",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 50",
-    "pool_id": "96a46d5a796a30483492c3717f80b7c6ef87e9525af162ffacf74fdb",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 55",
     "pool_id": "b44181287c72d0c7b1bce6a57173cdf739ac77d030bdfc4606138dd2",
     "ticker": "BNP"
@@ -664,6 +660,10 @@
   }, {
     "name": "Binance Staking - 62",
     "pool_id": "11c660b87cb43e4720b053895b3137b4c08f367dbd030127c9c6de9e",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 50",
+    "pool_id": "96a46d5a796a30483492c3717f80b7c6ef87e9525af162ffacf74fdb",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 42",
@@ -843,13 +843,13 @@
     "ticker": "CAPEY"
   }],
   "CCJ": [{
-    "name": "CCJ2",
-    "pool_id": "8871f659c6ce6a29afc0c52963cc872898db31235bead5b4a514b746",
-    "ticker": "CCJ2"
-  }, {
     "name": "CCJ3",
     "pool_id": "4a2aa209e00f2926bd0d8a286592bbdea4d35a593c05d41efe29e642",
     "ticker": "CCJ3"
+  }, {
+    "name": "CCJ2",
+    "pool_id": "8871f659c6ce6a29afc0c52963cc872898db31235bead5b4a514b746",
+    "ticker": "CCJ2"
   }, {
     "name": "CCJ",
     "pool_id": "39654d8b4eebd091f6ce64d4be8fc05c5e50187b821b9a334076ce55",
@@ -1256,12 +1256,12 @@
     "ticker": "EVE2"
   }, {
     "name": "Everstake",
-    "pool_id": "2382bac66b58a4df1cf1775285529bbbefb9102ecea991e1da0aa064",
-    "ticker": "EVE4"
-  }, {
-    "name": "Everstake",
     "pool_id": "446109cdad3e7dfc6e0bb4be5ecf25df02fcc2ec8f6df46a3ca2c537",
     "ticker": "VRSTK"
+  }, {
+    "name": "Everstake",
+    "pool_id": "2382bac66b58a4df1cf1775285529bbbefb9102ecea991e1da0aa064",
+    "ticker": "EVE4"
   }, {
     "name": "Everstake",
     "pool_id": "120ccc012f6b2ef1669acb15d2499cc9a226b6374184d1e322b1aa5f",
@@ -2033,13 +2033,13 @@
     "pool_id": "b573268bf369e3f3a4e6dd16fdd78ca01eb164c1daa29d611ef885d2",
     "ticker": "MS8"
   }, {
-    "name": "Moonstake 2",
-    "pool_id": "237795878bfa5352cca325012e073b344ce337a1dd752cd3d5ea4cdc",
-    "ticker": "MS2"
-  }, {
     "name": "Moonstake 10",
     "pool_id": "3c68076a8b81226f6d7da352dda415db00299701624b6cf71d7cc086",
     "ticker": "MS10"
+  }, {
+    "name": "Moonstake 2",
+    "pool_id": "237795878bfa5352cca325012e073b344ce337a1dd752cd3d5ea4cdc",
+    "ticker": "MS2"
   }, {
     "name": "Moonstake 9",
     "pool_id": "83ea16a7f183288173077c54a1e2b3cbcd0f2336e1bc85e2cc6397e0",
@@ -2249,12 +2249,12 @@
     "ticker": "NLD"
   }],
   "NORTH": [{
-    "name": "#1 Nordic Pool",
-    "pool_id": "52e22df52e90370f639c99f5c760f0cd67d7f871cd0d0764fae47cd9",
-    "ticker": "NORTH"
-  }, {
     "name": "#3 Nordic Pool",
     "pool_id": "fa58244068bef886049b3e8fbba8aa39f227ce78168efdf7629111c5",
+    "ticker": "NORTH"
+  }, {
+    "name": "#1 Nordic Pool",
+    "pool_id": "52e22df52e90370f639c99f5c760f0cd67d7f871cd0d0764fae47cd9",
     "ticker": "NORTH"
   }, {
     "name": "#2 Nordic Pool",
@@ -2840,6 +2840,10 @@
     "name": "WIRA Pool (S1)",
     "pool_id": "7bb4d04389fdc7816d9fcd3aec5c585e61635b31c65fd9ee6c175535",
     "ticker": "WIRA\ud83c\udf1f"
+  }, {
+    "name": "WIRA Pool",
+    "pool_id": "fcedaf183e9430acc484e4e290f40cb19e98e0e07efea2a327a71b94",
+    "ticker": "WIRA"
   }],
   "WMOPS": [{
     "name": "Don\u2019t underestimate the Force",
