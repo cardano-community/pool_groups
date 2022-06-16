@@ -622,12 +622,12 @@
     "pool_id": "625ae8c8aaaead6ceebf262f380245cb61b4a3e96199b27eb9b01ad9",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 71",
-    "pool_id": "3d82913d4c8da690aab6af622651f7a659da40af87dcb4b3b98ce830",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 73",
     "pool_id": "e0ac9f1b68d0621a4e6723f369a50e81f27916acb7cd42bc03eaac93",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 71",
+    "pool_id": "3d82913d4c8da690aab6af622651f7a659da40af87dcb4b3b98ce830",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 49",
@@ -654,6 +654,10 @@
     "pool_id": "c1bef45a2abbb3a862cdd9142236dff38763cc32e91fc8f282823ee6",
     "ticker": "BNP"
   }, {
+    "name": "Binance Staking - 56",
+    "pool_id": "a250eb51869c6b94cbc507d22e76ed0f35d31ccabdb1725cfbcddb75",
+    "ticker": "BNP"
+  }, {
     "name": "Binance Staking - 47",
     "pool_id": "82906c841da0f4010b2fa1a2c3726b5571b02eea6abfb48d7c6a4184",
     "ticker": "BNP"
@@ -664,10 +668,6 @@
   }, {
     "name": "Binance Staking - 55",
     "pool_id": "b44181287c72d0c7b1bce6a57173cdf739ac77d030bdfc4606138dd2",
-    "ticker": "BNP"
-  }, {
-    "name": "Binance Staking - 56",
-    "pool_id": "a250eb51869c6b94cbc507d22e76ed0f35d31ccabdb1725cfbcddb75",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 62",
@@ -710,16 +710,16 @@
     "pool_id": "936316c217c6f217640ed8d132cb0ff8133eef73e74e4c28002b9eb3",
     "ticker": "BNP"
   }, {
+    "name": "Binance Staking - 59",
+    "pool_id": "72583cf41012446cd1ca839c10049ecd65d31664b11e63d286041d61",
+    "ticker": "BNP"
+  }, {
     "name": "Binance Staking - 48",
     "pool_id": "2352f8c7d0b9f0bf5b342c135d5b25c910491deec1440bd9d27799a6",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 51",
     "pool_id": "40ff71258d2c73da9e2a5ee3abb9be256e745e7f74c31eb8d4be5299",
-    "ticker": "BNP"
-  }, {
-    "name": "Binance Staking - 59",
-    "pool_id": "72583cf41012446cd1ca839c10049ecd65d31664b11e63d286041d61",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 60",
@@ -1829,6 +1829,10 @@
     "pool_id": "f83cb7810af45813ad4e16f2497a0d02997e2987f4a41fa3830a4d88",
     "ticker": "LEO"
   }, {
+    "name": "LEO8 Pool",
+    "pool_id": "4a78ca15af1b42f94106e94d419c2cdf72667389cf2b1b04df8f140e",
+    "ticker": "LEO8"
+  }, {
     "name": "LEO2 Pool",
     "pool_id": "c4a4b16b33b63da2117f4a84d3ea686f34fcf9f4603ce016af9e39aa",
     "ticker": "LEO2"
@@ -1852,10 +1856,6 @@
     "name": "GAGA2",
     "pool_id": "e98e298624ce6efe34635318bdd5d634bed732bb238989d3d1b6fc9e",
     "ticker": "GAGA2"
-  }, {
-    "name": "LEO8 Pool",
-    "pool_id": "4a78ca15af1b42f94106e94d419c2cdf72667389cf2b1b04df8f140e",
-    "ticker": "LEO8"
   }, {
     "name": "LEO7 Pool",
     "pool_id": "3635fed04554336e1f58a8db3e30d26e229b9c2d5f67f419a4297069",
@@ -1943,6 +1943,14 @@
     "pool_id": "35f20ce45b66499e9dffb291b8e488e442e2d2ea5dc3ba20a40a6ba4",
     "ticker": "DALI"
   }, {
+    "name": "Not Sotheby's Pool",
+    "pool_id": "fea1da6c3631f137e76c7d893dd57373ff84d43408552bcfa5f055cc",
+    "ticker": "NFT"
+  }, {
+    "name": "Not Coinbase's Pool",
+    "pool_id": "e9d8a338fc643bb3e82308548cda29c52ab2de728751fefca20f9b54",
+    "ticker": "COIN"
+  }, {
     "name": "Not Satoshi's Pool",
     "pool_id": "80e035936d2b40673796cc4a7118c5f2aa2b6167062f6df8c0900ace",
     "ticker": "SATS"
@@ -1955,9 +1963,21 @@
     "pool_id": "22267d5aef5031bc52f4f4ff7264bda96f8682b17e39b36dcae2056c",
     "ticker": "FINN"
   }, {
+    "name": "Not Maverick's Pool",
+    "pool_id": "3418baa1fde5bb8c9d09c11f9291f13a42b8e7b117349ba6eaaa62b8",
+    "ticker": "CUBAN"
+  }, {
+    "name": "Not Elon's Swimming Pool",
+    "pool_id": "d70dfad0df2b1bd64401b7b9f7a104f5e83f22ee5d676e99df86e0ad",
+    "ticker": "MUSK"
+  }, {
     "name": "Not MTV's Pool",
     "pool_id": "f687f4625ae3abd2bf4a49bb5e04f669773cd8cb80954d1d2a32eb99",
     "ticker": "MTV"
+  }, {
+    "name": "OG Crypto Pool",
+    "pool_id": "ce34ae387a5da86c8c45abb424eb42936abbf50f290039b27ac4d21e",
+    "ticker": "LAMBO"
   }, {
     "name": "Not Axie Infinity's Pool",
     "pool_id": "7381d7472d9eb552348e5cdbf4bf46f0a53963c8ad3eb8a41dc9ff30",
@@ -2853,9 +2873,17 @@
     "ticker": ""
   }],
   "WIRA": [{
-    "name": "WIRA Pool (G1)",
-    "pool_id": "ceb171ac6a0d0986043c266263a88b09ea4c39e1cc342dd9c5f2b811",
-    "ticker": "WIRA\ud83c\udf0e"
+    "name": "WIRA Pool (S1)",
+    "pool_id": "7bb4d04389fdc7816d9fcd3aec5c585e61635b31c65fd9ee6c175535",
+    "ticker": "WIRA\ud83c\udf1f"
+  }, {
+    "name": "WIRA Pool (T1)",
+    "pool_id": "5642f146ea05d38dc3febfbed0a135c265fe0cac2fc0ef9cd273620b",
+    "ticker": "WIRA\ud83c\udfc6"
+  }, {
+    "name": "WIRA Pool (C1)",
+    "pool_id": "9f0daee27f33dbcf42054dd0a0de5fe8327f7eaec707f9d07a4bec73",
+    "ticker": "WIRA\ud83d\udc51"
   }],
   "WMOPS": [{
     "name": "Don\u2019t underestimate the Force",
