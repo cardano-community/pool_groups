@@ -21,13 +21,13 @@
     "pool_id": "f018942907ac50ed7f831f14755ad93698188492d09d229655e6ade1",
     "ticker": "1PCT4"
   }, {
-    "name": "1 Percent Pool #1 (v1)",
-    "pool_id": "844540411ea37a35689620b02570eec2a0e403c1207c92c1b7a4dfa0",
-    "ticker": "1PCT1"
-  }, {
     "name": "1 Percent Pool #4 (v1)",
     "pool_id": "64e09628015d1065e4a11f032c90f677ba1f2f583ff0f55a158450b0",
     "ticker": "1PCT4"
+  }, {
+    "name": "1 Percent Pool #1 (v1)",
+    "pool_id": "844540411ea37a35689620b02570eec2a0e403c1207c92c1b7a4dfa0",
+    "ticker": "1PCT1"
   }, {
     "name": "1 Percent Pool (v1)",
     "pool_id": "87021d7881cff6817040033a3c6b0246d11421c198e69195e60a7000",
@@ -626,12 +626,12 @@
     "pool_id": "625ae8c8aaaead6ceebf262f380245cb61b4a3e96199b27eb9b01ad9",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 73",
-    "pool_id": "e0ac9f1b68d0621a4e6723f369a50e81f27916acb7cd42bc03eaac93",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 71",
     "pool_id": "3d82913d4c8da690aab6af622651f7a659da40af87dcb4b3b98ce830",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 73",
+    "pool_id": "e0ac9f1b68d0621a4e6723f369a50e81f27916acb7cd42bc03eaac93",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 49",
@@ -730,16 +730,16 @@
     "pool_id": "f99151a5fd003b8bb92ba2af02ed6efec2923b520189cf89e1c264aa",
     "ticker": "BNP"
   }, {
+    "name": "Binance Staking - 63",
+    "pool_id": "c51e4e6cb25065ad0740249c66eafa11e186120602aff1cdca53110a",
+    "ticker": "BNP"
+  }, {
     "name": "Binance Staking - 64",
     "pool_id": "cf2b0acb72eecb56a05ba6b79922d4b47fedfb93b168a2eb1e5fa260",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 67",
     "pool_id": "533a710c19bdddc144ab19900d37a81488088259981a5d4885031ce3",
-    "ticker": "BNP"
-  }, {
-    "name": "Binance Staking - 63",
-    "pool_id": "c51e4e6cb25065ad0740249c66eafa11e186120602aff1cdca53110a",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 46",
@@ -1387,6 +1387,19 @@
     "pool_id": "40efc97d08315ff9be5898f24af5b8b120669b43027662c3499dd785",
     "ticker": "GENS4"
   }],
+  "GFIN": [{
+    "name": "AIS stake pool 5",
+    "pool_id": "a5f9c6715a7612b989e0db859d7a7b0cf53e3c6e605014078b23d5eb",
+    "ticker": "AIS5"
+  }, {
+    "name": "GADA Finance",
+    "pool_id": "b253e36605e45bd5151776eed3bfd5594feaef326824c24850cf1e68",
+    "ticker": "GFIN1"
+  }, {
+    "name": "GADA Finance",
+    "pool_id": "1aad61d60bebe5ec44fd2474f64d306fe71c68d31ea25705806bfb82",
+    "ticker": "GFIN2"
+  }],
   "GIFT": [{
     "name": "GIFT2-Pool",
     "pool_id": "62d31aef92824633bb3041e6cdcf81b7a611792a3f9d7fad8a476aec",
@@ -1947,10 +1960,6 @@
     "pool_id": "35f20ce45b66499e9dffb291b8e488e442e2d2ea5dc3ba20a40a6ba4",
     "ticker": "DALI"
   }, {
-    "name": "Not Coinbase's Pool",
-    "pool_id": "e9d8a338fc643bb3e82308548cda29c52ab2de728751fefca20f9b54",
-    "ticker": "COIN"
-  }, {
     "name": "Not Satoshi's Pool",
     "pool_id": "80e035936d2b40673796cc4a7118c5f2aa2b6167062f6df8c0900ace",
     "ticker": "SATS"
@@ -1963,21 +1972,9 @@
     "pool_id": "22267d5aef5031bc52f4f4ff7264bda96f8682b17e39b36dcae2056c",
     "ticker": "FINN"
   }, {
-    "name": "Not Maverick's Pool",
-    "pool_id": "3418baa1fde5bb8c9d09c11f9291f13a42b8e7b117349ba6eaaa62b8",
-    "ticker": "CUBAN"
-  }, {
-    "name": "Not Elon's Swimming Pool",
-    "pool_id": "d70dfad0df2b1bd64401b7b9f7a104f5e83f22ee5d676e99df86e0ad",
-    "ticker": "MUSK"
-  }, {
     "name": "Not MTV's Pool",
     "pool_id": "f687f4625ae3abd2bf4a49bb5e04f669773cd8cb80954d1d2a32eb99",
     "ticker": "MTV"
-  }, {
-    "name": "OG Crypto Pool",
-    "pool_id": "ce34ae387a5da86c8c45abb424eb42936abbf50f290039b27ac4d21e",
-    "ticker": "LAMBO"
   }, {
     "name": "Not Axie Infinity's Pool",
     "pool_id": "7381d7472d9eb552348e5cdbf4bf46f0a53963c8ad3eb8a41dc9ff30",
@@ -2026,10 +2023,6 @@
     "name": "Not PlanB's Pool",
     "pool_id": "92b24e82dcd581753a3e8fb56611133d763a77c033c2892d98b744f4",
     "ticker": "PLANB"
-  }, {
-    "name": "Not Vitalik's Pool",
-    "pool_id": "0dedea6dd97bfd6b0d3ddf8e42375266ade6ec6a9c1aceb8efeecdab",
-    "ticker": "ETH"
   }, {
     "name": "Not Hefner's Grotto",
     "pool_id": "ad89fef719f94f9454de79af3cddfb728189de118f52cde6070a884f",
@@ -2086,9 +2079,21 @@
     "ticker": "MS9"
   }],
   "NA": [{
+    "name": "Warm Vanilla Archimedes",
+    "pool_id": "0054fc7a4e34f9a1eef15a05fdfc9d323deeb9b72a4b5ec514247e66",
+    "ticker": "WVA"
+  }, {
+    "name": "Serene Salmon Pascal",
+    "pool_id": "07c30535c3781afef83200ebee872e4abe0aa8cc7c448ccd68730bb8",
+    "ticker": "SSP"
+  }, {
     "name": "N/A",
     "pool_id": "d6b4480e5dc5dbedfa703d188646c8c7c0191f7eae756911ceba20e2",
     "ticker": "N/A"
+  }, {
+    "name": "Thin Blue Galileo",
+    "pool_id": "cb40e0cff388865448b04c364ff941ccf576bb2c7f8c804bdc153769",
+    "ticker": "TBG"
   }, {
     "name": "N/A",
     "pool_id": "012abf0f0a65192fcba3e5e305fe13478f0cd58f271873b0f20ddb10",
@@ -2906,21 +2911,17 @@
     "ticker": ""
   }],
   "WIRA": [{
-    "name": "WIRA Pool (S1)",
-    "pool_id": "7bb4d04389fdc7816d9fcd3aec5c585e61635b31c65fd9ee6c175535",
-    "ticker": "WIRA\ud83c\udf1f"
+    "name": "WIRA Pool (G3)",
+    "pool_id": "d698c67ed52ea02dae75e0b4e4601a6c86495bcf40c3d0bd44312019",
+    "ticker": "WIRA\ud83c\udf0f"
   }, {
-    "name": "WIRA Pool (G1)",
-    "pool_id": "ceb171ac6a0d0986043c266263a88b09ea4c39e1cc342dd9c5f2b811",
-    "ticker": "WIRA\ud83c\udf0e"
+    "name": "WIRA Pool (T1)",
+    "pool_id": "5642f146ea05d38dc3febfbed0a135c265fe0cac2fc0ef9cd273620b",
+    "ticker": "WIRA\ud83c\udfc6"
   }, {
-    "name": "WIRA Pool (D1)",
-    "pool_id": "fec0c5f77fb6eac6e01124a0a11af032b322157d4c35a14361732d19",
-    "ticker": "WIRA\ud83d\udc8e"
-  }, {
-    "name": "WIRA Pool (F1)",
-    "pool_id": "bee1c394dc9670ccaf70d1d73566e9d83c40311fd1a09f1742ab0bcb",
-    "ticker": "WIRA\ud83d\udd25"
+    "name": "WIRA Pool (C1)",
+    "pool_id": "9f0daee27f33dbcf42054dd0a0de5fe8327f7eaec707f9d07a4bec73",
+    "ticker": "WIRA\ud83d\udc51"
   }],
   "WMOPS": [{
     "name": "Don\u2019t underestimate the Force",
