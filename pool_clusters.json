@@ -85,13 +85,13 @@
     "pool_id": "6b9da81e0b66fcdfaa67f55f08b28399b70e031f3cb13e6aa8f61b0a",
     "ticker": "1PCT3"
   }, {
-    "name": "1 Percent Pool #0 (v1)",
-    "pool_id": "463e481957f266d93e4decbfb73003380ab17223e0e569f71c7a525a",
-    "ticker": "1PCT0"
-  }, {
     "name": "1 Percent Pool #4 (v3)",
     "pool_id": "a75f5263ca05569b3baecf0fafbfdaaf07076727c44460e4641b415b",
     "ticker": "1PCT4"
+  }, {
+    "name": "1 Percent Pool #0 (v1)",
+    "pool_id": "463e481957f266d93e4decbfb73003380ab17223e0e569f71c7a525a",
+    "ticker": "1PCT0"
   }, {
     "name": "1 Percent Pool #7 (v2)",
     "pool_id": "38a7e77635a708b921b02dc819c65c44c405a775c4c9eece16b63687",
@@ -658,6 +658,14 @@
     "pool_id": "c1bef45a2abbb3a862cdd9142236dff38763cc32e91fc8f282823ee6",
     "ticker": "BNP"
   }, {
+    "name": "Binance Staking - 56",
+    "pool_id": "a250eb51869c6b94cbc507d22e76ed0f35d31ccabdb1725cfbcddb75",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 62",
+    "pool_id": "11c660b87cb43e4720b053895b3137b4c08f367dbd030127c9c6de9e",
+    "ticker": "BNP"
+  }, {
     "name": "Binance Staking - 47",
     "pool_id": "82906c841da0f4010b2fa1a2c3726b5571b02eea6abfb48d7c6a4184",
     "ticker": "BNP"
@@ -668,14 +676,6 @@
   }, {
     "name": "Binance Staking - 55",
     "pool_id": "b44181287c72d0c7b1bce6a57173cdf739ac77d030bdfc4606138dd2",
-    "ticker": "BNP"
-  }, {
-    "name": "Binance Staking - 56",
-    "pool_id": "a250eb51869c6b94cbc507d22e76ed0f35d31ccabdb1725cfbcddb75",
-    "ticker": "BNP"
-  }, {
-    "name": "Binance Staking - 62",
-    "pool_id": "11c660b87cb43e4720b053895b3137b4c08f367dbd030127c9c6de9e",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 42",
@@ -714,10 +714,6 @@
     "pool_id": "936316c217c6f217640ed8d132cb0ff8133eef73e74e4c28002b9eb3",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 59",
-    "pool_id": "72583cf41012446cd1ca839c10049ecd65d31664b11e63d286041d61",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 48",
     "pool_id": "2352f8c7d0b9f0bf5b342c135d5b25c910491deec1440bd9d27799a6",
     "ticker": "BNP"
@@ -726,12 +722,12 @@
     "pool_id": "40ff71258d2c73da9e2a5ee3abb9be256e745e7f74c31eb8d4be5299",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 60",
-    "pool_id": "f99151a5fd003b8bb92ba2af02ed6efec2923b520189cf89e1c264aa",
+    "name": "Binance Staking - 59",
+    "pool_id": "72583cf41012446cd1ca839c10049ecd65d31664b11e63d286041d61",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 63",
-    "pool_id": "c51e4e6cb25065ad0740249c66eafa11e186120602aff1cdca53110a",
+    "name": "Binance Staking - 60",
+    "pool_id": "f99151a5fd003b8bb92ba2af02ed6efec2923b520189cf89e1c264aa",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 64",
@@ -742,12 +738,8 @@
     "pool_id": "533a710c19bdddc144ab19900d37a81488088259981a5d4885031ce3",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 46",
-    "pool_id": "9b9890b811d67ba9e69810581e4fc119ca0c2354adb7cd6ff564b0a3",
-    "ticker": "BNP"
-  }, {
-    "name": "Binance Staking - 61",
-    "pool_id": "d2b32bb469f6e8bcd6e1e0ba818716d317e3f26d0a93f317b08fdced",
+    "name": "Binance Staking - 63",
+    "pool_id": "c51e4e6cb25065ad0740249c66eafa11e186120602aff1cdca53110a",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 66",
@@ -756,6 +748,14 @@
   }, {
     "name": "Binance Staking - 69",
     "pool_id": "e645c034522f32522bf1c64a7f46128c562880abc26abe5f65f25a84",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 46",
+    "pool_id": "9b9890b811d67ba9e69810581e4fc119ca0c2354adb7cd6ff564b0a3",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 61",
+    "pool_id": "d2b32bb469f6e8bcd6e1e0ba818716d317e3f26d0a93f317b08fdced",
     "ticker": "BNP"
   }],
   "BLOOM": [{
@@ -2911,14 +2911,6 @@
     "ticker": ""
   }],
   "WIRA": [{
-    "name": "WIRA Pool (G2)",
-    "pool_id": "b5d030e4abece7e239210b1af14eba911af89013ee7a53de77072797",
-    "ticker": "WIRA\ud83c\udf0d"
-  }, {
-    "name": "WIRA Pool (T1)",
-    "pool_id": "5642f146ea05d38dc3febfbed0a135c265fe0cac2fc0ef9cd273620b",
-    "ticker": "WIRA\ud83c\udfc6"
-  }, {
     "name": "WIRA Pool (C1)",
     "pool_id": "9f0daee27f33dbcf42054dd0a0de5fe8327f7eaec707f9d07a4bec73",
     "ticker": "WIRA\ud83d\udc51"
