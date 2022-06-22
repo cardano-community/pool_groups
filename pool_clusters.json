@@ -49,10 +49,6 @@
     "pool_id": "b59366e330a6db8260ad9aae8446ba8c908931d1b9cb3cca5d1d84aa",
     "ticker": "1PCT9"
   }, {
-    "name": "1 Percent Pool #0 (v1)",
-    "pool_id": "463e481957f266d93e4decbfb73003380ab17223e0e569f71c7a525a",
-    "ticker": "1PCT0"
-  }, {
     "name": "1 Percent Pool #6 (v1)",
     "pool_id": "e75ff353a1a2e454d3fe59249f87dad63b4270b16caf4b819bae5f69",
     "ticker": "1PCT6"
@@ -60,6 +56,10 @@
     "name": "1 Percent Pool #3 (v2)",
     "pool_id": "43e608ee299b1aaad2d54f5986717379598cbc90ba291a27476a8dda",
     "ticker": "1PCT3"
+  }, {
+    "name": "1 Percent Pool #0 (v1)",
+    "pool_id": "463e481957f266d93e4decbfb73003380ab17223e0e569f71c7a525a",
+    "ticker": "1PCT0"
   }, {
     "name": "1 Percent Pool #6 (v2)",
     "pool_id": "3ef28c9dcc109acb9f0636a789808cee3f5f9b96754b4c1fc6d88e0c",
@@ -626,12 +626,12 @@
     "pool_id": "625ae8c8aaaead6ceebf262f380245cb61b4a3e96199b27eb9b01ad9",
     "ticker": "BNP"
   }, {
-    "name": "Binance Staking - 71",
-    "pool_id": "3d82913d4c8da690aab6af622651f7a659da40af87dcb4b3b98ce830",
-    "ticker": "BNP"
-  }, {
     "name": "Binance Staking - 73",
     "pool_id": "e0ac9f1b68d0621a4e6723f369a50e81f27916acb7cd42bc03eaac93",
+    "ticker": "BNP"
+  }, {
+    "name": "Binance Staking - 71",
+    "pool_id": "3d82913d4c8da690aab6af622651f7a659da40af87dcb4b3b98ce830",
     "ticker": "BNP"
   }, {
     "name": "Binance Staking - 49",
@@ -904,6 +904,19 @@
     "name": "CheapStaking #2 - PublicPrivate",
     "pool_id": "e7234026db910ce0ee214056940de0474b252456c3d70907f831eaf3",
     "ticker": "CHEAP"
+  }],
+  "CLS": [{
+    "name": "Celsius Network 2",
+    "pool_id": "a37fa22b02a007a80ea13555c28341987bb61193c258a1e03db7f3f6",
+    "ticker": "CLS2"
+  }, {
+    "name": "Celsius Network 3",
+    "pool_id": "850ea4e988183b844b646a38e60b3cf13befb0385c1aa9a402dae5b9",
+    "ticker": "CLS3"
+  }, {
+    "name": "Celsius Network 1",
+    "pool_id": "b684dbad975a48346edb835ffd9842ce6f5d49b1f12cb863a608c856",
+    "ticker": "CLS1"
   }],
   "CNODE": [{
     "name": "Cardanode: 0.00% Fee &amp; 100% Rewards Guaranteed",
@@ -2911,17 +2924,17 @@
     "ticker": ""
   }],
   "WIRA": [{
-    "name": "WIRA Pool (T1)",
-    "pool_id": "5642f146ea05d38dc3febfbed0a135c265fe0cac2fc0ef9cd273620b",
-    "ticker": "WIRA\ud83c\udfc6"
-  }, {
-    "name": "WIRA Pool (S2)",
-    "pool_id": "85a1b1fdce83908d3fb63bb5eba68ed3eef009680b282468e27e9c81",
-    "ticker": "WIRA\ud83c\udf20"
+    "name": "WIRA Pool (G2)",
+    "pool_id": "b5d030e4abece7e239210b1af14eba911af89013ee7a53de77072797",
+    "ticker": "WIRA\ud83c\udf0d"
   }, {
     "name": "WIRA Pool (D1)",
     "pool_id": "fec0c5f77fb6eac6e01124a0a11af032b322157d4c35a14361732d19",
     "ticker": "WIRA\ud83d\udc8e"
+  }, {
+    "name": "WIRA Pool",
+    "pool_id": "fcedaf183e9430acc484e4e290f40cb19e98e0e07efea2a327a71b94",
+    "ticker": "WIRA"
   }],
   "WMOPS": [{
     "name": "Don\u2019t underestimate the Force",
