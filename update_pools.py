@@ -64,7 +64,7 @@ def main():
   try:
     adapools_js = load_json('https://js.adapools.org/groups.json')
     adapools_list = load_json('https://js.adapools.org/pools.json')
-    adastat_js = load_json('https://api.adastat.net/rest/v0/poolscluster.json')
+    adastat_js = load_json('https://api.adastat.net/rest/v1/poolclusters.json')
     manual_js = open_json(addendumf)
     mismatch,groups={},{}
     spo={}
@@ -79,7 +79,7 @@ def main():
             groups[str(ap_pool['group'])]=[]
           groups[str(ap_pool['group'])].append({"pool_id": str(ap_pool['pool_id']), "ticker": str(adapools_list[str(ap_pool['pool_id'])]['db_ticker']), "name": str(adapools_list[str(ap_pool['pool_id'])]['db_name'])})
     for singlepoolid in list(spo):
-      for pool in adastat_js: # Process ADAStat definitions
+      for pool in adastat_js['rows']: # Process ADAStat definitions
         if pool['pool_id'] == singlepoolid: # ADAStat thinks mentioned entry is part of cluster
           del spo[singlepoolid]
           mismatch[str(pool['pool_id'])]={'adapools': None,'adastat': str(pool['cluster_name'])}
