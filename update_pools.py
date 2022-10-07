@@ -64,7 +64,7 @@ def main():
   try:
     adapools_js = load_json('https://js.adapools.org/groups.json')
     adapools_list = load_json('https://js.adapools.org/pools.json')
-    adastat_js = load_json('https://adastat.net/rest/v0/poolscluster.json')
+    adastat_js = load_json('https://api.adastat.net/rest/v0/poolscluster.json')
     manual_js = open_json(addendumf)
     mismatch,groups={},{}
     spo={}
