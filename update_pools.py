@@ -89,6 +89,9 @@ def main():
             if singlepoolid in spo:
               del spo[singlepoolid]
             mismatch[str(pool)]={'addendum': str("Part of '" + str(poolgrp) + "', reason: " + str(manual_js[poolgrp]['comment'])) }
+    if len(groups) <= 100:
+      print("Something went wrong, pool_group size was: " + str(len(groups)) )
+      exit(1)
     save_json(groups, jsonf)
     save_json(spo,spof)
     save_json(mismatch,dscrpncyf)
