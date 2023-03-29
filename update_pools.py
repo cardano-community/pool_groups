@@ -62,27 +62,34 @@ def open_json(jsonfile):
 
 def main():
   try:
-    adapools_js = load_json('https://js.adapools.org/groups.json')
-    adapools_list = load_json('https://js.adapools.org/pools.json')
+    koios_pool_list = []
+
+    pool_range = range(0, 100000, 1000)
+    for offset in pool_range:
+       # print ("offset is %s" % offset)
+       fetched = load_json('https://api.koios.rest/api/v0/pool_list?offset=' + str(offset) + '&limit=1000')
+       koios_pool_list.extend(fetched)
+       # print ("fetched %s entries" % len(fetched))
+       if len(fetched) < 1000:
+          break
+
     adastat_js = load_json('https://api.adastat.net/rest/v1/poolclusters.json')
     manual_js = open_json(addendumf)
     mismatch,groups={},{}
     spo={}
-    for ap_pool in adapools_js: # Process ADAPools definitions
-      # If pool is present in adapools metadata list, process in groups
-      if str(ap_pool['pool_id']) in adapools_list:
-        matched=0
-        if ap_pool['group'] == None: #ADAPools thinks this pool is single operator pool
-          spo[str(ap_pool['pool_id'])]={"ticker": str(adapools_list[str(ap_pool['pool_id'])]['db_ticker']), "name": str(adapools_list[str(ap_pool['pool_id'])]['db_name'])}
-        else: # Pool is part of cluster as peer ADAPools
-          if str(ap_pool['group']) not in groups:
-            groups[str(ap_pool['group'])]=[]
-          groups[str(ap_pool['group'])].append({"pool_id": str(ap_pool['pool_id']), "ticker": str(adapools_list[str(ap_pool['pool_id'])]['db_ticker']), "name": str(adapools_list[str(ap_pool['pool_id'])]['db_name'])})
+
+    # for now start off assuming every pool is single-operator, until discovered to be otherwise
+    for koios_pool in koios_pool_list:
+      spo[str(koios_pool['pool_id_bech32'])]={"ticker": str(koios_pool['ticker']), "name": str(koios_pool['pool_id_bech32'])}
+
     for singlepoolid in list(spo):
+      # print ("pool id: %s" % singlepoolid)
       for pool in adastat_js['rows']: # Process ADAStat definitions
-        if pool['pool_id'] == singlepoolid: # ADAStat thinks mentioned entry is part of cluster
+        if pool['pool_id_bech32'] == singlepoolid: # ADAStat thinks mentioned entry is part of cluster
+          # print ("adastat thinks %s is in cluster" % singlepoolid)
           del spo[singlepoolid]
-          mismatch[str(pool['pool_id'])]={'adapools': None,'adastat': str(pool['cluster_name'])}
+          groups[str(pool['pool_id_bech32'])]={'adastat': str(pool['cluster_name'])}
+
       for poolgrp in manual_js: # Process addendum
         for pool in manual_js[poolgrp]['pools']:
           if pool == singlepoolid: # Match found for manual addendum to override single pool operator definition
