@@ -67,7 +67,7 @@ def main():
     pool_range = range(0, 100000, 1000)
     for offset in pool_range:
        # print ("offset is %s" % offset)
-       fetched = load_json('https://api.koios.rest/api/v0/pool_list?offset=' + str(offset) + '&limit=1000')
+       fetched = load_json('https://api.koios.rest/api/v1/pool_list?pool_status=eq.registered&offset=' + str(offset) + '&limit=1000&order=pool_id_bech32.asc')
        koios_pool_list.extend(fetched)
        # print ("fetched %s entries" % len(fetched))
        if len(fetched) < 1000:
