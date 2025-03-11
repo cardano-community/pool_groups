@@ -32,6 +32,7 @@ jsonf='pool_clusters.json'
 spof='singlepooloperators.json'
 addendumf='addendum.json'
 dscrpncyf='descrepancy.json'
+# for debugging - koiospoollistf='koiospoollist.json'
 
 def load_json(url):
   resp = http.request('GET', url, redirect=True)
@@ -39,7 +40,7 @@ def load_json(url):
     obj = json.loads(resp.data)
     return obj
   else:
-    print("An error occurred while downloading group definition from ADAPools!")
+    print("An error occurred while downloading group definition from url: " + url)
     exit
 
 def save_json(obj,jsonfile):
@@ -67,6 +68,7 @@ def main():
     pool_range = range(0, 100000, 1000)
     for offset in pool_range:
        # print ("offset is %s" % offset)
+       # fetched = load_json('https://api.koios.rest/api/v1/pool_list?offset=' + str(offset) + '&limit=1000')
        fetched = load_json('https://api.koios.rest/api/v1/pool_list?pool_status=eq.registered&offset=' + str(offset) + '&limit=1000&order=pool_id_bech32.asc')
        koios_pool_list.extend(fetched)
        # print ("fetched %s entries" % len(fetched))
@@ -74,6 +76,7 @@ def main():
           break
 
     adastat_js = load_json('https://api.adastat.net/rest/v1/poolclusters.json')
+    balance_js = load_json('https://www.balanceanalytics.io/api/groupdata.json')
     manual_js = open_json(addendumf)
     mismatch,groups={},{}
     spo={}
@@ -84,11 +87,41 @@ def main():
 
     for singlepoolid in list(spo):
       # print ("pool id: %s" % singlepoolid)
-      for pool in adastat_js['rows']: # Process ADAStat definitions
-        if pool['pool_id_bech32'] == singlepoolid: # ADAStat thinks mentioned entry is part of cluster
-          # print ("adastat thinks %s is in cluster" % singlepoolid)
-          del spo[singlepoolid]
-          groups[str(pool['pool_id_bech32'])]={'adastat': str(pool['cluster_name'])}
+      for as_pool in adastat_js['rows']: # Process ADAStat definitions
+        if as_pool['pool_id_bech32'] == singlepoolid: # ADAStat thinks mentioned entry is part of cluster
+          print ("adastat thinks %s is in cluster" % singlepoolid)
+
+          for bal_pool in balance_js[0]['pool_group_json']: # Process Balance Analytics definitions
+            # print ("inside zzz bal pool is %s" % bal_pool)
+            if bal_pool['pool_hash'] == singlepoolid:
+              if bal_pool['pool_group'] != 'SINGLEPOOL': # Balance analytics thinks entry is party of cluster
+                print ("x balancedata also thinks %s is in cluster" % singlepoolid)
+                del spo[singlepoolid]
+                groups[str(as_pool['pool_id_bech32'])]={'balanceanalytics': str(bal_pool['pool_group']), 'adastat': str(as_pool['cluster_name'])}
+              else:
+                # adastat considers it a cluster, Balance Analytics does not
+                print ("mismatch - balancedata thinks pool group for it is %s" % bal_pool['pool_group'])
+                del spo[singlepoolid]
+                mismatch[str(as_pool['pool_id_bech32'])]={'balanceanalytics': None, 'adastat': as_pool['cluster_name']}
+              break
+
+      for bal_pool in balance_js[0]['pool_group_json']:
+        if bal_pool['pool_hash'] == singlepoolid:
+          matched=0
+          if bal_pool['pool_group'] != 'SINGLEPOOL':
+            print ("counting number of instances of pool group %s in balance data" % bal_pool['pool_group'])
+            # print len(balance_js[0]['pool_group_json']['pool_group'] == bal_pool['pool_group'])
+            groupSize=len(list(filter(lambda x:x['pool_group']==bal_pool['pool_group'],balance_js[0]['pool_group_json'])))
+            print ("group size is %s" % groupSize)
+            if groupSize > 1:
+              for as_pool in adastat_js['rows']:
+                if as_pool['pool_id_bech32'] == singlepoolid:
+                  matched=1
+                  break
+              if matched == 0:
+                del spo[singlepoolid]
+                mismatch[str(bal_pool['pool_hash'])]={'balanceanalytics': bal_pool['pool_group'], 'adastat': None}
+          # if balance thinks its a single pool then if we didn't encounter it during earlier adastat loop its safe
 
       for poolgrp in manual_js: # Process addendum
         for pool in manual_js[poolgrp]['pools']:
@@ -102,6 +135,7 @@ def main():
     save_json(groups, jsonf)
     save_json(spo,spof)
     save_json(mismatch,dscrpncyf)
+    # for debugging - save_json(koios_pool_list, koiospoollistf)
   except Exception as e:
     print ("Exception: " + str(e) + str(traceback.print_exc()))
 main()
