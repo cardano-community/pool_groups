@@ -9,30 +9,29 @@
 # - Any mismatch between providers is controlled at source and atleast raised via github issue by relevant pool operator.
 #
 # High-Level Flow:
-# - Download all pool information to adapools_list
-# - ADAPools and ADAStat provide their pool group information over API, download pool group information for each to adapools_js and adastat_js respectively.
+# - Download a list of all registered pools frm koios
+# - BalanceAnalytics and ADAStat provide their pool group information over API, download pool group information for each to adastat_js and balance_js respectively.
 #   Any manual additions to the list is in addendum.json, load it to manual_js.
-#   - adapools_js : Those not recognised as part of a group have adapools_js[<index for pool>].group = null
+#   - balance_js : Those not recognised as part of a group have balance_js[<index for pool>].group = null
 #   - adastat_js : Those not recognised as part of a group are not in the list
-#   - manual_js : Those reported manually as cluster, SPaaS participant, ..
-# - Process each pool in adapools_js
+#   - manual_js : Those reported manually as cluster, SPaaS participant, etc.
+# - Process each pool in balance_js
 #   - If the pool is also present in adastat_js (which is list of pools who are also groups):
-#     - Add pool to group , preferring naming convention from adapools list
-#   - If adastat and adapools dont match, add it as discrepancy
+#     - Add pool to group , preferring naming convention from balanceanalytics list
+#   - If adastat and balanceanalytics dont match, add it as discrepancy
 #   - If they agree on pool being single pool operator, add it to spo 
 # - Process each pool in adastat_js
-#   - Add any pools not listed in adapools_js as discrepancy
+#   - Add any pools not listed in balance_js as discrepancy
 # - Process addendum.json
 
 import json, os, jsbeautifier, traceback
 import urllib3
 http = urllib3.PoolManager()
 urllib3.disable_warnings()
-jsonf='pool_clusters.json'
+clustersf='pool_clusters.json'
 spof='singlepooloperators.json'
 addendumf='addendum.json'
-dscrpncyf='descrepancy.json'
-# for debugging - koiospoollistf='koiospoollist.json'
+allf='spos.json'
 
 def load_json(url):
   resp = http.request('GET', url, redirect=True)
@@ -41,6 +40,7 @@ def load_json(url):
     return obj
   else:
     print("An error occurred while downloading group definition from url: " + url)
+    print("  " + str(resp.data))
     exit
 
 def save_json(obj,jsonfile):
@@ -67,75 +67,80 @@ def main():
 
     pool_range = range(0, 100000, 1000)
     for offset in pool_range:
-       # print ("offset is %s" % offset)
-       # fetched = load_json('https://api.koios.rest/api/v1/pool_list?offset=' + str(offset) + '&limit=1000')
-       fetched = load_json('https://api.koios.rest/api/v1/pool_list?pool_status=eq.registered&offset=' + str(offset) + '&limit=1000&order=pool_id_bech32.asc')
-       koios_pool_list.extend(fetched)
-       # print ("fetched %s entries" % len(fetched))
-       if len(fetched) < 1000:
-          break
+      fetched = load_json('https://api.koios.rest/api/v1/pool_list?select=pool_id_bech32,ticker,pool_status&pool_status=eq.registered&offset=' + str(offset) + '&limit=1000&order=pool_id_bech32.asc')
+      koios_pool_list.extend(fetched)
+      if len(fetched) < 1000:
+        break
 
-    adastat_js = load_json('https://api.adastat.net/rest/v1/poolclusters.json')
-    balance_js = load_json('https://www.balanceanalytics.io/api/groupdata.json')
+    try:
+      adastat_js = load_json('https://api.adastat.net/rest/v1/poolclusters.json')
+      balance_js = load_json('https://www.balanceanalytics.io/api/groupdata.json')
+      #adastat_js = open_json('adastat.json')
+      #balance_js = open_json('balanceanalytics.json')
+    except Exception as e:
+      print ("ERROR!! Unable to download data from upstream. Exception: " + str(e) + str(traceback.print_exc()))
     manual_js = open_json(addendumf)
-    mismatch,groups={},{}
-    spo={}
+    spos, bal_groups, as_groups = {},{},{}
+    grplist, singlepooloperatorlist, spolist = [],[],[]
 
     # for now start off assuming every pool is single-operator, until discovered to be otherwise
     for koios_pool in koios_pool_list:
-      spo[str(koios_pool['pool_id_bech32'])]={"ticker": str(koios_pool['ticker']), "name": str(koios_pool['pool_id_bech32'])}
-
-    for singlepoolid in list(spo):
-      # print ("pool id: %s" % singlepoolid)
-      for as_pool in adastat_js['rows']: # Process ADAStat definitions
-        if as_pool['pool_id_bech32'] == singlepoolid: # ADAStat thinks mentioned entry is part of cluster
-          print ("adastat thinks %s is in cluster" % singlepoolid)
-
-          for bal_pool in balance_js[0]['pool_group_json']: # Process Balance Analytics definitions
-            # print ("inside zzz bal pool is %s" % bal_pool)
-            if bal_pool['pool_hash'] == singlepoolid:
-              if bal_pool['pool_group'] != 'SINGLEPOOL': # Balance analytics thinks entry is party of cluster
-                print ("x balancedata also thinks %s is in cluster" % singlepoolid)
-                del spo[singlepoolid]
-                groups[str(as_pool['pool_id_bech32'])]={'balanceanalytics': str(bal_pool['pool_group']), 'adastat': str(as_pool['cluster_name'])}
-              else:
-                # adastat considers it a cluster, Balance Analytics does not
-                print ("mismatch - balancedata thinks pool group for it is %s" % bal_pool['pool_group'])
-                del spo[singlepoolid]
-                mismatch[str(as_pool['pool_id_bech32'])]={'balanceanalytics': None, 'adastat': as_pool['cluster_name']}
-              break
-
-      for bal_pool in balance_js[0]['pool_group_json']:
-        if bal_pool['pool_hash'] == singlepoolid:
-          matched=0
-          if bal_pool['pool_group'] != 'SINGLEPOOL':
-            print ("counting number of instances of pool group %s in balance data" % bal_pool['pool_group'])
-            # print len(balance_js[0]['pool_group_json']['pool_group'] == bal_pool['pool_group'])
-            groupSize=len(list(filter(lambda x:x['pool_group']==bal_pool['pool_group'],balance_js[0]['pool_group_json'])))
-            print ("group size is %s" % groupSize)
-            if groupSize > 1:
-              for as_pool in adastat_js['rows']:
-                if as_pool['pool_id_bech32'] == singlepoolid:
-                  matched=1
-                  break
-              if matched == 0:
-                del spo[singlepoolid]
-                mismatch[str(bal_pool['pool_hash'])]={'balanceanalytics': bal_pool['pool_group'], 'adastat': None}
-          # if balance thinks its a single pool then if we didn't encounter it during earlier adastat loop its safe
-
-      for poolgrp in manual_js: # Process addendum
+      poolid = koios_pool['pool_id_bech32']
+      spos[poolid]={"pool_id_bech32": poolid, "ticker": koios_pool['ticker'], "group": None}
+      # Process Balance Analytics entries
+      bal_poollist=list(filter(lambda x:x['pool_hash']==poolid,balance_js[0]['pool_group_json']))
+      if len(bal_poollist) == 0:
+        spos[poolid]["balanceanalytics_group"] = None
+      else:
+        bal_pool = bal_poollist[0]
+        spos[poolid]["balanceanalytics_group"] = bal_pool['pool_group']
+        if bal_pool['pool_group'] != 'SINGLEPOOL':
+          if bal_pool['pool_group'] not in bal_groups:
+            bal_groups[bal_pool['pool_group']] = []
+          bal_groups[bal_pool['pool_group']].append(poolid)
+          spos[poolid]["group"] = bal_pool['pool_group']
+      # Process adastat entries
+      as_poollist=list(filter(lambda x:x['pool_id_bech32']==poolid,adastat_js['rows']))
+      if len(as_poollist) == 0:
+        spos[poolid]["adastat_group"] = None
+      else:
+        as_pool = as_poollist[0] # Process ADAStat's list definition
+        spos[poolid]["adastat_group"] = as_pool['cluster_name']
+        if as_pool['cluster_name'] not in as_groups:
+          as_groups[as_pool['cluster_name']] = []
+        as_groups[as_pool['cluster_name']].append(poolid)
+        if spos[poolid]["group"] == None:
+          spos[poolid]["group"] = as_pool['cluster_name']
+      # Process addendum file
+      for poolgrp in manual_js:
         for pool in manual_js[poolgrp]['pools']:
-          if pool == singlepoolid: # Match found for manual addendum to override single pool operator definition
-            if singlepoolid in spo:
-              del spo[singlepoolid]
-            mismatch[str(pool)]={'addendum': str("Part of '" + str(poolgrp) + "', reason: " + str(manual_js[poolgrp]['comment'])) }
-    if len(groups) <= 100:
-      print("Something went wrong, pool_group size was: " + str(len(groups)) )
+          if pool == poolid: # Match found for manual addendum to override single pool operator definition
+            if poolid in spos and spos[poolid]["group"] == None:
+              spos[poolid]["group"]=poolgrp
+
+    # Loop through every pool in adastat group list, to fill in groupings from balance analytics
+    for as_grp in as_groups:
+      bal_grpname = None
+      for as_pool in as_groups[as_grp]:
+        if spos[as_pool]["balanceanalytics_group"] != "SINGLEPOOL" and spos[as_pool]["balanceanalytics_group"] != None:
+          bal_grpname = spos[as_pool]["balanceanalytics_group"]
+      for as_pool in as_groups[as_grp]:
+        if bal_grpname != None:
+          spos[as_pool]["group"] = bal_grpname
+
+    for spo in sorted(spos):
+      spolist.append(spos[spo])
+      if spos[spo]["group"] != None:
+        grplist.append(spos[spo])
+      else:
+        singlepooloperatorlist.append(spos[spo])
+
+    if len(grplist) <= 100:
+      print("Something went wrong, pool_group size was unexpectedly too low: " + str(len(grplist)) )
       exit(1)
-    save_json(groups, jsonf)
-    save_json(spo,spof)
-    save_json(mismatch,dscrpncyf)
-    # for debugging - save_json(koios_pool_list, koiospoollistf)
+    save_json(spolist, allf)
+    save_json(grplist, clustersf)
+    save_json(singlepooloperatorlist,spof)
   except Exception as e:
     print ("Exception: " + str(e) + str(traceback.print_exc()))
 main()
