@@ -28,8 +28,8 @@ import json, os, jsbeautifier, traceback
 import urllib3
 http = urllib3.PoolManager()
 urllib3.disable_warnings()
-clustersf='pool_clusters.json'
-spof='singlepooloperators.json'
+clustersf='pool_clusters_new.json'
+spof='singlepooloperators_new.json'
 addendumf='addendum.json'
 allf='spos.json'
 
