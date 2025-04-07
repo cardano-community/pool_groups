@@ -93,6 +93,13 @@ def main():
         spos[poolid]["balanceanalytics_group"] = None
       else:
         bal_pool = bal_poollist[0]
+        my_tmp_group_name=bal_pool['pool_group']
+        bal_group_members=list(filter(lambda x:x['pool_group']==my_tmp_group_name,balance_js[0]['pool_group_json']))
+        # special logic to treat groups with just 1 pool as SINGLEPOOL e.g. ADASTAT
+        if len(bal_group_members) == 1:
+          # print ("replacing " + bal_pool['pool_group'] + " with SINGLEPOOL")
+          bal_pool['pool_group'] = 'SINGLEPOOL';
+
         spos[poolid]["balanceanalytics_group"] = bal_pool['pool_group']
         if bal_pool['pool_group'] != 'SINGLEPOOL':
           if bal_pool['pool_group'] not in bal_groups:
