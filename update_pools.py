@@ -150,4 +150,6 @@ def main():
     save_json(singlepooloperatorlist,spof)
   except Exception as e:
     print ("Exception: " + str(e) + str(traceback.print_exc()))
+    import sys
+    sys.exit(1)
 main()
